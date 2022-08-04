@@ -1,0 +1,4 @@
+print()
+print(12 % 5)
+print()
+print(3 % 3)
