@@ -1,0 +1,4 @@
+var1 = 55
+var2 = 3333.
+print (var2)
+print(var1)
