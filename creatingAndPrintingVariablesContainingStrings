@@ -1,0 +1,4 @@
+name1= 'Nick Claus'
+address1 = '555 Candy Lane'
+print("Oh that is " + name1)
+print(address1 + " is his address")
