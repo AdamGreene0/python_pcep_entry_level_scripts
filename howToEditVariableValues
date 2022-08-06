@@ -1,0 +1,9 @@
+variable = 700
+print(variable)
+
+variable = 'Boston'
+print(variable)
+
+variable = 9
+print(variable)
+
