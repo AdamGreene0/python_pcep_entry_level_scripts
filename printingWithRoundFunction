@@ -1,0 +1,10 @@
+test = 3.1234567
+
+print(test)
+
+print(round(test,2))
+
+
+print(round(test,4))
+
+print(round(test,1))
