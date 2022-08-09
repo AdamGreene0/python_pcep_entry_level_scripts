@@ -1,15 +1,29 @@
 #On my Windows CPU you press the 'Enter' key to accept the input data
+
+#Number of input types:3
+
 #Questions
-print ("Please enter your 1st variable")
-variable1 = input()
+
+#Strings
+variable_string = input("Please enter a string = ") #One way to read in string input
 print()
 
-print ("Please enter your 2nd variable")
-variable2 = input()
+#Ints
+variable_int = int(input("Please enter a integer = ")) #One way to read in int input
 print()
 
-#Printing output with variablea
-print("Variable 1 = " + variable1)
+#Floats
+print
+variable_float = float(input("Please enter a float= ")) #One way to read in float input
 print()
-print("Variable 2 = " + variable2)
+
+#Printing output with variables
+print()
+print("Variable 1/string = ",variable_string)
+print()
+print("Variable 2/int = ",variable_int)
+print()
+print("Variable 3/float = ", variable_float)
+
+
 
