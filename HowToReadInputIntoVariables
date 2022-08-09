@@ -1,0 +1,14 @@
+#Questions
+print ("Please enter your 1st variable")
+variable1 = input()
+print()
+
+print ("Please enter your 2nd variable")
+variable2 = input()
+print()
+
+#Printing output with variablea
+print("Variable 1 = " + variable1)
+print()
+print("Variable 2 = " + variable2)
+
