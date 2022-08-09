@@ -1,3 +1,4 @@
+#On my Windows CPU you press the 'Enter' key to accept the input data
 #Questions
 print ("Please enter your 1st variable")
 variable1 = input()
