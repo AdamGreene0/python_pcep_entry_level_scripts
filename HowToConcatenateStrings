@@ -1,0 +1,3 @@
+topping = input("What is your favorite topping? ")
+dessert = input("What is your favorite type of dessert? ")
+print ("So you will probably enjoy " + topping + " " + dessert +"!")
