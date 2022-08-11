@@ -1,0 +1,11 @@
+#Absolute beginning of script
+
+#Developer: Akin "Wally" Owi
+#Program purpose: Show to multiply/replicate strings
+
+print("Toyota Camry " *3)
+print("This line Shouldn't work" *0) #Multiplying by less than or equal to zero creates an empty string
+print("This line should not work either" *-2) #Multiplying by less than or equal to zero creates an empty string
+print("7 " * 7)
+
+#Absolute end of script
