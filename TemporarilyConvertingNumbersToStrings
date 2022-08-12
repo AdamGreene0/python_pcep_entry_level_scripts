@@ -1,0 +1,23 @@
+#Absolute beginning of script
+
+#Developer: Akin "Wally" Owi
+#Program purpose:Temporarily cloak numbers as strings so we can concatenate them into/onto print statements
+
+num_hotels = 4 #The number will we be printing as a string
+
+#Just the num
+print(num_hotels)
+
+#Printing a string plus a unformatted number will normally create an error.So the line is commented out
+#print("How many hotels will we visit this year?" + num_hotels)
+
+
+#*Printing the number as a string
+print("How many hotels will we visit this year? " + str(num_hotels)) #It is the str()
+print(str(num_hotels)+ "")
+
+#Doing a calculation on it to check that it is still truly a number
+num_hotels = num_hotels +1
+
+print(num_hotels)#Printing out the new number
+
