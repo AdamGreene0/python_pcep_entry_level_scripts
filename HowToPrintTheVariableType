@@ -1,0 +1,12 @@
+#Developer: Wally Owi
+#Program Purpose: Find out and print out a variable's data type in one fell swoop.   
+
+#Variables
+a = -22
+b = 4.7
+c = "Dave Matthews Band"
+
+#Output
+print(type(a))
+print(type(b))
+print(type(c))
