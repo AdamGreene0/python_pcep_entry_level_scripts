@@ -1,0 +1,11 @@
+#Developer: Wally Owi
+#Program Purpose: How to use the equal operator in Python 3
+
+
+print(300 == 300)
+
+print (44. == 44) #Just a decimal difference.
+
+print (300 == 100)
+
+print (-77 == 77) #Just a negative difference.
