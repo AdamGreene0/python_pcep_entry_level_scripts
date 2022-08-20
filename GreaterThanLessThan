@@ -1,0 +1,12 @@
+score_a = 6
+score_b = 49
+score_c = 777
+
+
+print(score_a < score_b)#Less than
+
+print(score_a > score_c)#Greater than
+
+print(score_a <= score_a)#Less than or equal to
+
+print(score_a >= score_c)#Greater than or equal to
