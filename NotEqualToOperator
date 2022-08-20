@@ -1,0 +1,10 @@
+#Developer: Wally Owi
+#Program Purpose: How to use the not equal to operator in Python 3
+
+var = 50 # Assigning 50 to var
+print(var != 100)
+
+var = 100  # Assigning 100 to var
+print(var != 100)
+
+
