@@ -1,0 +1,21 @@
+#Developer: Akinwale Owi
+#Program Purpose: If and Else Statement examples 
+
+
+smaller = 5
+bigger = 50
+
+if (bigger> smaller):
+    print("Everyday") #True so it will get executed
+    print("All day") #True so it will get executed
+else:
+     print("Never")#False so it will not get executed
+    
+if (smaller>bigger):
+    print("TRUE FACTS")#False so it will not get executed
+else:
+    print("NO SIR") #The else to a false statement so it will get executed
+
+#printing just to show all the above functions are done
+print()
+print("All done")
