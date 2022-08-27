@@ -1,12 +1,23 @@
-score_a = 6
-score_b = 49
-score_c = 777
+#Developer: Akinwale Owi
+#Program Purpose: Print comparison operator computations
+
+small = 6
+medium = 49
+large = 777
 
 
-print(score_a < score_b)#Less than
+print(small < medium)#Less than
+print(small > large)#Greater than
 
-print(score_a > score_c)#Greater than
+print()#space
 
-print(score_a <= score_a)#Less than or equal to
 
-print(score_a >= score_c)#Greater than or equal to
+print(small <= small)#Less than or equal to
+print(small >= large)#Greater than or equal to
+
+
+print()#space
+
+
+print(medium == medium)#equal to
+print(medium != medium)#not equal to
