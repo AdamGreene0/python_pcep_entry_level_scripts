@@ -1,21 +1,33 @@
 #Developer: Akinwale Owi
 #Program Purpose: If and Else Statement examples 
 
-
+#Beginning of Variables
 smaller = 5
 bigger = 50
+#End of Variables
 
+#Beginning of the 1st if and its related else statement
 if (bigger> smaller):
-    print("Everyday") #True so it will get executed
-    print("All day") #True so it will get executed
+    print("Every day") #True so it will get executed
+    print("Especially this week") #True so it will get executed
 else:
      print("Never")#False so it will not get executed
-    
-if (smaller>bigger):
-    print("TRUE FACTS")#False so it will not get executed
-else:
-    print("NO SIR") #The else to a false statement so it will get executed
+#End of the 1st if and its related else statement
 
-#printing just to show all the above functions are done
+
+#Simply prints a blank line for to improve readability
 print()
-print("All done")
+
+
+#Beginning of the 2nd if and its related else statement
+if (smaller>bigger):
+    print("Should not get printed")#False so it will not get executed
+else:
+    print("Not this month") #The else to a false statement so it will get executed
+#End of the 2nd if and its related else statement
+
+#Simply prints a blank line for to improve readability
+print()
+
+#Printing just to show all the above functions are done
+print("Goodbye")
