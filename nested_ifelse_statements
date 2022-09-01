@@ -1,0 +1,76 @@
+#This is the absolute top of the python_nestedifelsestatement script
+
+
+#Developer: Akinwale Owi
+#Program Purpose: Share a real life nested if else statement example. 
+
+
+
+#1st question
+choice_first = int(input("Before we go to lunch, would you prefer to go to the bowling alley(1) or the arcade(2)? 1/2 "))
+print(choice_first) #printing to make sure we read in the user's choice correctly
+
+
+print()#Simply prints a blank line for to improve readability
+
+
+#Beginning of the 1st if, bowling alley vs arcade
+if (choice_first == 1):
+
+    #~~~~~~~Beginnning of the bowling alley~~~~~~~~~~~~
+
+    print(choice_first,", then off to the bowling alley we go!") #printing to make sure we read in the user's choice correctly
+    print()#Simply prints a blank line for to improve readability
+    
+    choice_bumpers = int(input("Would you like to play with bumpers on the lanes? 1 for Yes and 2 for No "))
+    print(choice_bumpers)
+
+
+    
+    print()#Simply prints a blank line for to improve readability
+
+    if (choice_bumpers == 1):
+            print(choice_bumpers, ". Ok, we'll play with bumpers")
+    else:
+            print(choice_bumpers, ". Cool, we won’t use bumpers then ")
+
+   #~~~~~~~~End of the bowling alley~~~~~~~~~~~~~~~~~~~~~
+    
+    
+       
+else:
+
+     #~~~~~~~~~~~Beginnning of the arcade~~~~~~~~~~~~~~~~~~~~
+
+     print(choice_first, ". Fantastic I love the arcade!" )
+     print()#Simply prints a blank line for to improve readability
+
+     
+     choice_game = int (input( "Which would you prefer to play today, Air Hockey(1) or Duck Hunter (2)? "))
+     print(choice_game)
+
+     if (choice_game == 1):
+         print (choice_game, ". Let’s find an open Air Hockey table!")
+    
+     else:
+         print(choice_game, ". Let's go get some Duck Hunter in!")
+
+    
+     
+    #~~~~~~~~~~~~~End of the arcade~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+
+            
+         
+    
+#~~~~~~~~~~~~Beginnning of Lunch~~~~~~~~~
+         
+#*Lunch = The end goal that the user reaches after having a fun time at either the bowling alley or the arcade, doesn't matter which.
+print()#Simply prints a blank line for to improve readability
+print("Hey it's 3pm, let's go get lunch!")#Printing out to show all the above functions that got selected are done
+
+#~~~~~~~~~~~~~End of Lunch~~~~~~~~~~~~
+
+
+#This is the absolute bottom of the python_nestedifelsestatement script
+
