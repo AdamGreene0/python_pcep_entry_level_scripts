@@ -7,15 +7,15 @@
 
 
 #1st question
-choice_first = int(input("Before we go to lunch, would you prefer to go to the bowling alley(1) or the arcade(2)? 1/2 "))
-print(choice_first) #printing to make sure we read in the user's choice correctly
+choice_main_arcade_vs_bumpers = int(input("Before we go to lunch, would you prefer to go to the bowling alley(1) or the arcade(2)? 1/2 "))
+print(choice_main_arcade_vs_bumpers) #printing to make sure we read in the user's choice correctly
 
 
 print()#Simply prints a blank line for to improve readability
 
 
 #Beginning of the 1st if, bowling alley vs arcade
-if (choice_first == 1):
+if (choice_main_arcade_vs_bumpers == 1):
 
     #~~~~~~~Beginnning of the bowling alley~~~~~~~~~~~~
 
@@ -42,7 +42,7 @@ else:
 
      #~~~~~~~~~~~Beginnning of the arcade~~~~~~~~~~~~~~~~~~~~
 
-     print(choice_first, ". Fantastic I love the arcade!" )
+     print(choice_main_arcade_vs_bumpers, ". Fantastic I love the arcade!")
      print()#Simply prints a blank line for to improve readability
 
      
@@ -73,4 +73,5 @@ print("Hey it's 3pm, let's go get lunch!")#Printing out to show all the above fu
 
 
 #This is the absolute bottom of the python_nestedifelsestatement script
+
 
