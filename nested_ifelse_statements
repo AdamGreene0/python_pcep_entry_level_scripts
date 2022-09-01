@@ -19,7 +19,7 @@ if (choice_main_arcade_vs_bumpers == 1):
 
     #~~~~~~~Beginnning of the bowling alley~~~~~~~~~~~~
 
-    print(choice_first,", then off to the bowling alley we go!") #printing to make sure we read in the user's choice correctly
+    print(choice_main_arcade_vs_bumpers,", then off to the bowling alley we go!") #printing to make sure we read in the user's choice correctly
     print()#Simply prints a blank line for to improve readability
     
     choice_bumpers = int(input("Would you like to play with bumpers on the lanes? 1 for Yes and 2 for No "))
@@ -73,5 +73,3 @@ print("Hey it's 3pm, let's go get lunch!")#Printing out to show all the above fu
 
 
 #This is the absolute bottom of the python_nestedifelsestatement script
-
-
