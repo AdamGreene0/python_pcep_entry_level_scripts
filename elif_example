@@ -1,0 +1,28 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: elif example
+
+
+#Beginning of computations
+
+choice_ready_to_pay = float(input("How much are you ready to spend on tickets? (ex 372.00) "))
+
+print("")
+                             
+print(choice_ready_to_pay, " is more than enough to have a good time." )
+
+if (choice_ready_to_pay > 500000):
+    print("You will be sitting in the front, row 1")
+    
+elif(choice_ready_to_pay > 2000):
+    print ("You will be sitting below the middle , row 20")
+
+elif(choice_ready_to_pay >100):
+    print ("You will be sitting in the nosebleeds seats at the very top, row 400")
+
+else:
+    print ("Enjoy the game on TV")
+
+
+#=================The absolute end of this script============================== 
