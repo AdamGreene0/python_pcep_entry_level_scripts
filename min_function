@@ -1,0 +1,30 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Using Min example. It finds the smallest number out of a group 
+
+
+#~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+# Ask the user how many donuts they ate the first three days of last week
+
+donuts_eaten1 = int(input("Enter how many donuts you ate Monday: "))
+print("")#For spacing
+
+donuts_eaten2 = int(input("Enter how many donuts you ate Tuesday: "))
+print("")#For spacing
+
+donuts_eaten3 = int(input("Enter how many donuts you ate Wednesday: "))
+print("")#For spacing
+
+#Check what was the lowest number of donuts eaten
+lowest_donuts_eaten = min(donuts_eaten1, donuts_eaten2, donuts_eaten3) #pass it to the lowest_donuts_eaten variable.
+
+
+# Print the result.
+
+print("The number of donuts eaten out of those three day was :", lowest_donuts_eaten )                             
+
+
+
+#=================The absolute end of this script============================== 
