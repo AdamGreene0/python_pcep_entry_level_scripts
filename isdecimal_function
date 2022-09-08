@@ -1,0 +1,25 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Using the isdecimal function to check if a number has a decimal in it or nah
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+number_to_check =input("Please enter a number to check: ")
+
+print("")#for spacing
+
+print(number_to_check)#for verification of which number will we check
+
+
+if (number_to_check.isdecimal()== True):
+    print("This number does not have a decimal")
+    
+else:
+    print("This number has a decimal")
+
+
+
+
+#=================The absolute end of this script============================== 
