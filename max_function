@@ -1,0 +1,30 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Using Max example. It finds the largest number out of a group 
+
+
+#~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+# Ask the user how many touchdowns they scored in each of their first three seasons
+
+season1 = int(input("Enter how many touchdowns you scored your rookie season: "))
+print("")#For spacing
+
+season2 = int(input("Enter how many touchdowns you scored your second season: "))
+print("")#For spacing
+
+season3 = int(input("Enter how many touchdowns you scored your third season: "))
+print("")#For spacing
+
+#Check which season had the most touchdowns
+most_touchdowns = max(season1, season2, season3) #pass it to the most_touchdowns variable.
+
+
+# Print the result.
+
+print("The most touchdowns you scored in a season, out of your first three is :", most_touchdowns)                             
+
+
+
+#=================The absolute end of this script============================== 
