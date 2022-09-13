@@ -1,0 +1,25 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Use a while loop 
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+num_while_breaker = 1 #Variable we'll be using to power the while loop
+
+
+while (num_while_breaker < 10):
+#Beginning of while (num_while_breaker < 10):    
+    print("Currently: ",num_while_breaker)
+    print("")#for spacing
+    num_while_breaker = num_while_breaker + 1
+
+#End of while (num_while_breaker < 10):
+
+#Printing to prove that the while loop is done
+print("Thanks for learning with me!")
+
+
+#=================The absolute end of this script============================== 
