@@ -1,14 +1,14 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A for loop example 
+#Program Purpose: Display 3 different types of for loops 
 
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #-------Beginning of a single argument for loop--------
 
-for num_single_argument_breaker in range(8):(#will run this many times, minus 1)
+for num_single_argument_breaker in range(8): #(Will run this many times, minus 1)
     print("num_single_argument_breaker current value = ", num_single_argument_breaker)
     
 #--------End of a single argument for loop--------------
@@ -19,7 +19,7 @@ print()#Spacing for readability
 #==========Beginning of a two argument for loop===(initial,last value and will not be counted==========
 
 for num_two_argument_breaker in range(30,41): #Will print all the integers between 30 and 40, but not 41!
-     print("num_two_argument_breaker", num_two_argument_breaker)
+     print("num_two_argument_breaker activated value = ", num_two_argument_breaker)
 
 #========End of a two argument for loop======================
      
@@ -30,8 +30,8 @@ print()#Spacing for readability
 
 #***********Beginning of a three argument for loop*****(initial,last value and will not be counted, rate to increment by)**********
 
-for num_three_argument_breaker in range(10,100,30):
-    print ()
+for num_three_argument_breaker in range(0,125,25): #Will print 0, 25, 50, 75, and 100. But not 125
+    print("num_three_argument_breaker activated value = ", num_three_argument_breaker)
     
 
 #*********************End of a three argument for loop****(initial,last value and will not be counted, rate to increment by)********   
