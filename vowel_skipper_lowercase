@@ -1,0 +1,23 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:A lowercase vowel eater
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~
+
+#Vowel list
+#a,e,i,o,u
+
+
+#begining of
+
+str1 = input("Please Enter your Own String : ")
+ 
+for character_in_question in range(len(str1)):
+    
+    if 'a'in (str1[character_in_question]) or 'e' in (str1[character_in_question]) or 'i' in (str1[character_in_question]) or 'o' in (str1[character_in_question])  or 'u' in (str1[character_in_question]) :
+        continue
+    print("The non vowel character = ", (str1[character_in_question]))
+
+#=================The absolute end of this script============================== 
