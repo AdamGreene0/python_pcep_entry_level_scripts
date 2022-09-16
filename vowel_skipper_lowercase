@@ -10,14 +10,12 @@
 #a,e,i,o,u
 
 
-#begining of
-
-str1 = input("Please Enter your Own String : ")
+string_entered = input("Please Enter your Own String : ")
  
-for character_in_question in range(len(str1)):
+for character_in_question in range(len(string_entered)):
     
-    if 'a'in (str1[character_in_question]) or 'e' in (str1[character_in_question]) or 'i' in (str1[character_in_question]) or 'o' in (str1[character_in_question])  or 'u' in (str1[character_in_question]) :
+    if 'a'in (string_entered[character_in_question]) or 'e' in (string_entered[character_in_question]) or 'i' in (string_entered[character_in_question]) or 'o' in (string_entered[character_in_question])  or 'u' in (string_entered[character_in_question]) :
         continue
-    print("The non vowel character = ", (str1[character_in_question]))
+    print("The non vowel character = ", (string_entered[character_in_question]))
 
 #=================The absolute end of this script============================== 
