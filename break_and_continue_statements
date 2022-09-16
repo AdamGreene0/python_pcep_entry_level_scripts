@@ -1,0 +1,48 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Display the differrence between the (1)break and (2)continue function.
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+# break statement = Will exit the loop immediately if conditions are met and then go on to the next instruction.
+
+print("The break statement:Variable in range")
+for num_breaker_in_range in range(1, 7):
+    if num_breaker_in_range == 4: #So stops printing after 3
+        break
+    print("Still haven't hit the breaking point.num_breaker currently = ", num_breaker_in_range)
+print("Breaking point hit!")
+
+
+print("\n The break statement: Variable out of range")
+for num_breaker_out_of_range in range(1, 7):
+    if num_breaker_out_of_range == 99: #Due to the range above, it stops printing after 6
+        break
+    print("Still haven't hit the breaking point.num_breaker currently = ", num_breaker_out_of_range)
+print("Breaking point was never hit.")
+
+
+
+# continue statements below
+
+print("\nThe continue instruction:Variables in range, so will skip doing whatever instrucion is tied to that number")
+for num_continue_in_range in range(1, 7):
+    if num_continue_in_range == 5:
+        continue
+    print("num_continue_in_range, currently = ", num_continue_in_range)
+print("End of in range,num_continue_in_range =", num_continue_in_range)
+
+print("\nThe continue instruction:Variable out of range, So loop will run to completion without skips")
+for num_continue_out_of_range in range(1, 10):
+    if num_continue_out_of_range == 14:
+        continue
+    print("num_continue_out_of_range is set to be out of range, currently = .", num_continue_out_of_range)
+print("Reached the end. num_continue_out_of_range currently = ", num_continue_out_of_range)
+
+
+
+#=================The absolute end of this script============================== 
