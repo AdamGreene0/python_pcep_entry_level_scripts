@@ -1,0 +1,24 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: How to turn every of a letter of a string uppercase
+
+
+#~~~~~~~~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#Ask the user for a word to make uppercase
+string_entered = input("Please enter a word ")
+
+#Printing the string as is 
+print("You entered = ", string_entered)
+
+#Printing the string in all uppercase
+print("String you entered in all uppercase letters = ", string_entered.upper())
+
+
+#~~~~~~~~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#=================The absolute end of this script==============================
