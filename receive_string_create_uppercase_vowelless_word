@@ -1,0 +1,53 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: pt.2 Vowel eater 
+
+#Notes: What's new
+#2. Convert the word entered by the user to upper case; and the letter searches
+#1. word_without_vowels and assigned an empty string to it. Use concatenation operation to ask Python to combine selected letters into a longer string during subsequent loop turns, and assign it to the word_without_vowels variable.
+
+
+
+
+#Vowel list
+#a,e,i,o,u
+
+
+
+#word we will create without vowels 
+word_without_vowels = ""
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Space to make it more legible
+print()
+
+#Ask the user for a string
+string_requested = input("Please Enter your own string : ")
+
+#Creating a string to turn and save string_entered in all uppercase 
+string_entered = string_requested.upper()
+
+
+#Beginning of for character_in_question in range(len(string_entered)): loop 
+for character_in_question in range(len(string_entered)):
+    
+    #Beginning of if
+    if 'A'in (string_entered[character_in_question]) or 'E' in (string_entered[character_in_question]) or 'I' in (string_entered[character_in_question]) or 'O' in (string_entered[character_in_question])  or 'U' in (string_entered[character_in_question]) :
+         
+        continue
+    word_without_vowels = word_without_vowels + (string_entered[character_in_question])
+    print("The non vowel character = ", (string_entered[character_in_question]))
+
+#End of for character_in_question in range(len(string_entered)): loop
+
+    
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of computations. The result is printed below~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+print ("The newly created vowelless word = ", word_without_vowels)
+    
+
+
+#=================The absolute end of this script==============================
