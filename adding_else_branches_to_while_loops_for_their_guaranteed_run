@@ -1,0 +1,15 @@
+#Developer: Akinwale Owi
+#Program Purpose: Adding else branches to while loop's to get a guranteed run
+
+
+#when the while loop runs at least once example
+a = 1
+while a < 15:
+    print("Inside of the while, a value currently =", a)
+    a += 5
+    
+else:
+    print("prints regardless, a is now =  ", a)
+
+    
+
