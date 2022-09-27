@@ -1,15 +1,32 @@
+#Utmost beginning of this script
+
 #Developer: Akinwale Owi
 #Program Purpose: Adding else branches to while loop's to get a guranteed run
 
 
-#when the while loop runs at least once example
+#~~When the while loop's condtions are met at least once/runs once example
 a = 1
 while a < 15:
+     
     print("Inside of the while, a value currently =", a)
     a += 5
+    print() #Just a space to increase readability 
     
 else:
     print("prints regardless, a is now =  ", a)
+    #Just a space to increase readability 
 
+#~~When the while loop's condtions are never met/ never runs example
+ 
+b = 10
+while b < 3:
+    print("Inside of the while, b value currently =", b)
+    b += 5
+    print() #Just a space to increase readability 
+    
+else:
+    print()#Just a space to increase readability 
+    print("prints regardless, b is now =  ", b)
     
 
+#=========Utmost end of this script==================
