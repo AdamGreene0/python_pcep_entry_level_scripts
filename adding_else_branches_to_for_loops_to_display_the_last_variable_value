@@ -1,0 +1,35 @@
+#~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
+
+#Developer: Akinwale Owi
+#Program Purpose: Adding else branches to for loops -  
+
+
+#***********Beginning of computations**********
+
+
+print("Example 1")
+
+for z in range(23):
+    print(z)
+else:
+    print("else: z = ", z)
+
+print()#A blank line to increase readability
+
+#Example 2, For loop conditions are never met
+print("Example 2")
+
+y = 44
+
+#Beginning of for for y in range(20, 1):
+for y in range(20, 1):
+    print(y)
+#End of for y in range(20, 1):
+    
+else:
+    print("Else: y = ", y)
+
+
+#***********End of computations**********    
+
+#~~~~~~~~~~~~~~~~The end of the script~~~~~~~~~~
