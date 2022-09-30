@@ -4,7 +4,6 @@
 #Program Purpose: Checking if a number is even or odd in python 3
 
 
-
 #***********Beginning of computations**********
 
 #Asking the user for a number to test
@@ -18,7 +17,6 @@ if (number_to_test % 2) == 0:
 else:
 
               print (number_to_test, " is odd")
-
 
 #***********End of computations**********    
 
