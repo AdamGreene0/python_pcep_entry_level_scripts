@@ -1,0 +1,25 @@
+#~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
+
+#Developer: Akinwale Owi
+#Program Purpose: Checking if a number is even or odd in python 3
+
+
+
+#***********Beginning of computations**********
+
+#Asking the user for a number to test
+number_to_test = int (input ("Please enter a int to test whether it is even or odd: "))
+
+#The even/odd determiner: if there will be a remainder if the number was divided by 2
+if (number_to_test % 2) == 0: 
+
+              print (number_to_test, " is even")
+
+else:
+
+              print (number_to_test, " is odd")
+
+
+#***********End of computations**********    
+
+#~~~~~~~~~~~~~~~~The end of the script~~~~~~~~~~
