@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
 
 #Developer: Akinwale Owi
-#Program Purpose: Adding else branches to for loops -  
+#Program Purpose: Adding else branches to for loops to display the last variable value
 
 
 #***********Beginning of computations**********
@@ -9,7 +9,7 @@
 
 print("Example 1")
 
-for z in range(23):
+for z in range(13):
     print(z)
 else:
     print("else: z = ", z)
