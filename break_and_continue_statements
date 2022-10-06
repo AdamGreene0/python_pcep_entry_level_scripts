@@ -29,7 +29,7 @@ print("Breaking point was never hit.")
 
 # continue statements below
 
-print("\nThe continue instruction:Variables in range, so will skip doing whatever instrucion is tied to that number")
+print("\nThe continue instruction:Variables in range, so it will skip doing whatever instruction is tied to that number")
 for num_continue_in_range in range(1, 7):
     if num_continue_in_range == 5:
         continue
