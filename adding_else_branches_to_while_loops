@@ -1,7 +1,7 @@
 #Utmost beginning of this script
 
 #Developer: Akinwale Owi
-#Program Purpose: Adding else branches to while loop's when we want them to run after the while condition is broken.
+#Program Purpose: Adding else branches to while loops when we want them to run after the while condition is broken.
 
 
 #~~When the while loop's condtions are met at least once/runs once example
