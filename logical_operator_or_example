@@ -1,0 +1,31 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: The logical operator 'or' example
+
+
+#~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+
+counter_party_stopper = 78;
+second_condition = 'Party pants on'
+
+if counter_party_stopper!= 8 or second_condition == 'Party pants on': #or is located here
+    print("Let's party!")
+    print("counter_party_stopper is currently = ",counter_party_stopper);
+    print("second_condition is currently = ",second_condition )
+    
+    
+else:
+    print("")#spacing
+    print("Neither of the if conditions met. No party");
+    print("counter current value = ", counter_party_stopper);
+    print("second_condition current value = ", second_condition);
+    
+    
+
+#~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
+
+
+#=================The absolute end of this script============================
