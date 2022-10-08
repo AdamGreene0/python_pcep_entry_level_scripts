@@ -1,0 +1,24 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Unary operator 'not' example, judges with true and false
+
+
+#~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#integer for our not operator
+int_to_test = 21;
+
+
+#Tests
+print (not(int_to_test == 9)); #will print true
+
+print (not(int_to_test == 21)); #will print false
+
+print (not(int_to_test < 5)); #will print true
+
+#~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
+
+
+#=================The absolute end of this script============================
