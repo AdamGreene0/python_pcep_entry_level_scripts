@@ -1,0 +1,29 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: The logical operator 'and' example
+
+
+#~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+
+counter = 1;
+second_condition = 'Run it!'
+
+while counter < 8 and second_condition != 'nvm': #and is located here
+    print("Still going strong, counter is currently = ",counter);
+    counter = counter + 1
+    
+else:
+    print("")#spacing
+    print("while loop is shattered.");
+    print("counter current value = ", counter);
+    print("second_condition current value = ", second_condition);
+    
+    
+
+#~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
+
+
+#=================The absolute end of this script============================
