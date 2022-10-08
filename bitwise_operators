@@ -1,0 +1,19 @@
+#=====================The absolute beginning of this script========================
+
+#Programmer name(s): Akinwale 'Wally' Owi
+#Program Purpose: Bitwise operators in Python
+
+
+#Important notes:
+#Must be integers
+
+#~Bitwise operator list~
+#1. ^ (caret) - bitwise exclusive or (xor).
+#2. & (ampersand) - bitwise conjunction;
+#3. ~ (tilde) - bitwise negation;
+#4. | (bar) - bitwise disjunction;
+
+
+
+
+#=====================The absolute end of this script========================
