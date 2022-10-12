@@ -1,7 +1,7 @@
 #=================The Absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: Lists - 1Create and print and from a list 2. As well as printing the entire list
+#Program Purpose: Lists: 1. Create and print and from a list 2. As well as printing the entire list
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -23,3 +23,4 @@ print(sample_list);
 
 
 #=================The Absolute end of this script==============================
+
