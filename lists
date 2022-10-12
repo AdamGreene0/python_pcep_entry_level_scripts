@@ -1,0 +1,25 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Lists - 1Create and print and from a list 2. As well as printing the entire list
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#How to create a list 
+sample_list = [9, 3, 135, 88, 222, 7878]
+
+
+#How to print an individual element from a list
+print(sample_list[2]);
+
+
+#How to print every element in a list
+print(sample_list);
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
