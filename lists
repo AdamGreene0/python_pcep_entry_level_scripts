@@ -6,21 +6,31 @@
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 
-#How to create a list 
+#1. How to create a list 
 sample_list = [9, 3, 135, 88, 222, 7878]
 
 
-#How to print an individual element from a list
-print(sample_list[2]);
-
-
-#How to print every element in a list
+#1a.How to print every element in a list
 print(sample_list);
 
 
+#2. How to print an individual element from a list
+print(sample_list[2]);
+
+
+#3. How to assign a new value to a variable
+sample_list[0] = 52;
+
+#3a.Printing the whole list again to show the new value since it's a short list. 
+print(sample_list);
+
+#4.How to copy a value from one member to another
+sample_list[1] = sample_list[4];
+
+#4a.Printing the whole list one more time, since it's a small one, to show the new identical twins. 
+print(sample_list);
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 
 #=================The Absolute end of this script==============================
-
