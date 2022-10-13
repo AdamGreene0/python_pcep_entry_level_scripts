@@ -1,0 +1,23 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. Delete an item from a list by their location
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+sample_list = [100, 3, 1, 8, 222, 7878]
+
+#1a.Printing the whole list
+print("The whole list: ",sample_list);
+
+#2.Delete the item 
+del sample_list[3];
+
+#2a. Printing the freshly altered list
+print ("The list after deletion =", sample_list);
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
