@@ -1,0 +1,23 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A.Use the 'len' function to find the length of a list. B. Then output the length
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+sample_list = [100, 3, 1, 8, 222, 7878]
+
+#1a.Printing the whole list
+print("The whole list: ",sample_list);
+
+#2.Saving the list length as a variable
+length_of_list = len(sample_list)
+
+#2a. Printing the list length 
+print ("The list length = ", length_of_list)
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
