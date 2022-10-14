@@ -1,0 +1,31 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. 2 distinct ways to add items to a list
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+sample_list = [555, 33, 1234, 8, 222, 7878]
+
+#1a. Printing the list before any additions
+print("The entire list = ", sample_list);
+
+#2. Append - adds the new item to the end of the list
+
+append_value = (int(input("Please enter append value: ")));
+
+sample_list.append(append_value);
+
+#2a.Printing the list to show the new addition
+print("The entire list = ", sample_list);
+
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
