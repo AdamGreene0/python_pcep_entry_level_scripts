@@ -8,14 +8,14 @@
 
 
 #1. How to create a list 
-sample_list = [555, 33, 1234, 8, 222, 7878]
+sample_list = [1, 2, 3, 4, 5, 6]
 
 #1a. Printing the list before any additions
 print("The entire list = ", sample_list);
 
 #2. Append - adds the new item to the end of the list
 
-append_value = (int(input("Please enter append value: ")));
+append_value = (int(input("Please enter append value: "))); #attaining the new value
 
 sample_list.append(append_value);
 
@@ -23,6 +23,13 @@ sample_list.append(append_value);
 print("The entire list = ", sample_list);
 
 
+#3. insert = list_name.insert(location,value)- The big difference is it lets you choose the location to add the new item.
+
+sample_list.insert(2, 444);
+
+
+#3a.Printing the list to show the new addition
+print("The final list = ", sample_list);
 
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
