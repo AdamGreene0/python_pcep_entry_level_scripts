@@ -1,0 +1,26 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. Using negative indices in a list
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+sample_list = [555, 33, 1234, 8, 222, 7878]
+
+#2. Printing the whole list.
+print("The entire list = ", sample_list);
+
+#3.Printing the last item in a list  
+print("The last item = ", sample_list[-1]);
+
+#4. Printing the second to last item in a list  
+print ("The second to last item = ", sample_list[-2]);
+
+#You can keep going down the list until you run out of elements
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
