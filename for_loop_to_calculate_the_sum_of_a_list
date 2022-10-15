@@ -1,0 +1,28 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. How to use a for loop to calculate the sum of a list.
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1. How to create a list 
+sample_list = [10, 20, 30, 40, 50]
+total_of_items = 0
+
+#1a. Printing the list to confirm our data
+print(sample_list)
+
+#2. Calculating the list total
+#The beginning of the for loop that calculates our list's sum 
+for counter in range(len(sample_list)):
+    total_of_items += sample_list[counter]
+#The end of the for loop that calculates our list's sum 
+    
+#3 Printing the list's total
+print("The list total = " ,total_of_items)
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
