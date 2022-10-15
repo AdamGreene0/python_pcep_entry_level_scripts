@@ -1,0 +1,27 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. How to swap variable values without losing one in the transaction
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1. Data creation
+num_1 = 1
+num_2 = 2
+
+#1a. Printing our data before the exchange
+print(num_1)
+print(num_2)
+
+#2. The safe exchange
+num_1, num_2 = num_2, num_1
+
+
+#2a. Printing our data after the exchange to test.
+print("Post swap = ",num_1)
+print("Post swap = ",num_2)
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
