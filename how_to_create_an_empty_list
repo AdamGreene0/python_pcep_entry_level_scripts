@@ -1,0 +1,29 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. How to create an empty list
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a empty list 
+tutorial_list = []
+
+#1a. Printing the empty list
+print(tutorial_list) #Will simply output '[]'
+
+
+#2.Filling the new list with sample data
+tutorial_list.append('Happy')
+tutorial_list.append('Saturday')
+
+
+#2a.Printing the newly filled list
+print(tutorial_list)
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
