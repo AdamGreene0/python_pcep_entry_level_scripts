@@ -1,7 +1,7 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A. Floor division - Rounds down to the nearest int or it's float 
+#Program Purpose: A. Floor division - Rounds down to the nearest int or it's float equivalent. ie (7 and 7.0)
  
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
