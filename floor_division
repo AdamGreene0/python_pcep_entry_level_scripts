@@ -1,0 +1,28 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. Floor division - Rounds down to the nearest int or it's float 
+ 
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating the integers
+num_1 = 15
+num_2 = 7
+
+#1a.  Floor division - with integers
+quotient_of_ints = num_1//num_2 # = 2
+print(quotient_of_ints) #Will print 2
+
+#2.Creating the floats
+num_a = 99.5
+num_b = 12.4
+
+#2a. Floor division - with floats
+quotient_of_floats = num_a//num_b # = 8.0
+print(quotient_of_floats) #Will print 8.0
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
