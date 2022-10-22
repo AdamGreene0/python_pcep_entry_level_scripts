@@ -1,0 +1,18 @@
+#Developer: Akinwale Owi
+#Program Purpose: append a string to a list
+
+
+#1.List creation
+list_days = ['monday','tuesday','wednesday'];
+
+#1a.Printing the list to test
+print(list_days);
+
+
+#2. Appending 'thursday' to list 
+list_days.append('thursday');
+
+#2a. Printing the list to test, it prints - ['monday', 'tuesday', 'wednesday', 'thursday']
+print(list_days);
+
+
