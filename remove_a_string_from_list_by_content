@@ -1,0 +1,25 @@
+#Developer: Akinwale Owi
+#Program Purpose: Remove a string from list by content
+
+#*Note: Will create an error if the deletion target is spelled incorrectly
+
+#1.List creation
+list_colors = ['red','blue','green'];
+
+#1a.Printing the list to test
+print(list_colors);
+
+
+#2. Removing 'blue' from list 
+list_colors.remove('blue');
+
+#2a. Printing the list to test - it prints ['red', 'green']
+print(list_colors);
+
+#3.Removing 'red' from list
+list_colors.remove('red');
+
+#3a.Printing the list to test - it prints ['green']
+print(list_colors); 
+
+
