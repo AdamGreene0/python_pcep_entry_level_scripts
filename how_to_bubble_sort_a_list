@@ -1,0 +1,30 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: How to bubble sort a list 
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+list_sort_example = [38, 170, 26, 2, 400]  # list to sort
+switch_position = True  # So the sorter will start
+
+while (switch_position == True):
+    
+    switch_position = False  # loop eventually stops because when sorted,
+                             # this won't get changed back to true below,
+                             # for the while above
+    
+    for i in range(len(list_sort_example) - 1):
+        if list_sort_example[i] > list_sort_example[i + 1]:
+            
+            switch_position  = True  # Not perfect so we'll run it one more time
+
+            #Switching the items
+            list_sort_example[i], list_sort_example[i + 1] = list_sort_example[i + 1], list_sort_example[i]
+
+#Outside of the while, printing the final result
+print(list_sort_example)
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
