@@ -1,0 +1,22 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: How to insert items into a list by location
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1. How to create a list 
+sample_list = [2,3,4]
+
+print(sample_list);#Will print [2, 3, 4]
+
+#Inserting into list
+sample_list.insert(1,499);
+
+print(sample_list); #Will print [2, 499, 3, 4]
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
