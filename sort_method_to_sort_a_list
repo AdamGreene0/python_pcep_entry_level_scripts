@@ -1,0 +1,22 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: How to use the sort 
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_sort_example = [38, 170, 26, 2, 400]  # list to sort
+
+#2. Using the sort method, to sort the list 
+list_sort_example.sort();
+
+#3.Printing the sorted list
+print(list_sort_example); #Will print [2, 26, 38, 170, 400]
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
