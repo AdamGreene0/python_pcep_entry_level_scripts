@@ -1,0 +1,22 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: How to use the reverse method to reverse the order of a list
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_sort_example = [38, 170, 26, 2, 400]  # list to sort
+
+#2. Using the reverse method, to reverse the list 
+list_sort_example.reverse();
+
+#3.Printing the list to test - will print [400, 2, 26, 170, 38]
+print(list_sort_example); 
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
