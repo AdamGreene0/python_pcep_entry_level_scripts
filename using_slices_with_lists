@@ -1,0 +1,28 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. Use a slice to copy a list contents safely
+                 #B. Alter a value on the new list,
+                 #C. Then print to check that the original list is safe.
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_original = [38, 170, 26, 2, 400]
+
+#2.'Slicing' the whole list
+list_from_slice = list_original[:]
+
+list_from_slice[2] = 555;
+
+#4.Printing the lists to test 
+print("Original list = ",list_original);
+print ("Sliced list = ", list_from_slice);
+
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
