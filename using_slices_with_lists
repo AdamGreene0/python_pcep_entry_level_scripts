@@ -25,7 +25,7 @@ print ("Sliced list  = ", list_from_whole_slice); #Will print = Sliced list  =  
 #3. Slicing only part of the list
 list_from_partial_slice = list_original[3:6] #list_name[start, end - 1]
 print("List from partial slice = ", list_from_partial_slice) #Will print = List from partial slice =  [2, 400]
-
+print("Still unchanged original list = ", list_original) #Will print = Still unchanged original list =  [38, 170, 26, 2, 400]
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
