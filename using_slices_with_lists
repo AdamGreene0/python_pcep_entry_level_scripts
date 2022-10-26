@@ -1,7 +1,7 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A. Use a slice to copy a list contents safely
+#Program Purpose: A. Use a slice to copy a whole list contents safely
                  #B. Alter a value on the new list,
                  #C. Then print to check that the original list is safe.
 
@@ -12,15 +12,19 @@
 list_original = [38, 170, 26, 2, 400]
 
 #2.'Slicing' the whole list
-list_from_slice = list_original[:]
+list_from_whole_slice = list_original[:]
 
-list_from_slice[2] = 555;
+#2A. Editing the sliced list
+list_from_whole_slice[2] = 555;
 
-#4.Printing the lists to test 
-print("Original list = ",list_original);
-print ("Sliced list = ", list_from_slice);
+#2B.Printing the lists to test 
+print("Original list = ",list_original); #Will print = Original list =  [38, 170, 26, 2, 400]
+print ("Sliced list  = ", list_from_whole_slice); #Will print = Sliced list  =  [38, 170, 555, 2, 400]
 
 
+#3. Slicing only part of the list
+list_from_partial_slice = list_original[3:6] #list_name[start, end - 1]
+print("List from partial slice = ", list_from_partial_slice) #Will print = List from partial slice =  [2, 400]
 
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
