@@ -19,12 +19,12 @@ print("Negative starter = ", list_from_negative_starter)#Prints - 'Negative star
 list_from_negative_ender = list_original[1:-2]
 
 #3a. Printing the negative ender list
-print("Negative ender = ", list_from_negative_ender) #Negative ender =  [170, 26]
+print("Negative ender = ", list_from_negative_ender) #Prints - Negative ender =  [170, 26]
 
-#4.
+#4.Printing the original to make sure it's unchanged
+print("Original list = ", list_original) #Prints - Original list =  [38, 170, 26, 2, 400]
 
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #=================The absolute end of this script==============================
-
