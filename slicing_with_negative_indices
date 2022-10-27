@@ -1,0 +1,30 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Slicing with negative indices
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_original = [38, 170, 26, 2, 400]
+
+#2.Slicing with a negative number in the starter spot
+list_from_negative_starter = list_original[-1:1] 
+
+#2a. Printing the negative starter list
+print("Negative starter = ", list_from_negative_starter)#Prints - 'Negative starter =  []'
+
+#3. Slicing with a negative number in the ender position
+list_from_negative_ender = list_original[1:-2]
+
+#3a. Printing the negative ender list
+print("Negative ender = ", list_from_negative_ender) #Negative ender =  [170, 26]
+
+#4.
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
+
