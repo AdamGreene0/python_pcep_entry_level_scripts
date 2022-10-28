@@ -3,7 +3,6 @@
 #Developer Name: Akinwale "Wally" Owi
 #Program Purpose: 2 slice shortcuts
 
-
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #1.Creating a list
@@ -16,7 +15,6 @@ print("Slice to the end: ", list_to_end) #PRINTS 'Slice to the end:  [26, 2, 400
 #3. To slice from - start to your desired location
 list_start_to_desired_spot = list_original[:4] #PRINTS 'Slice to the desired_spot  [38, 170, 26, 2]'
 print("Slice to the desired_spot " , list_start_to_desired_spot)
-
 
 #4.Printing the original to make sure it's unchanged
 print("Original list = ", list_original) #Prints - Original list =  [38, 170, 26, 2, 400]
