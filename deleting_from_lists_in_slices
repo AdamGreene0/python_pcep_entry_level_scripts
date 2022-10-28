@@ -1,0 +1,26 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Deleting from lists in slices
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_original = [1,2,3,4,5,6,7,8,9]
+
+#2.Deleting from List in a slice
+del list_original[1:6]
+
+#2A.Printing to test
+print("Original list is now = ", list_original) #Prints - Original list is now =  [1, 7, 8, 9]
+
+#3. Deleting all the contents from the whole list
+del list_original[:]
+
+#3a. Printing to test
+print ("Original list is now empty = ", list_original) #Prints - Original list is now empty =  []
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
