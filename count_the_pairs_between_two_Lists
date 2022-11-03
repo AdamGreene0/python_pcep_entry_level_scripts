@@ -1,0 +1,34 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. Find how many items the Lists have in common - then print
+                 #B. Add the pairs to a new List - then print
+                   
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#Creating the two lists we will be comparing
+list_a = [23,35,52,30,18,84,21,55,11]
+list_b = [1,2,23,4,55,6,7,8,84]
+
+#Array we'll fill with the pairs
+list_in_common = []
+
+#pair counter
+items_in_common = 0
+
+#The pair search
+for item in list_a: #uses list a items to comb through list b
+    if item in list_b:
+        items_in_common += 1 #pair counter
+        list_in_common.append(item)# Add the pairs to a new List
+
+#Le results 
+if items_in_common == 0:
+    print("They had no items in common")
+else:
+    print("Number of items in common: ",items_in_common)
+    print("The items in common are:", list_in_common)
+        
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
