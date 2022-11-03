@@ -1,0 +1,36 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Find and print the position of an item in a List
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_original = [23,35,52,30,18,84,21,55,11]
+
+
+
+number_of_interest = 18
+
+located = False
+
+
+
+print("Number of interest:", number_of_interest)
+
+for position in range(len(list_original)):
+    located = list_original[position] == number_of_interest
+    if located:
+            break
+
+if located:
+    print("Located at position:", position)
+else:
+    print("It was not in this list")
+        
+    
+        
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
