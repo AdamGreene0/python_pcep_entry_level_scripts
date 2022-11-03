@@ -8,13 +8,9 @@
 #1.Creating a list
 list_original = [23,35,52,30,18,84,21,55,11]
 
-
-
 number_of_interest = 18
 
 located = False
-
-
 
 print("Number of interest:", number_of_interest)
 
@@ -28,9 +24,6 @@ if located:
 else:
     print("It was not in this list")
         
-    
-        
-
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #=================The absolute end of this script==============================
