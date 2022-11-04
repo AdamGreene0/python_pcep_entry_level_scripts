@@ -1,22 +1,22 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A. 
+#Program Purpose: A. Find and print only the unique nunbers from a list
+
                    
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #Creating the two lists we will be comparing
 list_a = [23,23,52,30,18,18,21,55,11]
 
-#
+#Array that will hold the unique numbers from list a
 list_uniques_only = []
 
-
-#The 
-for item in list_a: #uses list a items to comb through list b
-    if item not in list_uniques_only:
+#The unique finding for loop = only adds 'if not' ALREADY in list_uniques_only
+for item in list_a: 
+    if item not in list_uniques_only:#the important 'if not'
     
-       list_uniques_only.append(item)# Add the pairs to a new List
+       list_uniques_only.append(item)# Adding the unique to their List
 
 #Le results 
 print("Only the unique numbers from list a:",list_uniques_only)
