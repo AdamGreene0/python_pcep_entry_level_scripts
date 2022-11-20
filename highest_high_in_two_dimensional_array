@@ -1,0 +1,51 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. The highest high from a two dimensial array - [filled with the highs and lows for one week in Chicago,IL (14 entries)]
+#*Data from https://world-weather.info/forecast/usa/chicago/october-2022/
+
+                   
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#The weather chart creation
+chart_october = []
+chart_october = [[0.0 for highs_and_lows in range(2)] for days in range(7)]
+
+#Adding the highs and lows
+chart_october[0][0] = 61
+chart_october[0][1] = 54 #M
+
+chart_october[1][0] = 66
+chart_october[1][1] = 59 #T
+
+chart_october[2][0] = 70
+chart_october[2][1] = 63 #W
+
+chart_october[3][0] = 68
+chart_october[3][1] = 54 #Thurs
+
+chart_october[4][0] = 52
+chart_october[4][1] = 45 #F
+
+chart_october[5][0] = 54
+chart_october[5][1] = 54 #S
+
+chart_october[6][0] = 63
+chart_october[6][1] = 54 #Sunday
+
+#Printing the resulting weather chart 
+print("Highs and lows of 10/3 to 10/9 =", chart_october)
+
+#Calculating the highest high
+highest_temp = 0.0
+
+for days in chart_october:
+    for highs_and_lows in days:
+        if highs_and_lows > highest_temp:
+            highest_temp = highs_and_lows
+
+print("The hottest it got that week = ",  highest_temp)
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
