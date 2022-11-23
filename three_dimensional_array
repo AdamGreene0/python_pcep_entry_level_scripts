@@ -1,0 +1,37 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Create and test a three dimensional array
+#Three buildings, 4 floors, 2 rooms on each floor
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#Creating the landlord properties
+landlord_properties= [[["Occupied" for condos in range(2)] for floors in range(4)] for buildings in range(3)]
+
+#Printing the landlord properties
+print(landlord_properties)
+
+
+#Changing the 1st building's, 2nd floor, 2nd condo to vacant
+landlord_properties[0][1][1] = "Vacant"
+
+
+#Changing the 2nd building's, 3rd floor, 1st condo to vacant
+landlord_properties[1][2][0] = "Vacant"
+
+
+#Changing the 3rd building's, 3rd floor, 2nd condo to vacant
+landlord_properties[2][3][1] = "Vacant"
+
+#printing a space so we can tell the difference between the two arrays
+print("~~~~~~~~After editing~~~~~~~~~")
+
+#Printing the landlord properties
+print(landlord_properties)
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
