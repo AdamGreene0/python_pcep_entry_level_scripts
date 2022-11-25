@@ -1,0 +1,26 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Create a list and push its numbers to different powers at time of creation
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#creating list - it is 0 thru 9 to the 2nd power and their output are the list items
+list_to_the_second_power = [list_num ** 2 for list_num in range(10)]
+
+#printing the 2nd power list 
+print(list_to_the_second_power)  # outputs: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+#creating list - it is 0 thru 9 to the 3rd power and their output are the list items
+list_to_the_third_power = [list_num ** 3 for list_num in range(10)]
+
+#printing the 3rd power list 
+print(list_to_the_third_power)  # outputs: [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
+
+#creating list - it is 0 thru 9 to the fourth  power and their output are the list items
+list_to_the_fourth_power = [list_num ** 4 for list_num in range(10)]
+
+#printing the fourth power list 
+print(list_to_the_fourth_power)  # outputs: [0, 1, 16, 81, 256, 625, 1296, 2401, 4096, 6561]
