@@ -1,0 +1,32 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Create a list and multiply its items by different numbers at creation
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#creating list - 0 - 9 by 2 
+list_by_two = [list_num * 2 for list_num in range(10)]
+
+#printing by 2 list 
+print(list_by_two)  # outputs: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+#creating by 3 list - 0 - 9
+list_by_three = [list_num * 3 for list_num in range(10)]
+
+#printing by 3 list 
+print(list_by_three)  # outputs: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+
+
+#creating by four list 
+list_by_four = [list_num * 4 for list_num in range(10)]
+
+#printing by four list 
+print(list_by_four)  # outputs: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36]
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
