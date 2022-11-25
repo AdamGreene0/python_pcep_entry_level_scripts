@@ -24,3 +24,9 @@ list_to_the_fourth_power = [list_num ** 4 for list_num in range(10)]
 
 #printing the fourth power list 
 print(list_to_the_fourth_power)  # outputs: [0, 1, 16, 81, 256, 625, 1296, 2401, 4096, 6561]
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
