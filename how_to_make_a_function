@@ -1,0 +1,15 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpse: How to make a function in python 3
+
+#creating the function - everything indented first colon: goes into function
+def goodbye():    
+    print ("Best regards,")
+    print ("Wally Owi")
+    print()
+
+#Testing
+print("Nice work, see you next week")
+goodbye()
+
+print("See you next weekend")
+goodbye()
