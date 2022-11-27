@@ -1,0 +1,16 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Create and use a one parameter function
+
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+#Creating the 1p function:
+def greeting_sunday(team_favorite):
+    print("Best food to eat at a", team_favorite, " tailgate?")
+
+#Outside of the function - asking for input
+team_favorite = input("Who is your favorite team? ")
+
+#printing with input
+greeting_sunday(team_favorite)
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
