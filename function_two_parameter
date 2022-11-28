@@ -1,0 +1,20 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Create and use a two parameter function
+
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#Creating the 2p function:
+def label(item, price):
+    print("Item:", item, "Price: $", price)
+
+#Testing
+label("sandwich", 28)
+label("Juice", 9)
+label("Chips", "4.44")
+
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
+
+
