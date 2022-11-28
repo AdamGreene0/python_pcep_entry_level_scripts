@@ -1,0 +1,16 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Creating a function with default parameter values
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#Creating the function with defaults
+def created_player(first_name ="Player", last_name="One"):
+    print("Name: ", first_name, last_name)
+    
+#Testing
+created_player()  #outputs: Name:  Player One
+created_player(last_name="Bonds") #outputs: Name:  Player Bonds
+created_player(first_name="James") #Name:  James One
+created_player(first_name="Ken", last_name="Grove") #Outputs: Name:  Ken Grove
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
