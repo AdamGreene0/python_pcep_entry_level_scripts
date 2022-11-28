@@ -1,0 +1,18 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose:  keyword argument passing = two parameters
+
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#Creating the 2p function:
+def label(item, price):
+    print("Item:", item, "Price: $", price)
+
+#~~~~~~~~~~Testing~~~~~~~~~~
+#Regular
+label("sandwich", 28)
+
+#Keyword argument passing 
+label(price = "100.99", item = "Monitor")
+      
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
