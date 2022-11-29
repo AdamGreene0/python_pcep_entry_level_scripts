@@ -1,0 +1,29 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Return with an expression
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#Function with the return condition
+def teams():
+    return 32
+
+#~~~~Testing~~~~~~~
+
+teams()#outputs nothing
+
+#giving num_of_teams the return value
+num_of_teams= teams()
+print("Teams in the league= " ,num_of_teams) #output: Teams left =  32
+
+#p2 with a message inside
+def playoff_hopes():
+    print("2weeks to the playoffs and 3 spots are open")
+    return 3
+
+#~~~~Testing p2~~~~~~~
+teams_left = playoff_hopes() #gives return value and outputs weeks to the playoffs and 3 spots are open
+print("Teams left = ",teams_left) #Teams left =  3
+    
+
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
