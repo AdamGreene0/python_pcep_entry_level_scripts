@@ -1,0 +1,21 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Return without an expression
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#Function with the return condition
+def superbowl_hopes(still_winning = True):
+    print()
+    print("season")
+    print("playoffs")
+    if not still_winning:
+        return
+    
+    print("Going to the super bowl")
+
+#~~~~Testing~~~~~~~~
+superbowl_hopes()
+superbowl_hopes(False)
+ 
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
