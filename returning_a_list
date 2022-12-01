@@ -1,0 +1,24 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Returning a liist 
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#~~~Creating the function
+def list_next_few(num):
+
+     #the list that will be returned
+    list_next_few = []
+
+    for counter in range(0, 5): #creates a 5 item array
+        new_num = num + counter  
+        list_next_few.insert(counter, new_num)
+
+    #returning the list 
+    return list_next_few 
+
+#~~~~~Testing~~~~~~~~~
+
+print(list_next_few(4))  #outputs [4, 5, 6, 7, 8]
+
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
