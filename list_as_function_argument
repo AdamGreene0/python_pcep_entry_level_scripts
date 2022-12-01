@@ -1,0 +1,27 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Sending a list as an argument 
+
+#~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+
+#~~~Creating the function
+def average_of_list(sample_list):
+
+    counter =  0
+    total = 0
+    average = 0
+
+    for number in sample_list: 
+
+        counter += 1
+        total += number
+        average = total/counter
+
+    #returning the average 
+    return average 
+
+#~~~~~Testing~~~~~~~~~
+
+print(average_of_list([ 4, 80, 12 ]))  #outputs 32.0
+
+
+#~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
