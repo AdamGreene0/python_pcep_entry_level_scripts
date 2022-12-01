@@ -1,4 +1,11 @@
+#Dev name: Akinwale "Wally" Owi
+#pp: Use the % operator
+
+#*% gets the integer from remainder. You don't have to print it, we just do it twice here.
+
+v = 0
+
 print()
-print(12 % 5)
-print()
-print(3 % 3)
+print(12 % 5) #outputs 2
+v = 14 %3 
+print(3 % 3) #outputs 0
