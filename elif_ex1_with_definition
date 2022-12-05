@@ -1,0 +1,41 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: elif example in fx form
+
+#1 use of the elif is to overcome the error you get from using back to back to else statements in python
+
+#$$$$$$$$$$$$$$$$$$$$$Beginning of computations$$$$$$$$$$$$$
+
+#Creating the function
+def stadium_seats(choice_to_pay):
+                       
+    print(choice_to_pay, " Let's see" )#for confirmation
+
+#$$$$$$$Beginning of calculating seats $$$$$$$$
+    
+    if (choice_to_pay > 5000):
+        print("You will be sitting in the front, row 1")
+        print() #For spacing
+        
+    elif(choice_to_pay > 200):
+        print ("You will be sitting below the middle , row 20")
+        print() #For spacing
+        
+    elif (choice_to_pay>50):
+        print ("You will be sitting in the nosebleeds seats at the very top, row 400")
+        print() #For spacing
+        
+    else:
+        print ("Enjoy the game on TV")
+        print() #For spacing
+
+#$$$$$$$$$$End of calculating seats$$$$$$$$$$$$$$$$$$$
+        
+#Testing the function
+stadium_seats(53337)  
+stadium_seats(99)    
+stadium_seats(333)    
+#$$$$$$$$$$$$$$$$End of computations$$$$$$$$$$$$$
+
+#=================The absolute end of this script============================== 
