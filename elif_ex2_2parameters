@@ -1,0 +1,50 @@
+
+#$$$$$$$$$$$$$$$$$$$$The absolute beginning of this script$$$$$$$$$$$$$$$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: elif example 2 in fx form. 2 parameter fx
+
+#$$$$$$$$$Beginning of computations$$$$$$$$$$
+
+#Creating the function
+def office_party (idea,host):
+
+    ideas = ["Arcade", "Trampoline"]
+    people = ["Tim", "Rissa"]
+
+    
+
+    if (idea == "Arcade" and host =="Rissa"):
+        print("Order out")
+
+    elif (idea == "Arcade" and host =="Tim"):
+        print("Dine in")
+        
+    elif (idea == "Trampoline" and host =="Tim"):
+        print("Tappas")
+
+    elif (idea == "Trampoline" and host =="Rissa"):
+        print("Bobby's BBQ")
+        
+    else:
+        print("Suprise us")
+
+#Testing
+office_party("Arcade","Rissa")
+office_party("Arcade","Bill")    
+office_party("Arcade","Tim")
+
+print() #ojos
+
+office_party("Trampoline","Tim")    
+office_party("Trampoline","Rissa")
+office_party("Trampoline","Bill")
+
+#$$$$$$$$$End of computations$$$$$$$$$$
+ 
+#$$$$$$$$$$$$$$$$$$$$The absolute end of this script$$$$$$$$$$$$$$$$$$
+ 
+
+    
+
+
