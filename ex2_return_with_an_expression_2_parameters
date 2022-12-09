@@ -1,0 +1,22 @@
+#$$$$$$$$$$$$$$$$$$$$The absolute beginning of this script$$$$$$$$$$$$$$$$$$
+
+#Dev name: Akinwale "Wally" Owi
+#Program purpose:- Ex 2 . Return with an expression. 2 parameters 
+#Returns the number of enemies per level at each difficulty level
+
+#$$$$$$$$$$$Beginning of computations$$$$$$$$$$$$$$$$$$$$
+
+#Function with the return condition
+def num_enemies_spawned(difficulty,level):
+    num_enemies = difficulty + (level*25)
+    return num_enemies
+
+#~~~~Testing~~~~~~~~
+print(num_enemies_spawned(3, 4)) #Outputs: 103
+print(num_enemies_spawned(1, 1)) #Outputs: 26
+print(num_enemies_spawned(2, 10)) #Outputs: 252
+
+                             
+# $$$$$$$$$$$$$$$$$End of computations$$$$$$$$$$$$$$$$$
+
+#$$$$$$$$$$$$$$$$$$$$The absolute end of this scripts$$$$$$$$$$$$$$$$$
