@@ -1,0 +1,53 @@
+#$$$$$$$$The absolute beginning of this script$$$$$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Return statements in elif branches 
+
+#$$$$$$$Beginning of computations$$$$$$
+
+#$$$Creating the function$$$
+def office_party (idea,host):
+
+    ideas = ["Arcade", "Trampoline"]
+    people = ["Tim", "Rissa"]
+
+    
+
+    if (idea == "Arcade" and host =="Rissa"):
+        print("Order out")
+        return 333
+    
+    elif (idea == "Arcade" and host =="Tim"):
+        print("Dine in")
+        return 100
+        
+    elif (idea == "Trampoline" and host =="Tim"):
+        print("Tappas")
+        return 50
+
+    elif (idea == "Trampoline" and host =="Rissa"):
+        print("Bobby's BBQ")
+        return 400
+        
+    else:
+        print("Suprise us")
+        return 500 
+    
+#$$Testing$$
+party_budget = office_party("Arcade","Rissa") #Outputs Order out
+print("Rissa's arcade party cost = $", party_budget) #Outputs Rissa's arcade party cost = $ 333
+
+
+party_budget = office_party("Arcade","Tim") #Outputs Dine in
+print("Tim's arcade party cost = $", party_budget) #Outputs Tim's arcade party cost = $ 100
+
+
+party_budget= office_party("Trampoline","Rookie") #Outputs Suprise us
+print("Rookie's trampoline party cost = $", party_budget) #Outputs Rookie's trampoline party cost = $ 500
+
+party_budget= office_party("Trampoline","Tim")#Outputs Tappas
+print("Tim's trampoline party cost = $", party_budget) #Outputs Tim's trampoline party cost = $ 50
+
+#$$$$$$$$$End of computations$$$$$$$$$$
+ 
+#$$$$$$$$$$$$$$$$$$$$The absolute end of this script$$$$$$$$$$$$$$$$$$
