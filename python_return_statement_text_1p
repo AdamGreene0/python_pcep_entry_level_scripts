@@ -14,8 +14,8 @@ def birthday_coding(days):
         return "Keep chasing that trophy!"
 
 
-#~~~~Testing~~~~~~~~
-print(birthday_coding(888))#Outputs: 
+#$$$$$$$$$ Testing $$$$$$$$$$$$$$$
+print(birthday_coding(888))#Outputs: Congratulations! You have at least one coding trophy and counting
 print(birthday_coding(7))#Outputs:Keep chasing that trophy!
 print(birthday_coding(366))#Outputs: Congratulations! You have at least one coding trophy and counting
 print(birthday_coding(21))#Outputs: Keep chasing that trophy!                           
