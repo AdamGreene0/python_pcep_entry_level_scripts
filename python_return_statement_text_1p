@@ -1,0 +1,24 @@
+#$$$$$$$$$$$$$$$$$$$$The absolute beginning of this script$$$$$$$$$$$$$$$$$$
+
+#Dev name: Akinwale "Wally" Owi
+#Program purpose:- 1 parameter fx, to use the return statement to return different text responses 
+
+#$$$$$$$$$$$Beginning of computations$$$$$$$$$$$$$$$$$$$$
+
+#$$$$Creating the function with the return condition$$$$$$$$$$$$$$$
+def birthday_coding(days):
+
+    if days> 365:
+        return "Congratulations! You have at least one coding trophy and counting"
+    else:
+        return "Keep chasing that trophy!"
+
+
+#~~~~Testing~~~~~~~~
+print(birthday_coding(888))#Outputs: 
+print(birthday_coding(7))#Outputs:Keep chasing that trophy!
+print(birthday_coding(366))#Outputs: Congratulations! You have at least one coding trophy and counting
+print(birthday_coding(21))#Outputs: Keep chasing that trophy!                           
+# $$$$$$$$$$$$$$$$$End of computations$$$$$$$$$$$$$$$$$
+
+#$$$$$$$$$$$$$$$$$$$$The absolute end of this scripts$$$$$$$$$$$$$$$$$
