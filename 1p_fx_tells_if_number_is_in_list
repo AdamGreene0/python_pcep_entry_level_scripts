@@ -1,0 +1,42 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Create a 1 parameter function that - finds and print the position of an item in a List - 
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#$$$$ 1.Creating the fx$$$$
+def number_finder(number_of_interest):
+
+    #2.Creating a list
+    list_original = [23,35,52,30,18,84,21,55,11]
+
+    located = False
+
+    print("Number of interest:", number_of_interest)
+
+    for position in range(len(list_original)):
+
+        located = list_original[position] == number_of_interest
+        if located:
+             print(located, " , located at position:", position)
+             return
+
+    if located == False:
+            print( number_of_interest, " was not in this list")
+
+#$$$$ End of the fx$$$$$
+
+#$$$$ Testing$$$$
+number_finder(23)
+
+number_finder(4444)
+
+number_finder(84)
+
+number_finder(77777)
+
+#$$$$ End of computations$$$$
+
+#$$$$$$$$$$$$$$$$$$$$The absolute end of this script$$$$$$$$$$$$$$$$$$
