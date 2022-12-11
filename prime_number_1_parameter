@@ -1,0 +1,42 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: 1 parameter function checking if a number is truly prime.
+
+#$$$$Beginning of computations$$$$$$$
+
+#$$$$ 1.Creating the fx$$$$
+def test_num(num):
+    #2 variable that we will return, it'll hold the test result
+    result = False
+
+    #1st necessary qualifier: prime numbers are greater than 1
+    if num > 1:
+    # checking to see if it is cleanly divisible by anything 2 and up
+        for current_num in range(2, num):
+            if (num % current_num) == 0:
+                #if it divides evenly it is not prime so now result is still false 
+                result = False
+                
+                return result          
+            else:
+                #Truly prime
+                result = True
+                return result
+
+#$$$$End of the fx$$$$
+            
+#$$$$ Testing$$$$
+m = test_num(3)
+print(m) #outputs: True
+
+m = test_num(10)
+print(m) #outputs: False
+
+m = test_num(8)
+print(m) #outputs: False
+
+m = test_num(7)
+print(m) #outputs: True
+
+#$$$$$$$The absolute end of this script$$$$$$
