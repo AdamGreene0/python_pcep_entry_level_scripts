@@ -1,0 +1,23 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Show a effect of making a global variable in a fx 
+
+#$$$$Beginning of computations$$$$$$$
+
+#$$$$ 1.Creating the fx$$$$
+def meal_prep():
+    #Declaring the globl variable
+    global microprocessors
+    microprocessors = 18
+    
+#$$$$End of the fx$$$$
+            
+#$$$$ Testing$$$$
+microprocessors = 21 #value change
+print(microprocessors) #ouputs 21
+
+meal_prep() #to change it back to its global value
+print(microprocessors) #ouputs 18
+
+#$$$$$$$The absolute end of this script$$$$$$
