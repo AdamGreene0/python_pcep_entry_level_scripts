@@ -1,0 +1,32 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Use the backslash to increase the readability of  long lines of code:
+                            #A.For text
+                            #B. For math formulas
+
+
+#$$$$Beginning of computations$$$$$$$
+
+#$$$$ 1.Creating the fx$$$$
+def letter(num):
+    
+    #Using the backslash for text 
+    print ( "My dearest friend it has a been a long", \
+            "time. However a bet is a bet.")
+
+    #Using the backslash for a math formula
+    days_since_we_last = num + 10 + 100 + 1000 \
+                 + 2000 + 200
+
+    print(days_since_we_last)
+    
+#$$$$End of the fx$$$$
+            
+
+#$$$$ Testing$$$$
+letter(5) #outputs: My dearest friend it has a been a long time. However a bet is a bet.
+            #             3315
+
+
+#$$$$$$$The absolute end of this script$$$$$$
