@@ -1,0 +1,21 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Use recursion: a function calling itself, in a factorial example
+
+#$$$$Beginning of computations$$$$$$$
+
+#$$$$ 1.Beginning of the fx containing recursion$$$$
+def factorial_me(num):
+    if num == 1:
+        return 1
+    else:
+        return (num * factorial_me(num-1))
+#$$$$ End of the fx containing recursion$$$$
+
+#$$$$ Testing$$$$
+#fsctorial of 5 math = 5 * 4 * 3 * 2 * 1
+print(factorial_me(5)) #outputs 120
+print(factorial_me(4)) #outputs 24
+
+#$$$$$$$The absolute end of this script$$$$$$
