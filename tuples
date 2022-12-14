@@ -1,0 +1,25 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Create a: A empty tuple, B tuple with items, C a one item tuple. D. Print them all to test
+
+
+#$$$$Beginning of computations$$$$$$$
+
+#A - Creating a empty tuple
+tuple_empty = ()
+
+#B - Creating a one element tuple
+tuple_one_element = (4,) #comma after element is necessary
+
+#C - Creating a multi element tuple
+tuple_multiple = (5,19,45,232)
+
+
+#$$$$ Testing$$$$
+print(tuple_empty) #outputs ()
+print(tuple_one_element) #outputs (4,)
+print(tuple_multiple) #outputs (5, 19, 45, 232)
+
+
+#$$$$$$$The absolute end of this script$$$$$$
