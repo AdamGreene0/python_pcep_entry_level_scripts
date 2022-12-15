@@ -1,0 +1,21 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A few ways you can use tuples
+
+#$$$$Beginning of computations$$$$$$$
+
+#A - Creating the tuple we'll be using
+tuple_example = (1, 20, 333, 40)
+
+#$$$$ Testing$$$$
+
+#Checking if an item is in the tuple
+print(333 in tuple_example) #outputs True
+print(20 not in tuple_example)  #outputs False
+
+#Multiply the items of the tuple
+tuple_multiplied = tuple_example * 2
+print(tuple_multiplied)
+
+#$$$$$$$The absolute end of this script$$$$$$
