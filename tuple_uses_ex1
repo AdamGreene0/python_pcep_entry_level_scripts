@@ -16,6 +16,12 @@ print(20 not in tuple_example)  #outputs False
 
 #Multiply the items of the tuple
 tuple_multiplied = tuple_example * 2
-print(tuple_multiplied)
+print(tuple_multiplied) #outputs (1, 20, 333, 40, 1, 20, 333, 40)
 
+#Adding items to a former tuple to make a new tuple
+tuple_add = tuple_example + (999, 88, 7)
+print(tuple_add) #outputs (1, 20, 333, 40, 999, 88, 7)
+
+#Finding the length of a tuple
+print(len(tuple_example))#outputs 4
 #$$$$$$$The absolute end of this script$$$$$$
