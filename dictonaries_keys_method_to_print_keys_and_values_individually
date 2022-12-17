@@ -1,0 +1,22 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Use the keys method to print a dictionary's keys and values
+
+#$$$$Beginning of computations$$$$$$$
+
+#Creating a number to string dictionary
+employee_ids = {
+     5555: 'Claire',
+    777: 'Wally',
+    222: 'Rissa'
+}
+
+#Printing the keys and values individually wrapped
+for key in employee_ids.keys():
+    print("Key =", key, " , Value = ", employee_ids[key]) #outputs: Key = 5555  , Value =  Claire
+#                                                                                           Key = 777  , Value =  Wally
+#                                                                                           Key = 222  , Value =  Rissa
+
+
+#$$$$ End of the script $$$$
