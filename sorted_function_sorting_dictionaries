@@ -1,7 +1,7 @@
 #$$$$ Beginning of script$$$$
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: Use the keys method to print a dictionary's keys and values
+#Program Purpose: Sort 2 different dictionaries with the sort method 
 
 #$$$$Beginning of computations$$$$$$$
 
@@ -44,3 +44,4 @@ for key_color in sorted(colors_favorite.keys()):
 
 
 #$$$$ End of the script $$$$
+
