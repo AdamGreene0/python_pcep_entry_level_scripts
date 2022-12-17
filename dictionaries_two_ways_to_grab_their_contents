@@ -1,0 +1,31 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Two ways to grab a dictionary's keys and values: 1 Items fx, 2 values fx
+
+#$$$$Beginning of computations$$$$$$$
+
+#Creating a number to string dictionary
+employee_ids = {
+     5555: 'Claire',
+    777: 'Wally',
+    222: 'Rissa'
+}
+
+#The items function, itemizes both but does not sort
+for ids,employees in employee_ids.items():
+    print ( "Employee = ", employees , ",their id = ", ids) #Outputs Employee =  Claire ,their id =  5555
+    #                                                                                         Employee =  Wally ,their id =  777
+#                                                                                             Employee =  Rissa ,their id =  222        
+
+#Spacing
+print("___")
+
+#Using the values fx
+for employee_names in employee_ids.values():
+    print (employee_names) #outputs: Claire
+                                        #            Wally
+                                        #            Rissa
+
+
+#$$$$ End of the script $$$$
