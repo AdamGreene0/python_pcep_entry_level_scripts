@@ -1,0 +1,46 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Use the keys method to print a dictionary's keys and values
+
+#$$$$Beginning of computations$$$$$$$
+
+#Creating a number to string dictionary
+employee_ids = {
+     5555: 'Claire',
+    777: 'Wally',
+    222: 'Rissa'
+}
+
+#Creating a number to string dictionary
+colors_favorite = {
+     "Rissa": "Orange",
+     "Mike": "Yellow",
+     "Lisa":"Pink"
+     }
+
+#Printing the keys and values without sorting
+for key in employee_ids.keys():
+    print("Key =", key, " , Value = ", employee_ids[key]) #Outputs: Key = 5555  , Value =  Claire
+#                                                                                           Key = 777  , Value =  Wally
+#                                                                                           Key = 222  , Value =  Rissa
+
+print("-$-")#spacing
+
+#Printing the keys and values sorted - using the sorted function: it uses smallest number to largest
+for key in sorted(employee_ids.keys()):
+    print("Key =", key, " , Value = ", employee_ids[key]) #outputs: Key = 222  , Value =  Rissa
+    #                                                                                       Key = 777  , Value =  Wally
+    #                                                                                       Key = 5555  , Value =  Claire
+
+#Spacing
+print("-----")
+
+#Thesorted function sorts values alphabetically - below 
+for key_color in sorted(colors_favorite.keys()):
+    print ("Key = ", key_color, ",Value = ", colors_favorite[key_color]) #outputs Key =  Lisa ,Value =  Pink
+#                                                                                                             Key =  Mike ,Value =  Yellow
+#                                                                                                             Key =  Rissa ,Value =  Orange
+
+
+#$$$$ End of the script $$$$
