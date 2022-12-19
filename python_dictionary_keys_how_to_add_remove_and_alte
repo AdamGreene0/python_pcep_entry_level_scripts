@@ -1,0 +1,33 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A:Adding, B:Deleting C:Altering a dictionary's keys
+
+#$$$$Beginning of computations$$$$$$$
+
+#Creating a number to string dictionary for our examples
+employee_ids ={
+
+     5555: 'Claire',
+    777: 'Wally',
+    222: 'Rissa'
+                        }
+
+#A adding keys
+employee_ids['111'] = 'Emma'
+#print test
+print(employee_ids) #outputs {5555: 'Claire', 777: 'Wally', 222: 'Rissa', '111': 'Emma'}
+
+#B removing a key * will also delete its paired value
+del employee_ids[5555]
+#print test
+print(employee_ids)#outputs {777: 'Wally', 222: 'Rissa', '111': 'Emma'}
+
+#C: altering a key 
+employee_ids[222] = 'Kyle'
+#print test
+print(employee_ids)#outputs {777: 'Wally', 222: 'Kyle', '111': 'Emma'}
+
+
+
+#$$$$ End of the script $$$$
