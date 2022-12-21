@@ -1,0 +1,36 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Counting thhe numbe of times a number appears using the count method\
+#A string count, B a number count
+
+#A. Creating a tuple containing st
+forklift_certified =( 'Alex', 'Wally','Alex','Rissa')
+
+#Using the count method to check for a string
+counter_Alex = forklift_certified.count('Alex')
+counter_Bob = forklift_certified.count('Bob')
+
+#print to test - A
+print(counter_Alex) #outputs: 2
+print(counter_Bob) #outputs: 0
+
+#spacing
+print("$$")
+
+#B. Creating a tuple containing numbers
+pallet_weights = (555, 1717, 4343, 1717, 2222, 9999, 1717)
+
+#Using the count method to check for a number
+counter_one_seven = pallet_weights.count(1717)
+
+counter_eight = pallet_weights.count(8)
+
+#print to test - B
+print(counter_one_seven) #outputs 3
+print(counter_eight) #outputs 0
+
+
+#$$$$ End of computations $$$$
+
+#$$$$ End of the script $$$$
