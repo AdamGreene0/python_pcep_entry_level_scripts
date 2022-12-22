@@ -1,0 +1,22 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:  Showcasing how to transform a tuple into a dictionary
+
+#Beginning of computations
+
+#1.Creating a tuple
+tuple_jersey_num = ( (38, 'Jonesy') , (17, 'Hamilton'), (2, 'Lewis'))
+
+#transforming a tuple into a dictionary 
+dictionary_from_tuple =dict((y, x) for x, y in tuple_jersey_num)
+
+#Printing the type test
+print(type(dictionary_from_tuple)) #ouputs: <class 'dict'>
+
+#Printing the dictionary 
+print(dictionary_from_tuple) # outputs: {'Jonesy': 38, 'Hamilton': 17, 'Lewis': 2}
+
+#$$$$ End of all computations $$$$
+
+#$$$$ End of the script $$$$
