@@ -1,0 +1,18 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:  Morphing a list into a tuple
+#Beginning of computations
+
+#1.Creating a list
+list_example = [38, 170, 26, 2, 400]
+
+#Morphing a list into a tuple
+tuple_from_ex_list = tuple(list_example)
+
+#Printing tuple_from_ex_list type to test
+print(type(tuple_from_ex_list))
+
+#$$$$ End of all computations $$$$
+
+#$$$$ End of the script $$$$
