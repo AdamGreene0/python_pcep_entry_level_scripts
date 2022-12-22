@@ -1,0 +1,31 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Merge two dictionaries together to make a third - then printing the result
+
+#Beginning of computations
+
+#Creating a number to string dictionary #1 
+foreign_ships = {
+     1: 'Portugal',
+     2: 'Australia',
+    3: 'Colombia'
+}
+
+#Creating a number to string dictionary #2
+domestic_ships = {
+    999: 'Schooner',
+    777: 'America',
+    222: 'Seattle'
+}
+
+#Merging the dictionaries together
+total_ships = {**foreign_ships,** domestic_ships}
+
+#printing the newly created dictionary
+print(total_ships) #outputs: {1: 'Portugal', 2: 'Australia', 3: 'Colombia', 999: 'Schooner', 777: 'America', 222: 'Seattle'}
+
+
+#$$$$ End of all computations $$$$
+
+#$$$$ End of the script $$$$
