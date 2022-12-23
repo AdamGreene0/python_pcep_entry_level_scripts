@@ -1,0 +1,19 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Basic try and except technique example
+
+#$$$$Beginning of computations$$$$$$$
+
+#What the program will 'try' unless an error occurs              
+try:
+    number_pin = int(input("Please enter to pick your employee pin: "))
+    print("Please confirm you want to use:",number_pin)
+
+#runs if any errors happen along the way   
+except:
+    print("Sorry only digits")
+
+#End of computations$$$$$$$
+
+#$$$$ End of the script $$$$
