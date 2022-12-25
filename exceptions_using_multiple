@@ -1,0 +1,31 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A multiple exceptions example:
+                            #A. ZeroDivisionError:, B ValueError: C Default
+
+#$$$$Beginning of computations$$$$$$$
+
+total_storage = 100
+
+#What the program will 'try' unless an error occurs              
+try:
+    number_projects = int(input("How many projects are you housing on your cpu? "))
+    storage_split = total_storage /  number_projects
+    print("Equally split they're each reserved:",storage_split)
+
+ #If a someone tries to divide by zero    
+except ZeroDivisionError:
+    print("0 projects?! What shall we build?")
+
+#For example if the user enters a string instead of a number
+except ValueError:
+    print("Numbers only.Perhaps you spelled the number?"
+
+#Default exception * has to be last in your exception branches!
+except:
+    print("Sorry only digits")
+
+#End of computations$$$$$$$
+
+#$$$$ End of the script $$$$
