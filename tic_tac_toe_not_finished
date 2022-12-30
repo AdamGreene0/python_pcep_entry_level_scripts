@@ -1,7 +1,7 @@
-#Developer Name: A "Wally" Owi
+#Developer Name: Akinwale "Wally" Owi
 #Program purpose: Create a tic tac toe: pvp game:
 
-
+#Creating the player variables
 player_1 = ""
 player_2 = ""
 
@@ -19,7 +19,6 @@ else:
     player_2 = 'x'
 
 print("Player 2 is : ", player_2)
-
 
 #The board creation
 board = []
