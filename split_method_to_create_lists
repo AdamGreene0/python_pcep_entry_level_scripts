@@ -1,0 +1,27 @@
+#Absolute beginning of script
+
+#Developer: Akinwale "Wally" Owi
+#Program purpose: Using the split method to create lists and printing the results.
+
+#String split
+string_to_split = "Happy New Year!"
+result_string = string_to_split.split()
+print(result_string)#outputs ['Happy', 'New', 'Year!']
+
+#numbers with comma
+numbers_with_comma = "5,1"
+split_comma = numbers_with_comma.split()
+print(split_comma)#outputs ['5,1']
+
+#numbers with space
+numbers_with_space = "1 8"
+split_space = numbers_with_space.split()
+print(split_space)#outputs ['1', '8']
+
+#Numbers with no space
+numbers_no_space = "987"
+split_no_space = numbers_no_space.split()
+print(split_no_space)#outputs ['987']
+
+
+#Absolute end the of script
