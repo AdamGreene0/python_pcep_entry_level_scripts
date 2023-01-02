@@ -1,5 +1,9 @@
+
 #Developer Name: Akinwale "Wally" Owi
-#Program purpose: Create a tic tac toe: pvp game
+#Program purpose: Create a tic tac toe: p v cpu game
+
+#Import
+import random
 
 #Creating the player variables
 player_1 = ""
@@ -38,6 +42,40 @@ board[2][0] = 7
 board[2][1] = 8
 board[2][2] = 9
 
+def board_update():
+    #Printing the resulting board
+    print("~The Board~")
+    print(board)
+
 #Printing the resulting board
-print("~The Board~")
-print(board)
+board_update()
+
+
+#~~~~~~~~~Start of the game~~~~~~~
+
+game_over = False
+#~~~~Asking for moves
+
+while (game_over == False):
+    #needs a for to manually put them in spot
+    move_row = int(input("Please enter the row: "))
+    move_column = int(input("Please enter the column: "))
+
+    #test to check if the spot is open could be here?
+    board[move_row][move_column] = player_1
+
+    #Printing the resulting board
+    board_update()
+
+
+    #player 2's move -  currently the computer
+    
+    move_row_cpu = (random.randint(0,2))
+    move_column_cpu = (random.randint(0,2))
+
+    #test to check if the spot is open could be here?
+    board[move_row_cpu][ move_column_cpu] = player_2
+
+    #Printing the resulting board
+    board_update()
+
