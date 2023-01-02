@@ -1,0 +1,14 @@
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: Random number generator within a range
+
+#Necessary import
+import random
+
+#Random numbers 1-10,
+to_ten = (random.randint(0,10))
+print(to_ten)
+
+#Random numbers through the 400s, 400-499,
+four_hundreds = (random.randint(400,499))
+print(four_hundreds)
+
