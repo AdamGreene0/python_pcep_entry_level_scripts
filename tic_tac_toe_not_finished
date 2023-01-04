@@ -58,9 +58,27 @@ game_over = False
 while (game_over == False):
     #needs a for to manually put them in spot
     move_row = int(input("Please enter the row: "))
-    move_column = int(input("Please enter the column: "))
 
-    #test to check if the spot is open could be here?
+    #row in bounds test
+    while (move_row <0 or move_row > 2):
+         move_row = int(input("Our mistake. Please enter the row: between 0-2: "))
+
+    #column in bounds test
+    move_column = int(input("Please enter the column: "))
+    
+
+    #column in bounds test
+    while (move_column <0 or move_column > 2):
+          move_column = int(input("Our mistake. Please enter the column: between 0-2: "))
+
+
+    
+    #~~~~~~~~~~~~~test to check if the spot is open could be here?
+    #Checks, 1 if spot taken
+   # while([move_row][move_column] == player_1):
+       # print()
+
+    #Setting the move
     board[move_row][move_column] = player_1
 
     #Printing the resulting board
