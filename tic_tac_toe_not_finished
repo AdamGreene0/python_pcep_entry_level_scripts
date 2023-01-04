@@ -76,7 +76,11 @@ while (game_over == False):
             move_column = int(input("Our mistake. Please enter the column: between 0-2: "))
 
         if(board[move_row][move_column] == player_1):
-            print("Sorry that position is already taken")
+            print("Sorry you've already taken that position")
+            player_questions()
+
+        elif (board[move_row][move_column] == player_2):
+            print("Apologies, your opponent has taken that position")
             player_questions()
             
         else:
