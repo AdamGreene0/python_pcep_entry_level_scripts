@@ -1,0 +1,67 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: Use breaks with multidimensional list
+
+
+#**********Beginning of computations*************
+
+#Creating the list/board creation
+board = []
+still_open = "~" 
+board =[[still_open for rows in range(3)] for columns in range(3)]
+
+
+board[0][0] = 1
+board[0][1] = 2
+board[0][2] = 3
+
+board[1][0] = 4
+board[1][1] = 5
+board[1][2] = 6
+
+board[2][0] = 7
+board[2][1] = 8
+board[2][2] = 9
+
+#End of board creation
+
+#Beginning of board check 
+def board_check():
+    print(board)
+#End of board check 
+
+board_check()
+
+#Creating the players
+player_1 = "o"
+cpu = "x"
+
+#first move
+board[1][1] = cpu
+
+board_check()
+
+
+#Break conditions practice
+game_over = False
+
+while game_over == False:
+    #Start of while game_over == False:
+    choice_player = int(input("Please enter your move:"))
+    print(choice_player)
+    
+    #1 condition if
+    if  choice_player > 9:
+        print("out of bounds break test")
+        game_over = True
+        
+    #2 based off of board change
+    
+    #End of while game_over == False:
+    
+
+#**********End of computations*************
+
+
+#*******Absolute end of the script***************
