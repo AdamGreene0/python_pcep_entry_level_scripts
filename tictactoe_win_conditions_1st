@@ -1,0 +1,110 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
+#Current update: indiv number choice is used for space choice
+
+
+#**********Beginning of computations*************
+
+#Creating the list/board creation
+board = []
+still_open = "~" 
+board =[[still_open for rows in range(3)] for columns in range(3)]
+
+
+board[0][0] = 1
+board[0][1] = 2
+board[0][2] = 3
+
+board[1][0] = 4
+board[1][1] = 5
+board[1][2] = 6
+
+board[2][0] = 7
+board[2][1] = 8
+board[2][2] = 9
+
+#End of board creation
+
+#Beginning of board check 
+def board_check():
+    print(board)
+#End of board check 
+
+board_check()
+
+#Creating the players
+player_1 = "o"
+cpu = "x"
+
+#first move
+board[1][1] = cpu
+
+board_check()
+
+
+#Break conditions practice
+game_over = False
+
+while game_over == False:
+    #Start of while game_over == False:
+    choice_player = int(input("Please enter your move: "))
+    print(choice_player)
+    
+    #1 condition if
+    if  choice_player == 1:
+        
+        board [0][0] = player_1
+        board_check()
+        
+    elif choice_player == 2:
+
+        board [0][1] = player_1
+        board_check()
+
+    elif choice_player == 3:
+
+        board [0][2] = player_1
+        board_check()
+
+    elif choice_player == 4:
+
+        board [1][0] = player_1
+        board_check()
+
+    #No 5 because the cpus 1st move is always 1,1
+
+    elif choice_player == 6:
+
+        board [1][2] = player_1
+        board_check()
+
+    elif choice_player == 7:
+
+        board [2][0] = player_1
+        board_check()
+        
+    elif choice_player == 8:
+
+        board [2][1] = player_1
+        board_check()
+
+    elif choice_player == 9:
+
+        board [2][2] = player_1
+        board_check()
+        
+    else:
+        print("Not a choice = break check") 
+        game_over = True
+        
+    #2 based off of board change
+    
+    #End of while game_over == False:
+    
+
+#**********End of computations*************
+
+
+#*******Absolute end of the script***************
