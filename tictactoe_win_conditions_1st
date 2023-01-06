@@ -3,7 +3,8 @@
 #Developer Name: Akinwale "Wally" Owi
 #Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
 #Current updates (2): (1)indiv number choice is used for space choice
-#(2): 1 row win condition
+#(2): Win conditions work with the player's moves
+
  
 
 
@@ -115,15 +116,26 @@ while game_over == False:
     #~~~~~~~Beginning of win conditions~~~~~~~~
 
     #Beginning of def win_check():
-    
+
+    #Row wins
     if ( (board [0][0] == player_1) and (board [0][1] == player_1) and (board [0][2] == player_1) ):
-        print ("Row 1 sweep, game over")
+        print ("Player 1 wins, row 1 sweep,  game over")
         game_over = True
 
 
     elif ( (board [2][0] == player_1) and (board [2][1] == player_1) and (board [2][2] == player_1) ):
-        print ("Row 3 sweep, game over")
+        print ("Player 1 wins, row 3 sweep, game over")
         game_over = True
+
+    #Column wins
+    elif ( (board [0][0] == player_1) and (board [1][0] == player_1) and (board [2][0] == player_1) ):
+        print ("Player 1 wins, column 1 win, game over")
+        game_over = True
+
+    elif ( (board [0][2] == player_1) and (board [1][2] == player_1) and (board [2][2] == player_1) ):
+        print ("Player 1 wins, column 3 win, game over")
+        game_over = True
+
 
     else:
         
