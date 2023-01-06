@@ -2,7 +2,9 @@
 
 #Developer Name: Akinwale "Wally" Owi
 #Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
-#Current update: indiv number choice is used for space choice
+#Current updates (2): (1)indiv number choice is used for space choice
+#(2): 1 row win condition
+ 
 
 
 #**********Beginning of computations*************
@@ -44,8 +46,11 @@ board[1][1] = cpu
 board_check()
 
 
-#Break conditions practice
+
+#Win conditions practice
 game_over = False
+
+
 
 while game_over == False:
     #Start of while game_over == False:
@@ -57,21 +62,25 @@ while game_over == False:
         
         board [0][0] = player_1
         board_check()
+        #win_check()
         
     elif choice_player == 2:
 
         board [0][1] = player_1
         board_check()
-
+        #win_check()
+        
     elif choice_player == 3:
 
         board [0][2] = player_1
         board_check()
+        #win_check()
 
     elif choice_player == 4:
 
         board [1][0] = player_1
         board_check()
+        #win_check()
 
     #No 5 because the cpus 1st move is always 1,1
 
@@ -79,29 +88,58 @@ while game_over == False:
 
         board [1][2] = player_1
         board_check()
+        #win_check()
 
     elif choice_player == 7:
 
         board [2][0] = player_1
         board_check()
+        #win_check()
         
     elif choice_player == 8:
 
         board [2][1] = player_1
         board_check()
+        #win_check()
 
     elif choice_player == 9:
 
         board [2][2] = player_1
         board_check()
+        #win_check()
         
     else:
-        print("Not a choice = break check") 
-        game_over = True
-        
-    #2 based off of board change
+        print("Not a choice = sorry")
+
+
+    #~~~~~~~Beginning of win conditions~~~~~~~~
+
+    #Beginning of def win_check():
     
-    #End of while game_over == False:
+    if ( (board [0][0] == player_1) and (board [0][1] == player_1) and (board [0][2] == player_1) ):
+        print ("Row 1 sweep, game over")
+        game_over = True
+
+
+    elif ( (board [2][0] == player_1) and (board [2][1] == player_1) and (board [2][2] == player_1) ):
+        print ("Row 3 sweep, game over")
+        game_over = True
+
+    else:
+        
+        game_over = False
+        
+    
+    #End of def win_check():
+    
+
+#~~~~~~~~~End of win conditions~~~~~~~
+
+
+
+        
+    
+    #***********End of while game_over == False:***************
     
 
 #**********End of computations*************
