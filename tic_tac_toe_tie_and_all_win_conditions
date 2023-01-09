@@ -2,11 +2,11 @@
 
 #Developer Name: Akinwale "Wally" Owi
 #Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
-#Current updates (2): (1)indiv number choice is used for space choice
-#(2): Win conditions work with the player's moves
-#(3):Tie works
+#Current updates (3):
+#(1): indiv number choice is used for space choice
+#(2): win conditions work for both sides
+#(3): tie works
 
- 
 
 #**********Beginning of computations*************
 
@@ -116,10 +116,6 @@ def cpu_move():
 
         
 #End of cpu 2nd move and on function
-
-    
-
-
 
 
 while game_over == False:
@@ -262,9 +258,6 @@ while game_over == False:
     elif ( (board [0][2] == cpu) and (board [1][1] == cpu) and (board [2][0] == cpu) ):
         print ("Cpu wins, diagonal win 2 to 0, game over")
         game_over = True
-
-    
-
         
         
     else:
@@ -276,8 +269,6 @@ while game_over == False:
     
 
 #~~~~~~~~~End of win conditions~~~~~~~
-
-
 
         
     
