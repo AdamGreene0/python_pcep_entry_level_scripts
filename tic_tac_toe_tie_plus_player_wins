@@ -1,0 +1,249 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
+#Current updates (2): (1)indiv number choice is used for space choice
+#(2): Win conditions work with the player's moves
+#(3):Tie works
+
+ 
+
+#**********Beginning of computations*************
+
+
+#import(s)
+import random
+
+
+#Creating the list/board creation
+board = []
+still_open = "~" 
+board =[[still_open for rows in range(3)] for columns in range(3)]
+
+
+board[0][0] = 1
+board[0][1] = 2
+board[0][2] = 3
+
+board[1][0] = 4
+board[1][1] = 5
+board[1][2] = 6
+
+board[2][0] = 7
+board[2][1] = 8
+board[2][2] = 9
+
+#End of board creation
+
+#Beginning of board check 
+def board_check():
+    print(board)
+#End of board check 
+
+board_check()
+
+#Creating the players
+player_1 = "o"
+cpu = "x"
+
+#first move
+board[1][1] = cpu
+
+#printing the resulting board
+board_check()
+
+#Win conditions practice
+game_over = False
+
+#choice_cpu = 0
+
+#Beginning of cpu 2nd move and on function
+def cpu_move():
+    
+    
+    choice_cpu = (random.randint(1,9))
+    print("cpu roll was ", choice_cpu)
+
+
+    if (choice_cpu == 1):
+        
+        board [0][0] = cpu
+        
+        board_check()
+        #win_check()
+        
+    elif choice_cpu == 2:
+        board [0][1] = cpu
+        board_check()
+        #win_check()
+        
+    elif choice_cpu == 3:
+        board [0][2] = cpu
+        board_check()
+        #win_check()
+
+    elif choice_cpu == 4:
+        board [1][0] = cpu
+        board_check()
+        #win_check()
+
+    #No 5 because the cpus 1st move is always 1,1
+    elif choice_cpu == 5:
+        cpu_move()
+                
+    elif choice_cpu == 6:
+        board [1][2] = cpu
+        board_check()
+        #win_check()
+
+    elif choice_cpu == 7:
+
+        board [2][0] = cpu
+        board_check()
+        #win_check()
+        
+    elif choice_cpu == 8:
+
+        board [2][1] = cpu
+        board_check()
+        #win_check()
+
+    else:
+        board [2][2] = cpu
+        board_check()
+        #win_check()
+   
+
+        
+#End of cpu 2nd move and on function
+
+    
+
+
+
+
+while game_over == False:
+    #Start of while game_over == False:
+    choice_player = int(input("Please enter your move: "))
+    print(choice_player)
+    
+    #1 condition if
+    if  choice_player == 1:
+        
+        board [0][0] = player_1        
+        board_check()
+
+        cpu_move()
+        
+        #win_check()
+        
+    elif choice_player == 2:
+
+        board [0][1] = player_1     
+        board_check()
+
+        cpu_move()
+        #win_check()
+        
+    elif choice_player == 3:
+
+        board [0][2] = player_1
+        cpu_move()
+        board_check()
+        #win_check()
+
+    elif choice_player == 4:
+
+        board [1][0] = player_1
+        cpu_move()
+        board_check()
+        #win_check()
+
+    #No 5 because the cpus 1st move is always 1,1
+
+    elif choice_player == 6:
+
+        board [1][2] = player_1
+        board_check()
+
+        cpu_move()
+        #win_check()
+
+    elif choice_player == 7:
+
+        board [2][0] = player_1
+        board_check()
+
+        cpu_move()
+        #win_check()
+        
+    elif choice_player == 8:
+
+        board [2][1] = player_1
+        board_check()
+
+        cpu_move()
+        #win_check()
+
+    elif choice_player == 9:
+
+        board [2][2] = player_1
+        board_check()
+
+        cpu_move()
+        #win_check()
+        
+    else:
+        print("Not a choice = sorry")
+
+
+    #~~~~~~~Beginning of win conditions~~~~~~~~
+
+    #Beginning of def win_check():
+
+    #Row wins
+    if ( (board [0][0] == player_1) and (board [0][1] == player_1) and (board [0][2] == player_1) ):
+        print ("Player 1 wins, row 1 sweep,  game over")
+        game_over = True
+
+
+    elif ( (board [2][0] == player_1) and (board [2][1] == player_1) and (board [2][2] == player_1) ):
+        print ("Player 1 wins, row 3 sweep, game over")
+        game_over = True
+
+    #Column wins
+    elif ( (board [0][0] == player_1) and (board [1][0] == player_1) and (board [2][0] == player_1) ):
+        print ("Player 1 wins, column 1 win, game over")
+        game_over = True
+
+    elif ( (board [0][2] == player_1) and (board [1][2] == player_1) and (board [2][2] == player_1) ):
+        print ("Player 1 wins, column 3 win, game over")
+        game_over = True
+
+    #~Tie~
+    elif ( (board [0][0] != 1) and (board [0][1] != 2) and (board [0][2] != 3) and (board [1][0] != 4) and (board [1][1] != 5) and (board [1][2] != 6) and  (board [2][0] != 7) and(board [2][1] != 8) and (board [2][2] != 9) ):
+        print ("Tie! Game over!")
+        game_over = True
+
+
+    else:
+        
+        game_over = False
+        
+    
+    #End of def win_check():
+    
+
+#~~~~~~~~~End of win conditions~~~~~~~
+
+
+
+        
+    
+    #***********End of while game_over == False:***************
+    
+
+#**********End of computations*************
+
+
+#*******Absolute end of the script***************
