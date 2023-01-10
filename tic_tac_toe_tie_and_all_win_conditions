@@ -2,10 +2,11 @@
 
 #Developer Name: Akinwale "Wally" Owi
 #Program purpose: Tic tac toe from a multi dimensional list: stops on true or false win condition
-#Current updates (3):
+#Current updates (4):
 #(1): indiv number choice is used for space choice
 #(2): win conditions work for both sides
 #(3): tie works
+#(4): All checks work except enemy checking for player 
 
 
 #**********Beginning of computations*************
@@ -58,25 +59,21 @@ board_check()
 
 #Beginning of cpu 2nd move and on function
 def cpu_move():
-    
-    
+
     choice_cpu = (random.randint(1,9))
     print("cpu roll was ", choice_cpu)
 
-
     if (choice_cpu == 1):
-
         #open check
         if (board [0][0] != 1):
             cpu_move()
         else:
             board [0][0] = cpu
             board_check()
-    
-        
+          
     elif choice_cpu == 2:
 
-         #open check
+        #open check
         if  (board [0][1] != 2):
             cpu_move()
         else:
@@ -89,8 +86,8 @@ def cpu_move():
         board [0][2] = cpu
         board_check()
         
-
     elif choice_cpu == 4:
+
         board [1][0] = cpu
         board_check()
         
@@ -102,24 +99,23 @@ def cpu_move():
     elif choice_cpu == 6:
         board [1][2] = cpu
         board_check()
-        #win_check()
 
     elif choice_cpu == 7:
 
         board [2][0] = cpu
         board_check()
-        #win_check()
-        
+             
     elif choice_cpu == 8:
 
         board [2][1] = cpu
         board_check()
-        #win_check()
+        
 
     else:
+
         board [2][2] = cpu
         board_check()
-        #win_check()
+        
    
 
         
@@ -129,6 +125,7 @@ def player():
 
     #Game still progressing switch
     game_over = False
+    
     #Beginning of def player indent
     while game_over == False:
         #Start of while game_over == False: indent
@@ -145,7 +142,7 @@ def player():
                 board [0][0] = player_1        
                 board_check()
 
-                cpu_move()
+                #cpu_move()
         
        
         
@@ -158,7 +155,7 @@ def player():
                 board [0][1] = player_1     
                 board_check()
 
-                cpu_move()
+                #cpu_move()
         
         
         elif choice_player == 3:
@@ -170,7 +167,7 @@ def player():
                 board [0][2] = player_1
                 board_check()
 
-                cpu_move()
+                #cpu_move()
            
       
         elif choice_player == 4:
@@ -182,7 +179,7 @@ def player():
                 board [1][0] = player_1
                 board_check()
             
-                cpu_move()
+                #cpu_move()
 
         elif choice_player == 5:
 
@@ -193,7 +190,7 @@ def player():
                 board [1][1] = player_1
                 board_check()
             
-                cpu_move()   
+                #cpu_move()   
         
 
         elif choice_player == 6:
@@ -205,7 +202,7 @@ def player():
                 board [1][2] = player_1
                 board_check()
 
-                cpu_move()
+                #cpu_move()
         
 
         elif choice_player == 7:
@@ -217,7 +214,7 @@ def player():
                 board [2][0] = player_1
                 board_check()
 
-                cpu_move()
+                #cpu_move()
             
         
         elif choice_player == 8:
@@ -229,7 +226,7 @@ def player():
                 board [2][1] = player_1
                 board_check()
 
-                cpu_move()
+                #cpu_move()
         
 
         elif choice_player == 9:
@@ -241,7 +238,7 @@ def player():
                 board [2][2] = player_1
                 board_check()
 
-                cpu_move()
+                #cpu_move()
             
         else:
             print("Not a choice = sorry")
@@ -253,25 +250,29 @@ def player():
         if ( (board [0][0] == player_1) and (board [0][1] == player_1) and (board [0][2] == player_1) ):
             print ("Player 1 wins, row 1 sweep,  game over")
             game_over = True
-
+            break
 
         elif ( (board [2][0] == player_1) and (board [2][1] == player_1) and (board [2][2] == player_1) ):
             print ("Player 1 wins, row 3 sweep, game over")
             game_over = True
-
+            break
+        
         #Column wins
         elif ( (board [0][0] == player_1) and (board [1][0] == player_1) and (board [2][0] == player_1) ):
             print ("Player 1 wins, column 1 win, game over")
             game_over = True
+            break
 
         elif ( (board [0][2] == player_1) and (board [1][2] == player_1) and (board [2][2] == player_1) ):
             print ("Player 1 wins, column 3 win, game over")
             game_over = True
+            break
 
         #~Tie~
         elif ( (board [0][0] != 1) and (board [0][1] != 2) and (board [0][2] != 3) and (board [1][0] != 4) and (board [1][1] != 5) and (board [1][2] != 6) and  (board [2][0] != 7) and(board [2][1] != 8) and (board [2][2] != 9) ):
             print ("Tie! Game over!")
             game_over = True
+            break
 
 
         #~Cpu wins~
@@ -279,41 +280,50 @@ def player():
         if ( (board [0][0] == cpu) and (board [0][1] == cpu) and (board [0][2] == cpu) ):
             print ("cpu wins, row 1 sweep,  game over")
             game_over = True
+            break
 
         elif ( (board [1][0] == cpu) and (board [1][1] == cpu) and (board [1][2] == cpu) ):
             print ("cpu wins, row 2 sweep, game over")
             game_over = True
+            break
 
         elif ( (board [2][0] == cpu) and (board [2][1] == cpu) and (board [2][2] == cpu) ):
             print ("cpu wins, row 3 sweep, game over")
             game_over = True
+            break
 
         #Cpu column wins
         elif ( (board [0][0] == cpu) and (board [1][0] == cpu) and (board [2][0] == cpu) ):
             print ("Cpu wins, column 1 win, game over")
             game_over = True
+            break
 
         elif ( (board [0][1] == cpu) and (board [1][1] == cpu) and (board [2][1] == cpu) ):
             print ("Cpu wins, column 2 win, game over")
             game_over = True
+            break
 
         elif ( (board [0][2] == cpu) and (board [1][2] == cpu) and (board [2][2] == cpu) ):
             print ("Cpu wins, column 3 win, game over")
             game_over = True
+            break
 
         #cpu diagonal wins
         elif ( (board [0][0] == cpu) and (board [1][1] == cpu) and (board [2][2] == cpu) ):
             print ("Cpu wins, diagonal win 0 to 2, game over")
             game_over = True
+            break
 
 
         elif ( (board [0][2] == cpu) and (board [1][1] == cpu) and (board [2][0] == cpu) ):
             print ("Cpu wins, diagonal win 2 to 0, game over")
             game_over = True
+            break
             
         else:
         
             game_over = False
+            cpu_move()
         
 
         #~~~~~~~~~End of win conditions~~~~~~~
