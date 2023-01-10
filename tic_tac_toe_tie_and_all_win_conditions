@@ -82,14 +82,24 @@ def cpu_move():
         
         
     elif choice_cpu == 3:
-         
-        board [0][2] = cpu
-        board_check()
+
+         #open check
+        if  (board [0][1] != 3):
+            cpu_move()
+        else:
+            
+            board [0][2] = cpu
+            board_check()
         
     elif choice_cpu == 4:
 
-        board [1][0] = cpu
-        board_check()
+         #open check
+        if  (board [1][0] != 4):
+            cpu_move()
+        else:
+
+            board [1][0] = cpu
+            board_check()
         
 
     #No 5 because the cpus 1st move is always 1,1
@@ -97,24 +107,43 @@ def cpu_move():
         cpu_move()
                 
     elif choice_cpu == 6:
-        board [1][2] = cpu
-        board_check()
+
+         #open check
+        if  (board [1][2] != 6):
+            cpu_move()
+        else:
+            board [1][2] = cpu
+            board_check()
 
     elif choice_cpu == 7:
 
-        board [2][0] = cpu
-        board_check()
+         #open check
+        if  (board [2][0] != 7):
+            cpu_move()
+        else:
+
+            board [2][0] = cpu
+            board_check()
              
     elif choice_cpu == 8:
 
-        board [2][1] = cpu
-        board_check()
+         #open check
+        if  (board [2][1] != 8):
+            cpu_move()
+        else:
+
+            board [2][1] = cpu
+            board_check()
         
 
     else:
 
-        board [2][2] = cpu
-        board_check()
+         #open check
+        if  (board [2][2] != 9):
+            cpu_move()
+        else:
+            board [2][2] = cpu
+            board_check()
         
    
 
