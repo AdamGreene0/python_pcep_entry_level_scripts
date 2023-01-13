@@ -1,0 +1,61 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: Rebuild Tic Tac Toe: this time with the lab requested functions
+
+#**********Beginning of computations*************
+
+
+#import(s)
+import random
+
+
+#~~~~~~~~~~Beginning of creating the list/board creation
+board = []
+still_open = "~" 
+board =[[still_open for rows in range(3)] for columns in range(3)]
+
+
+board[0][0] = 1
+board[0][1] = 2
+board[0][2] = 3
+
+board[1][0] = 4
+board[1][1] = 5
+board[1][2] = 6
+
+board[2][0] = 7
+board[2][1] = 8
+board[2][2] = 9
+
+#~~~~~~~~~~End of board creation~~~~
+
+
+#~~~~~~~~~~Beginning of fxs
+
+#~~Beginning of display board - 1 prints current board
+def display_board(board):
+    print("The board currently looks like:", board)
+
+#~~End of display board - 1 prints current board 2 prints the current game store
+
+#def enter_choice(board):
+    
+#def open_spaces(board):
+
+#def victory_check(board, character):
+
+#def cpu_move(board): 
+
+#~~~~~~~~~~End of fxs 
+
+#Test
+display_board(board)
+
+
+#*******Absolute end of the script***************
+
+
+
+
+
