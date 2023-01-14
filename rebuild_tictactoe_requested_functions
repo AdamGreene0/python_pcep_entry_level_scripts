@@ -164,17 +164,40 @@ def open_spaces(board):
     tuple_row_3 = ((board[2][0]),(board[2][1]),(board[2][2]))
     print("Row 3: ",tuple_row_3)
     
-    #~tuple space checks
+    #~~~Beginning of open space list building~~~~~
+    
     #Beginning of for space in tuple_row_1 :
     for space in tuple_row_1 :
         #Beginning of if type(space) == int:
         if type(space) == int:
             list_open_spaces.append(space)
         #end of if type(space) == int:
-
     #End of for space in tuple_row_1 :
-    print("L row 1 openings:",list_open_spaces)
-  
+
+    #Beginning of for space in tuple_row_2 :
+    for space in tuple_row_2 :
+        #Beginning of if type(space) == int:
+        if type(space) == int:
+            list_open_spaces.append(space)
+        #end of if type(space) == int:
+    #End of for space in tuple_row_ 2
+
+
+    #Beginning of for space in tuple_row_2 :
+    for space in tuple_row_3 :
+        #Beginning of if type(space) == int:
+        if type(space) == int:
+            list_open_spaces.append(space)
+        #end of if type(space) == int:
+    #End of for space in tuple_row_3
+    
+
+            
+   
+    
+    #~~~End of open space list building~~~~~
+    #printing the result
+    print("List of all openings:",list_open_spaces)
 
 #~~End of open_spaces(board):
 
