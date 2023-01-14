@@ -208,6 +208,7 @@ def victory_check(board, character):
     game_over = False
     print ("Game over:?",game_over)
 
+    enter_choice(board)
     while(game_over == False):
         cpu_move(board)
         enter_choice(board)
@@ -295,7 +296,7 @@ def victory_check(board, character):
 
 
     #~~~~~~~~~End of win conditions~~~~~~~
-    print ("Still game over:?",game_over)
+     
     
 
 #~~End of def victory_check(board, character):
@@ -385,22 +386,11 @@ def cpu_move(board):
 
 #~~End of def cpu_move(board):
 
-    
-
 #~~~~~~~~~~End of fxs
 
-#~~~~~~~~~~~
-
-#Test 3 - checks the player move accepts and alters
-#enter_choice(board)
-#Test - 4 see if open spaces will work twice -itll be in a while when the game is finished
-#open_spaces(board)
-#enter_choice(board)
-#open_spaces(board)
 
 #Test 5 - just checking if either side won
 victory_check(board, player_1)
-
 
 
 #*******Absolute end of the script***************
