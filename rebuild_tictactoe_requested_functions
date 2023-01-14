@@ -3,6 +3,7 @@
 #Developer Name: Akinwale "Wally" Owi
 #Program purpose: Rebuild Tic Tac Toe: this time with the lab requested functions
 
+
 #**********Beginning of computations*************
 
 
@@ -138,7 +139,33 @@ def enter_choice(board):
 #~~End of enter_choice(board):
 
 
-#def open_spaces(board):
+#~~Beginning of open_spaces(board):
+def open_spaces(board):
+    #print("All of the board's spaces currently:", board)
+    
+    #Morphing the board list into a tuple = the food is making a tuple out of row and column pairs
+    #tuple_board = tuple(board)
+    #print("Tuple of board:", tuple_board)
+
+    #row 1
+    tuple_row_1 = ((board[0][0]),(board[0][1]),(board[0][2]))
+    print("Row 1: ",tuple_row_1)
+
+
+    #row 2
+    tuple_row_2 = ((board[1][0]),(board[1][1]),(board[1][2]))
+    print("Row 2: ",tuple_row_2)
+
+
+    #row 3
+    tuple_row_3 = ((board[2][0]),(board[2][1]),(board[2][2]))
+    print("Row 3: ",tuple_row_3)
+    #~tuple space checks
+    
+    
+    
+
+#~~End of open_spaces(board):
 
 #def victory_check(board, character):
 
@@ -146,18 +173,14 @@ def enter_choice(board):
 
 #~~~~~~~~~~End of fxs 
 
-#Test 2 - checks the player move accepts and alters
+#Test 3 - checks the player move accepts and alters
 enter_choice(board)
+open_spaces(board)
+
+
+
 
 #*******Absolute end of the script***************
-
-
-
-
-
-
-
-
 
 
 
