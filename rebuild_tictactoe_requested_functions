@@ -11,7 +11,8 @@
 import random
 
 #Players
-player_1 = "o" 
+player_1 = "o"
+cpu = "x"
 
 #~~~~~~~~~~Beginning of creating the list/board creation
 board = []
@@ -200,19 +201,121 @@ def open_spaces(board):
     print("List of all openings:",list_open_spaces)
 
 #~~End of open_spaces(board):
+    
+#~~Beginning of def victory_check(board, character):
+def victory_check(board, character):
 
-#def victory_check(board, character):
+    game_over = False
+    print ("Game over:?",game_over)
+
+    while(game_over == False):
+        enter_choice(board)
+        display_board(board)
+
+        #~~~~~~~Beginning of win conditions~~~~~~~~
+
+        if ( (board [0][0] == player_1) and (board [0][1] == player_1) and (board [0][2] == player_1) ):
+            print ("Player 1 wins, row 1 sweep,  game over")
+            game_over = True
+            break
+
+        elif ( (board [2][0] == player_1) and (board [2][1] == player_1) and (board [2][2] == player_1) ):
+            print ("Player 1 wins, row 3 sweep, game over")
+            game_over = True
+            break
+        
+        #Column wins
+        elif ( (board [0][0] == player_1) and (board [1][0] == player_1) and (board [2][0] == player_1) ):
+            print ("Player 1 wins, column 1 win, game over")
+            game_over = True
+            break
+
+        elif ( (board [0][2] == player_1) and (board [1][2] == player_1) and (board [2][2] == player_1) ):
+            print ("Player 1 wins, column 3 win, game over")
+            game_over = True
+            break
+
+        #~Tie~
+        elif ( (board [0][0] != 1) and (board [0][1] != 2) and (board [0][2] != 3) and (board [1][0] != 4) and (board [1][1] != 5) and (board [1][2] != 6) and  (board [2][0] != 7) and(board [2][1] != 8) and (board [2][2] != 9) ):
+            print ("Tie! Game over!")
+            game_over = True
+            break
+
+
+        #~Cpu wins~
+        #Cpu Row wins
+        if ( (board [0][0] == cpu) and (board [0][1] == cpu) and (board [0][2] == cpu) ):
+            print ("cpu wins, row 1 sweep,  game over")
+            game_over = True
+            break
+
+        elif ( (board [1][0] == cpu) and (board [1][1] == cpu) and (board [1][2] == cpu) ):
+            print ("cpu wins, row 2 sweep, game over")
+            game_over = True
+            break
+
+        elif ( (board [2][0] == cpu) and (board [2][1] == cpu) and (board [2][2] == cpu) ):
+            print ("cpu wins, row 3 sweep, game over")
+            game_over = True
+            break
+
+        #Cpu column wins
+        elif ( (board [0][0] == cpu) and (board [1][0] == cpu) and (board [2][0] == cpu) ):
+            print ("Cpu wins, column 1 win, game over")
+            game_over = True
+            break
+
+        elif ( (board [0][1] == cpu) and (board [1][1] == cpu) and (board [2][1] == cpu) ):
+            print ("Cpu wins, column 2 win, game over")
+            game_over = True
+            break
+
+        elif ( (board [0][2] == cpu) and (board [1][2] == cpu) and (board [2][2] == cpu) ):
+            print ("Cpu wins, column 3 win, game over")
+            game_over = True
+            break
+
+        #cpu diagonal wins
+        elif ( (board [0][0] == cpu) and (board [1][1] == cpu) and (board [2][2] == cpu) ):
+            print ("Cpu wins, diagonal win 0 to 2, game over")
+            game_over = True
+            break
+
+
+        elif ( (board [0][2] == cpu) and (board [1][1] == cpu) and (board [2][0] == cpu) ):
+            print ("Cpu wins, diagonal win 2 to 0, game over")
+            game_over = True
+            break
+            
+        else:
+            game_over = False
+            #cpu_move()
+
+
+
+    #~~~~~~~~~End of win conditions~~~~~~~
+    print ("Still game over:?",game_over)
+    
+
+#~~End of def victory_check(board, character):
+
+
 
 #def cpu_move(board): 
 
-#~~~~~~~~~~End of fxs 
+#~~~~~~~~~~End of fxs
+
+#~~~~~~~~~~~
 
 #Test 3 - checks the player move accepts and alters
-enter_choice(board)
+#enter_choice(board)
 #Test - 4 see if open spaces will work twice -itll be in a while when the game is finished
-open_spaces(board)
-enter_choice(board)
-open_spaces(board)
+#open_spaces(board)
+#enter_choice(board)
+#open_spaces(board)
+
+#Test 5 - just checking if either side won
+victory_check(board, player_1)
 
 
 
