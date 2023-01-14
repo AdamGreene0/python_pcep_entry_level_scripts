@@ -25,7 +25,7 @@ board[0][1] = 2
 board[0][2] = 3
 
 board[1][0] = 4
-board[1][1] = 5
+board[1][1] = "x"
 board[1][2] = 6
 
 board[2][0] = 7
@@ -209,8 +209,9 @@ def victory_check(board, character):
     print ("Game over:?",game_over)
 
     while(game_over == False):
+        cpu_move(board)
         enter_choice(board)
-        display_board(board)
+        #display_board(board)
 
         #~~~~~~~Beginning of win conditions~~~~~~~~
 
@@ -299,9 +300,92 @@ def victory_check(board, character):
 
 #~~End of def victory_check(board, character):
 
+#~~Beginning of def cpu_move(board):
+def cpu_move(board):
 
+    choice_cpu = (random.randint(1,9))
+    print("cpu roll was ", choice_cpu)
 
-#def cpu_move(board): 
+    if (choice_cpu == 1):
+        #open check
+        if (board [0][0] != 1):
+            cpu_move(board)
+        else:
+            board [0][0] = cpu
+            
+          
+    elif choice_cpu == 2:
+
+        #open check
+        if  (board [0][1] != 2):
+            cpu_move(board)
+        else:
+            board [0][1] = cpu
+                
+        
+    elif choice_cpu == 3:
+
+         #open check
+        if  (board [0][1] != 3):
+            cpu_move(board)
+        else:
+            
+            board [0][2] = cpu
+            
+        
+    elif choice_cpu == 4:
+
+         #open check
+        if  (board [1][0] != 4):
+            cpu_move(board)
+        else:
+
+            board [1][0] = cpu
+             
+
+    #No 5 because the cpus 1st move is always 1,1
+    elif choice_cpu == 5:
+        cpu_move(board)
+                
+    elif choice_cpu == 6:
+
+         #open check
+        if  (board [1][2] != 6):
+            cpu_move(board)
+        else:
+            board [1][2] = cpu
+            
+
+    elif choice_cpu == 7:
+
+         #open check
+        if  (board [2][0] != 7):
+            cpu_move(board)
+        else:
+
+            board [2][0] = cpu
+             
+    elif choice_cpu == 8:
+
+         #open check
+        if  (board [2][1] != 8):
+            cpu_move(board)
+        else:
+
+            board [2][1] = cpu
+            
+    #cpu rolled a 9
+    else:
+
+         #open check
+        if  (board [2][2] != 9):
+            cpu_move(board)
+        else:
+            board [2][2] = cpu
+
+#~~End of def cpu_move(board):
+
+    
 
 #~~~~~~~~~~End of fxs
 
