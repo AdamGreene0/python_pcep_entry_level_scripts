@@ -9,6 +9,8 @@
 #import(s)
 import random
 
+#Players
+player_1 = "o" 
 
 #~~~~~~~~~~Beginning of creating the list/board creation
 board = []
@@ -39,8 +41,37 @@ def display_board(board):
 
 #~~End of display board - 1 prints current board 2 prints the current game store
 
-#def enter_choice(board):
+#~~Beginning of enter_choice(board):
+def enter_choice(board):
     
+    choice_player = int(input("Please enter your move: "))
+    print(choice_player)
+
+    #1 condition if
+    if  choice_player == 1:
+        #open check
+        if (board [0][0] != 1):
+            enter_choice(board)
+        else:
+            board [0][0] = player_1        
+            print("After the player the move, the board:", board)
+                
+    elif choice_player == 2:
+
+        #open check
+        if (board [0][1] != 2):
+            enter_choice(board)
+        else:
+            board [0][1] = player_1     
+            print("After the player the move, the board:", board)
+
+
+    else:
+        print("Sorry that is not a choice")
+        enter_choice(board)
+#~~End of enter_choice(board):
+
+
 #def open_spaces(board):
 
 #def victory_check(board, character):
@@ -52,6 +83,8 @@ def display_board(board):
 #Test
 display_board(board)
 
+#Test 2 - checks the player move accepts and alters
+enter_choice(board)
 
 #*******Absolute end of the script***************
 
