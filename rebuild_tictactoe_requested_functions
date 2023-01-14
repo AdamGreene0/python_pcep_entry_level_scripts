@@ -209,8 +209,10 @@ def open_spaces(board):
 
 #Test 3 - checks the player move accepts and alters
 enter_choice(board)
+#Test - 4 see if open spaces will work twice -itll be in a while when the game is finished
 open_spaces(board)
-
+enter_choice(board)
+open_spaces(board)
 
 
 
