@@ -43,7 +43,8 @@ def display_board(board):
 
 #~~Beginning of enter_choice(board):
 def enter_choice(board):
-    
+
+    display_board(board)
     choice_player = int(input("Please enter your move: "))
     print(choice_player)
 
@@ -66,9 +67,74 @@ def enter_choice(board):
             print("After the player the move, the board:", board)
 
 
+    elif choice_player == 3:
+
+        #open check
+        if (board [0][2] != 3):
+            enter_choice(board)
+        else:
+            board [0][2] = player_1
+            print("After the player the move, the board:", board)    
+      
+    elif choice_player == 4:
+
+        #open check
+        if (board [1][0] != 4):
+            enter_choice(board)
+        else:    
+             board [1][0] = player_1
+             print("After the player the move, the board:", board)    
+
+    elif choice_player == 5:
+
+        #open check
+        if (board [1][1] != "x"):
+            enter_choice(board)
+        else:
+            board [1][1] = player_1
+            print("After the player the move, the board:", board)     
+
+    elif choice_player == 6:
+
+        #open check
+        if (board [1][2] != 6):
+            enter_choice(board)
+        else:
+            board [1][2] = player_1
+            print("After the player the move, the board:", board)     
+
+    elif choice_player == 7:
+
+         #open check
+        if (board [2][0] != 7):
+            enter_choice(board)
+        else:
+            board [2][0] = player_1
+            print("After the player the move, the board:", board)     
+            
+        
+    elif choice_player == 8:
+
+        #open check
+        if (board [2][1] != 8):
+            enter_choice(board)
+        else:
+            board [2][1] = player_1print("After the player the move, the board:", board) 
+            
+                
+    elif choice_player == 9:
+
+        #open check
+        if (board [2][2] != 9):
+            enter_choice(board)
+        else:
+            board [2][2] = player_1
+            print("After the player the move, the board:", board) 
+    
     else:
         print("Sorry that is not a choice")
         enter_choice(board)
+        
 #~~End of enter_choice(board):
 
 
@@ -80,13 +146,15 @@ def enter_choice(board):
 
 #~~~~~~~~~~End of fxs 
 
-#Test
-display_board(board)
-
 #Test 2 - checks the player move accepts and alters
 enter_choice(board)
 
 #*******Absolute end of the script***************
+
+
+
+
+
 
 
 
