@@ -1,0 +1,47 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: More methods with various parameters, return statement practice
+
+
+#**********Beginning of computations*************
+
+#import(s)
+import random
+
+#note if value is specified in def creation then it must be specified when calling.
+#ie(a = 100)is ok but (a) needs a value or soft variable when called
+
+#~~~~~~~~~beginning of methods~~~~~~~~~~~~~~
+
+#Beginning of single~~~~~~~~~
+def single(a= 100):
+    z = a + 1
+    return z
+#end of single~~~~~~~ 
+
+#Beginning of double~~~~~~~~~
+def double(b = 20,c = 30):
+    y = b + c
+    return y
+#end of double~~~~~~~ 
+
+#Beginning of triple~~~~~~~~~
+def triple(d,e,f):
+    x = d + e + f
+    return x
+#End of triple~~~~~~~~~
+
+#~~~~~~~~end of methods~~~~~~~~~~~~~~~~~~
+
+#!!!!!!!beg of printing methods!!!!!!!!!!!!!!!!
+print(single())
+print(double())
+print(triple(d = 5, e = 5, f = 5))
+
+#!!!!!!!end of printing methods!!!!!!!!!!!!!!!!
+
+
+
+#For loops!!!!
+
