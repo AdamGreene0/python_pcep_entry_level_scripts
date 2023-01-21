@@ -1,27 +1,37 @@
+#=================The absolute beginning of this script==============================
+
 #Dev name: Akinwale "Wally" Owi
-#Program purpose: A. Using 'none' B. Show one example where we get a 'none' result 
+#Program purpose:  a. assign none to a 'variable' b. Compare using 'none'
 
 #~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~
+ 
 
-
-#~~~~A~~~~~~~
+#~~~~a~~~~~~~
 football_teams_portland = None
 
-#Testing A
-if football_teams_portland is None:
-    print("sorry no team in your city yet")
+#~~~~test:a
+print("test:a = ", football_teams_portland)
 
-#~~~~B~~~~~~~
-def weird_math_function(number):
-    if (number < 10):
-        return True
-    
-#Testing B
-print (weird_math_function(8)) #outputs True
-print(weird_math_function(9)) #outputs True
-print (weird_math_function(10)) #outputs None
-print (weird_math_function(11)) #outputs None
+#~~~~b. Compare using 'none'~~~~~~~
 
+#~~~~test:b1
+if football_teams_portland == None:
+    print("test:b1 = It is indeed none" )
+else:
+    print("test:b1 = Not none, please check your code" )
 
+#~~~~test:b2
+
+numcheck = 6
+
+try:
+    if numcheck < football_teams_portland:
+        print("test:b2 = a number is greater than none")
+except:
+        print("test:b2 = Does not compare")
 
 #~~~~~End of computations~~~~~~~~~~~~~~~~~~~~
+
+
+
+#=================The absolute end of this script==============================
