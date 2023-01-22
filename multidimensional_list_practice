@@ -1,8 +1,7 @@
 #*******Absolute beginning of the script***************
 
 #Developer Name: Akinwale "Wally" Owi
-#Program purpose: a. More practice building multidimensional lists b. work using 'for'
-
+#Program purpose: a. More practice building,editing and printing  multidimensional lists 
 
 #**********Beginning of computations*************
 
@@ -24,12 +23,6 @@ print("With changes = ", list_two_d)
 #print test individuals
 print(list_two_d[0][0])
 print(list_two_d[1][2])
-
-
-#for work
-#number of occupied
-#number of vacant
-
 
 #**********End of computations*************
 
