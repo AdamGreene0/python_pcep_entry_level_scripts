@@ -1,0 +1,27 @@
+#*******Absolute beginning of the script***************
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: a. More practice building multidimensional lists b. work using 'for'
+
+
+#**********Beginning of computations*************
+
+#two dimensional list
+list_two_d = []
+vacant = "vacant"
+list_two_d = [[vacant for rows in range (2)] for columns in range(4)]
+
+#print test
+print(list_two_d)
+
+
+#two dimensional list
+
+
+#for work
+
+
+#**********End of computations*************
+
+
+#*******Absolute end of the script***************
