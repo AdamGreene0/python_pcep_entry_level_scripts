@@ -9,16 +9,26 @@
 #two dimensional list
 list_two_d = []
 vacant = "vacant"
-list_two_d = [[vacant for rows in range (2)] for columns in range(4)]
+list_two_d = [[vacant for houses in range (3)] for streets in range(2)]
 
 #print test
-print(list_two_d)
-
+print("untouched = ", list_two_d)
 
 #two dimensional list
+list_two_d[0][1] = "occupied"
+list_two_d[1][2] = "occupied"
+
+#print test
+print("With changes = ", list_two_d)
+
+#print test individuals
+print(list_two_d[0][0])
+print(list_two_d[1][2])
 
 
 #for work
+#number of occupied
+#number of vacant
 
 
 #**********End of computations*************
