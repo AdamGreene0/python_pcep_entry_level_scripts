@@ -8,6 +8,8 @@
 
 #A - Creating a empty dictionary
 very_empty_dictionary = {}
+
+#__________printing to test______________
 print(very_empty_dictionary) #outputs {}
 
 #Creating a number to string dictionary
@@ -16,17 +18,18 @@ employee_ids = {
     777: 'Wally',
     222: 'Emma'
 }
-#printing to test
+
+#__________printing to test______________
 print(employee_ids[222]) #outputs Emma
 
-#Creating a number to string dictionary
+#Creating a  string to string dictionary
 colors_favorite = {
      "Rissa": "Orange",
      "Mike": "Yellow",
      "Lisa":"Pink"
      }
 
-#printing to test
+#__________printing to test______________
 print(colors_favorite["Mike"])#outputs 
 
 #$$$$$$$The absolute end of this script$$$$$$
