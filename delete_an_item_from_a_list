@@ -12,12 +12,21 @@ sample_list = [100, 3, 1, 8, 222, 7878]
 #1a.Printing the whole list
 print("The whole list: ",sample_list);
 
-#2.Delete the item 
+#2.Print the [3] item 
+print("[3] originlly = ", sample_list[3]);
+
+#3.Delete the [3] item 
 del sample_list[3];
 
-#2a. Printing the freshly altered list
+#4. Printing the freshly altered list
 print ("The list after deletion =", sample_list);
+
+#5.after the deletion, print the new [3] item  
+print("new [3] = ", sample_list[3]);
+
+
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 
 #=================The Absolute end of this script==============================
+
