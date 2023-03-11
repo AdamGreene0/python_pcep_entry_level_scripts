@@ -1,0 +1,17 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: using the 'end' parameter to continue the current line on the next one. with nd without
+#__________________________________________
+
+
+#1 = connects the output with a space
+print("This line got long so I ", end = ' ')
+print("moved one lower.")
+
+
+#2 - connects the output with a comma
+print("When this one started taking up space", end = ',')
+print("I handed it a comma.")
+
+#=================The Absolute end of this script==============================
