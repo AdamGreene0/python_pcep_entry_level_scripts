@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
 
 #Developer: Akinwale Owi
-#Program Purpose: Adding else branches to for loops to display the last variable value
+#Program Purpose: using a for loop to print from 0 up to the range limit
 
 
 #***********Beginning of computations**********
