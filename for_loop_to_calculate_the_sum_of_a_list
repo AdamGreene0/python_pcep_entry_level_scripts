@@ -19,6 +19,8 @@ print("our list =", sample_list)
 try:
     for spot in range(len(sample_list)):
                       list_total = list_total + sample_list[spot]
+                      
+    #5 printing the new total 
     print("total = ", list_total)
     
 except:
