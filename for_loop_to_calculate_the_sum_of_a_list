@@ -1,0 +1,29 @@
+#~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
+
+#Developer: Akinwale Owi
+#Program Purpose: sum of list using for
+
+
+#***********Beginning of computations**********
+
+#1
+list_total = 0
+
+#2. create the list 
+sample_list = [1, 300, 20]
+
+#3 print list to check
+print("our list =", sample_list)
+
+#4 adding the list
+try:
+    for spot in range(len(sample_list)):
+                      list_total = list_total + sample_list[spot]
+    print("total = ", list_total)
+    
+except:
+    print("perhaps a string got in there?")
+
+#***********End of computations**********    
+
+#~~~~~~~~~~~~~~~~The end of the script~~~~~~~~~~
