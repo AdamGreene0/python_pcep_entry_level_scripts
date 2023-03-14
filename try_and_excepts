@@ -1,0 +1,31 @@
+#_________________Beginning of script_________________
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A few 'try and except' techniques
+
+#________________Beginning of computations________________
+
+#What the program will 'try' unless an error occurs              
+try:
+    number_jersey = int(input("Please enter your preferred jersey number: "))
+    print("Please confirm your jersey number choice:",number_jersey)
+
+except AttributeError:
+    print("Sorry AttributeError,")
+#AttributeErrors can happen when
+    
+
+except ValueError:
+    print("Sorry ValueError,we like '2' over 'two'")
+#ValueErrors can happen when the input user enters is not the desired variable type
+
+
+except:
+    print("Sorry try something like '7'")
+#set to run when the error doesnt fall under any planned excepts like above
+ 
+
+#________________End of computations________________
+    
+
+#________________End of the script________________
