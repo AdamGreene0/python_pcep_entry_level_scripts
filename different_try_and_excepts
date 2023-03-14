@@ -8,11 +8,12 @@
 #What the program will 'try' unless an error occurs              
 try:
     number_jersey = int(input("Please enter your preferred jersey number: "))
-    print("Please confirm your jersey number choice:",number_jersey)
+    print("Then number:",number_jersey, "you shall be")
 
 except AttributeError:
     print("Sorry AttributeError,")
-#AttributeErrors can happen when
+#AttributeErrors would be rare in this situation becuse they can occur when we:
+#mispell variable names or try to utilize variables in ways they do not support, like trying to use the append function on an int.
     
 
 except ValueError:
