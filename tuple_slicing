@@ -1,35 +1,39 @@
-#*******Absolute beginning of the script***************
+#_____________Absolute beginning of the script_____________
 
 #Developer Name: Akinwale "Wally" Owi
-#Program purpose: Practicing using the slicing technique with tuples
+#Program purpose: Tuple slicing: With negative slicing added!!
 
-#**********Beginning of computations*************
+#_____________Beginning of computations_____________
 
+#__________Creating tuples for this example____________
 #A - Creating a empty tuple
 tuple_empty = ()
 #B - Creating a one element tuple
 tuple_one_element = (4,) #comma after element is necessary
 #C - Creating a multi element tuple
-tuple_multiple = (0,1,2,3,4,5,6,7,8,9,10,555)
+tuple_big = (0,1,2,3,4,5,6,7,8,9,10,555)
 
-#$$$$ Testing that creation happened$$$$
-#print(tuple_empty) 
-#print(tuple_one_element)
+#_____________Print testing before the slicing_____________
 
-#whole tuple
-print(tuple_multiple)
-#first element
-print(tuple_multiple[0])
-#second element
-print(tuple_multiple[1])
+#Print testing the whole tuple
+print("Whole tuple print test: ",tuple_big)
+print()
 
-#~~~~~~~~~Slicing~~~~~~~~~~~
-print("~~~Slicing~~~~")
-print("1st element to 5th: ", tuple_multiple[:5])
-print("5th element to last: ", tuple_multiple[4:])
-print("second through seventh element: ", tuple_multiple[1:7])
-print("alternate print all method: ",tuple_multiple[:])
-print("print every 3 from the beginning of the tuple to the end: ",tuple_multiple[::3])
+#_____________new negative indexing_____________
+print("~~~new negative index slicing~~~~")
+print("2nd element from the end", tuple_big[-2])
+
+#negative slicing indexes
+print("the 4th from last elements to the 2nd to last element inclusive: ",tuple_big[-4:-1])
+print()
 
 
-#**********End of computations*************
+#_____________Above 0 Slicing_____________
+print("~~~Above 0 Slicing~~~~")
+print("1st element to 5th: ", tuple_big[:5])
+print("5th element to last: ", tuple_big[4:])
+print("second through seventh element: ", tuple_big[1:7])
+print("alternate print all method: ",tuple_big[:])
+print("print every 3 from the beginning of the tuple to the end: ",tuple_big[::3])
+
+#_____________End of computations_____________
