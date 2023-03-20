@@ -1,0 +1,40 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. insert to a string list 
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+strings_list = ["I","would","love","to","teach","python","courses","at","FAMU"]
+#space
+print()
+
+#1a.Printing the whole list
+print("The whole list: ",strings_list)
+#space
+print()
+
+#2.Print the [3] item 
+print("[3] originlly = ", strings_list[3])
+#space
+print()
+
+#3.Delete the [3] item 
+del strings_list[3]
+
+#4. Printing the freshly altered list
+print ("The list after deletion =", strings_list)
+#space
+print()
+
+
+#5
+#2. Appending 'enjoy' to listin between "would", "to"
+list_days.insert(3, 'enjoy')
+#6
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
