@@ -1,0 +1,30 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A. insert to a string list 
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+strings_list = ["I","would","love","to","teach","python","courses","at","FAMU"]
+#space
+print()
+
+#2. Printing the whole list
+print("The whole list: ",strings_list)
+#space
+print()
+
+
+#3. Inserting 'definitely' to our list in between "would", "to"
+strings_list.insert(2, 'definitely')
+#
+
+#1a.Printing the freshly altered list
+print("The freshly altered list: ",strings_list)
+#space
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
