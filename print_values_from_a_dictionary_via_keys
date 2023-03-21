@@ -1,0 +1,30 @@
+#$$$$ The absolute beginning of this script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Print values from a dictionary via keys:
+
+#$$$$Beginning of computations$$$$$$$
+
+#Creating a number to string dictionary
+jerseys_retired = {
+    
+    23: 'Haley',
+    52: 'Hanna',
+    14: 'Emma',
+    84: 'Diamond'
+}
+
+#_____print testing______________
+#whole dictionary
+print("Whole dictionary = ", jerseys_retired) #outputs
+
+#vlues from keys
+print("14 = ", jerseys_retired[14]) #outputs Emma
+print("23 = ", jerseys_retired[23]) #outputs Haley
+
+
+#$$$$$$$The absolute end of this script$$$$$$
+
+
+
+
