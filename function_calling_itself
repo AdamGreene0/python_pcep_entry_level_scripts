@@ -1,0 +1,20 @@
+#_____________The absolute beginning of this script_____________
+
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: fxs calling itself
+
+#_____________Beginning of computations_____________
+
+#________1_____ Creating a function with the return condition_____________
+def outside_call(v):
+    v += 10
+    return v
+#________1a_____print testing the fx calling itself with a value
+print((outside_call(outside_call(8))))#Outputs:28
+print((outside_call(outside_call(222))))#Outputs: 242
+
+
+#_____________End of computations_____________
+
+#_____________The absolute end of this scripts_____________
+
