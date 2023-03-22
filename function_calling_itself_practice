@@ -11,10 +11,14 @@ def outside_call(v):
     return v
 #________1a_____print testing the fx calling itself with a value
 print((outside_call(outside_call(8))))#Outputs:28
-print((outside_call(outside_call(222))))#Outputs: 242
+print((outside_call(outside_call(8)) +3 ))#Outputs:31
+
+print("ex 2")
+
+print((outside_call(outside_call(100))))#Outputs: 120
+print((outside_call(outside_call(100)) + 50 ))#Outputs: 170
 
 
 #_____________End of computations_____________
 
 #_____________The absolute end of this scripts_____________
-
