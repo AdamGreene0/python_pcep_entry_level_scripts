@@ -1,0 +1,35 @@
+#$$$$ Beginning of script$$$$
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Merge two dictionaries to make a third - then printing the result
+#note1 if you use the same key twice, it will make the lower/most recent key the new and only value for the key
+#note2 a dictionary's keys cannot be a mix of numbers and letters
+
+#Beginning of computations
+
+
+#Creating a number to string dictionary #1 
+end_front = {
+     10: 'Brock',
+     299: 'Rissa',
+     8711: 'Deion',
+     4: 'Amber'
+}
+
+#Creating a number to string dictionary #2
+end_back = {
+    3488: 'Whitney',
+    22: 'Diamond',
+    777: 'Doug'
+}
+
+#Merging the dictionaries together
+total_python_devs = {**end_front,** end_back}
+
+#printing the newly created dictionary
+print("Our python team = ", total_python_devs) #outputs: {1: 'Portugal', 2: 'Australia', 3: 'Colombia', 999: 'Schooner', 777: 'America', 222: 'Seattle'}
+
+
+#$$$$ End of all computations $$$$
+
+#$$$$ End of the script $$$$
