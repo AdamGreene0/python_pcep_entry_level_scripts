@@ -1,0 +1,29 @@
+#________________Beginning of the script________________
+
+#****************************
+#Developer: Akinwale 'Wally' Owi
+#Program Purpose: Equal operator - practice 2
+#****************************
+
+#____________beg of def remainder_check(x):_____________
+def remainder_check(x):
+
+    if (x % 5 == 0):
+        print("no remainder")
+    else:
+        print("Remainder")
+
+#__________ End of def remainder_check(x):
+
+        
+#**********Beginning of print testing******************
+remainder_check(10)
+remainder_check(17)
+remainder_check(33)
+remainder_check(50)
+
+
+#**********End of print testing******************
+
+
+#________________End of the script________________
