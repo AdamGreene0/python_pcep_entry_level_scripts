@@ -1,0 +1,62 @@
+#_____________The absolute beginning of this script_____________
+
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: Calling other functions 
+
+#_____________Beginning of computations_____________
+
+#_____1___Beginning of creating the function we will call inside the other _________
+
+#rate softcoded becuse that could change
+rate_current = 200
+rate_raise = 0.5
+
+def days_ninety(rate_current):
+    rate_new = rate_current * rate_raise
+    return rate_new
+
+#_____1___End of creating the function we will call inside the other ___
+
+#_____2___Beginning of creating the function we will
+
+def earned_capital(days):
+
+    if (days < 90):
+        earnings = rate_current  * days
+        print("Under 90 days: you've earned = $", earnings)
+        print("_______________")#space
+
+                
+    else:
+        #old earnings total
+        earnings_first_ninety = rate_current * 89
+        print("You're 1st  89 days: you earned = $", earnings_first_ninety)
+
+        #earnings at new rate
+        days_at_new_rate = days - 89
+        earnings_at_new_rate = days_ninety(rate_current) * days_at_new_rate
+        print("90 days and on: you earned = $", earnings_at_new_rate)
+
+        #total earnings
+        total_earnings = earnings_first_ninety + earnings_at_new_rate
+        print("Total earnings = $",total_earnings)
+
+        print("_______________")#space
+            
+
+#_____2___End of creating the function we will
+
+
+#_3__beg of testing_____
+earned_capital(20)
+earned_capital(100)
+earned_capital(365)#year
+earned_capital(80)
+
+
+#_3__end of testing______
+
+
+#_____________End of computations_____________
+
+#_____________The absolute end of this scripts_____________
