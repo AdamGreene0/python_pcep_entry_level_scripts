@@ -1,0 +1,8 @@
+#Dev name: Akinwale "Wally" Owi
+#Program purpose: finding the error you get trying to print after dividing by zero
+
+
+print(7/0)
+
+
+#error mess ZeroDivisionError: division by zero
