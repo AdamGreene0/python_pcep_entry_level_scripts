@@ -1,10 +1,9 @@
-
-#=================The absolute beginning of this script==============================
-
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose:
+#Program Purpose:Exponents to the zero power examples
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 print(3**0)
 print(25**0)
 print(99**0)
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
