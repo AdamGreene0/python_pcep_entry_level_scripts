@@ -1,0 +1,24 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Creating new lists with negative slicing - pt2
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_original = [38, 170, 26, 2, 400, 99, 2000, 69, 18, 444, 5555,]
+
+print("original = ", list_original) 
+print() #spacing
+
+new_slice = list_original[-4:-1]
+
+print("newly created sliced list = ", new_slice)
+print() #spacing
+
+
+print("original  is still = ", list_original)
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
