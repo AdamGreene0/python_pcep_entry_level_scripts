@@ -1,7 +1,7 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: Creating new lists with negative slicing - pt2
+#Program Purpose: Creating a new list from with negative slicing - pt2
 
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
@@ -9,16 +9,23 @@
 #1.Creating a list
 list_original = [38, 170, 26, 2, 400, 99, 2000, 69, 18, 444, 5555,]
 
+#~Print test
+print() #spacing
 print("original = ", list_original) 
 print() #spacing
 
+#~Slicing~
 new_slice = list_original[-4:-1]
 
+#~Print test 
 print("newly created sliced list = ", new_slice)
 print() #spacing
 
-
-print("original  is still = ", list_original)
+#~Print test 
+print("original never changed = ", list_original)
 
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The absolute end of this script==============================
