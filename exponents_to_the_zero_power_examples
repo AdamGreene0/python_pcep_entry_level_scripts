@@ -1,0 +1,10 @@
+
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+print(3**0)
+print(25**0)
+print(99**0)
