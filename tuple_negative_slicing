@@ -1,0 +1,21 @@
+
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: Akinwale "Wally" Owi
+#Program purpose: filling new tuples with negative slicing:
+
+tuple_big = (0,1,2,3,4,5,6,7,8,9,10,555)
+
+
+#mking  new tuple 1
+new_tup = tuple_big[-4:-1]
+print("new = ", new_tup)
+
+
+#mking  new tuple 2
+second_tup = tuple_big[-8:-6]
+print("second = ", second_tup)
+
+
+
+#_____________Absolute end of the script_____________
