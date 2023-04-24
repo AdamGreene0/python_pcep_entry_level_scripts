@@ -1,22 +1,40 @@
 #=================The Absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A.Use the 'len' function to find the length of a list. B. Then output the length
-
+#Program Purpose: A.Use the 'len' function to find the length of  list. B. Then output the length
+#WIth copying a list into a new one and testing their lengths after
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 
 #1. How to create a list 
 sample_list = [100, 3, 1, 8, 222, 7878]
 
-#1a.Printing the whole list
+#2.Saving the list length as a variable
+length_of_list = len(sample_list) 
+
+#3.~~~~~~Printing testing #A~~~~~
+
+#printing the whole list
 print("The whole list: ",sample_list);
 
-#2.Saving the list length as a variable
-length_of_list = len(sample_list)
-
-#2a. Printing the list length 
+#Printing the list length 
 print ("The list length = ", length_of_list)
+
+#_______2. Copying the list_______
+new_list = sample_list
+#printing the new list 
+print()
+print ("new list is filled with = ",new_list) #should be exactly the same as sample_list 
+
+#------after copying length check 
+length_of_list = len(new_list)
+length_of_new_list = len(sample_list)
+
+#-----length print
+print()
+print ("The new_list length is = ", length_of_new_list)
+print ("The list length is now = ", length_of_list)
+
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 
