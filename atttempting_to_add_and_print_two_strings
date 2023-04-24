@@ -4,4 +4,4 @@
 string_first = "New"
 string_second = "York"
 
-print(string_first + string_second)
+print(string_first + string_second) #outputs NewYork -- no spaces just like in their variable creation
