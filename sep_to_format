@@ -1,0 +1,10 @@
+#~~~~~~~~Beginning of this script ~~~~~~~~
+
+#Developer Name: Akinwvale "Wally" Owi
+#Progrm Purpose: sep to format
+
+print("shoulders", "knees" ,"toes", sep= "~") #outputs shoulders~knees~toes
+print("bacon", "lettuce" ,"tomato", sep= "/") #outputs bacon/lettuce/tomato
+
+
+#~~~~~~~~End of this script ~~~~~~~~
