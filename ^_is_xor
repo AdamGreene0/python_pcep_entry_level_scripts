@@ -1,0 +1,14 @@
+
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: W3 school for the description of an XOR:^ https://www.w3schools.com/python/python_operators.asp
+#Program purpose: XOR Sets each bit to 1 if only one of two bits is 1
+
+
+a = 2
+b = 3
+a = a ^ b
+print (a) #outputs 1
+
+
+#_____________Absolute end of the script_____________
