@@ -1,22 +1,59 @@
 #=================The Absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: Swap two variables values
-#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+#Program Purpose: Swap three and two variables values
 
+#~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~
 
-#1. create the two variables for the swap 
+#______Beginning of the 2 variable value swap______
+
+#1a. create the two variables for the swap______ 
 a = 3
 b = 88
 
-#___2a. swapping two variables vlues_______
-a,b = b,a
-
-#___2b two variable swap print test
+#1b.Print test creation
+print ("~Before~")
 print ("a = ",a)
 print ("b = ",b)
 
+
+#_1c. swapping two variables vlues_______
+a,b = b,a
+
+#.1d two variable swap print test
+print ("")#simply spacing
+print ("~After~")
+print ("a = ",a)
+print ("b = ",b)
+
+#______End of the 2 variable value swap______
+
+print ("")#simply spacing
+print ("")#simply spacing
+
+#~~~~Beginning of the 3 variable value swap~~~~~~~~~~
+
+#3a Create variables for this 3 value swap
+z = 4
+y = 718
+m =5555555555
+
+#3b Print test creation
+print ("~Before~")
+print ("z = ",z)
+print ("y = ",y)
+print ("m = ",m)
+
+#3c. the variable value swap
+z,y,m = m, z, y
+
+#~~~~3d three variable swap print test
+print ("")#simply spacing
+print ("~After~")
+print ("z = ",z)
+print ("y = ",y)
+print ("m = ",m)
+
+#~~~~End of the 3 variable value swap~~~~~~~~~~
+
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
-
-
-#=================The Absolute end of this script==============================
