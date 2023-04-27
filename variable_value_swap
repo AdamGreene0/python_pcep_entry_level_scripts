@@ -1,0 +1,23 @@
+#============The Absolute beginning of this script================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Swap two variables values
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~
+
+
+#1. create the two variables for the swap 
+a = 3
+b = 88
+
+#___2a. swapping two variables vlues_______
+a,b = b,a
+
+#___2b two variable swap print test
+print ("a = ",a)
+print ("b = ",b)
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
