@@ -1,0 +1,32 @@
+#_____The very beginning of this script______
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Multiple trys on one line
+
+#________________Beginning of computations________________
+
+#simple greeting
+print("Welcome to the Dessert Diner!")
+
+
+try:
+    #attempted to accept their order
+    desired_dessert_num = int(input(" Please enter your dessert choice in number form: ie ('88') "))
+    #normally would stop cxs from entering a number below 0 and/or above the items offered number
+    print( desired_dessert_num,"?, Great choice")
+
+except (AttributeError,TypeError, ValueError) as error:
+
+     print(error)
+    #AttributeErrors would be rare in this situation becuse they can occur when we:
+    #~mispell variable names or try to utilize variables in ways they do not support, like trying to use the append function on an int
+    
+    #TypeError - most likelly here it occurs when someone tries to enter the wrong type of data into a variable
+    
+    #ValueErrors can happen when the operation applied to the variable is correct but the input is not desired variable type       
+  
+#________________End of computations________________
+
+
+#_____The very end of this script______
+
