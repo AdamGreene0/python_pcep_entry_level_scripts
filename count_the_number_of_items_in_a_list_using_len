@@ -1,0 +1,49 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: A.Use the 'len' function to count the number of items in a list. Print the result
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#~Beginning of list z
+#1. How to create a list 
+list_z = [100, 3, 1, 8, 222, 7878, 5]
+
+#2.Saving the list length as a variable
+length_of_list_z = len(list_z) 
+
+#3.~~Print testing ~~~~~
+print()#spacing
+
+#printing the whole list
+print ("list z: ",list_z);
+
+#Printing the list length 
+print ("number of items in list z = ", length_of_list_z)
+
+#!~End of list z
+
+print()#spacing
+
+#~Beginning of list v
+#1. How to create a list 
+list_v = [999, 70, 3]
+
+#2.Saving the list length as a variable
+length_of_list_v = len(list_v) 
+
+#3.~~Print testing ~~~~~
+
+#printing the whole list
+print("list v: ",list_v);
+
+#Printing the list length 
+print ("number of items in list v = ", length_of_list_v)
+
+#!~End of list z
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
