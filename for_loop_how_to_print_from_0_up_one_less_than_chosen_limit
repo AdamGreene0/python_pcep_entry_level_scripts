@@ -1,0 +1,27 @@
+
+#=================The Absolute beginning of this script==============================
+#~~~~~~~~~~~~The beginning of the script~~~~~~~~~~
+
+#Developer: Akinwale Owi
+#Program Purpose: using a for loop to print from 0 up to one less than your chosen limit
+
+#***********Beginning of computations**********
+
+limit = 9
+
+print("")#spacing
+print("limit is currently:", limit)
+
+
+for position in range(limit):
+    print(position) #currently will print from 0 to 8 each on their own line
+else:
+    print("else activated:position = ", position)
+
+
+#***********End of computations**********    
+
+#~~~~~~~~~~~~~~~~The end of the script~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
