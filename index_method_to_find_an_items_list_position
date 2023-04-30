@@ -1,0 +1,39 @@
+#========The Absolute beginning of this script===========
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~
+	
+
+#~~~1 using the index method with strings 
+
+#~~1a . string list creation
+list_business_days_us = ['monday','tuesday','wednesday','thursday','friday']
+
+#~~1b.  using the index method's result as a variable value
+position_of_thursday_us = list_business_days_us.index("thursday")
+
+#~~1c.  print testing 
+print("thursday's US position =" ,position_of_thursday_us)
+
+#~~1d.  simply printing the index value's result
+
+print("monday's US position =" , list_business_days_us.index("monday"))
+
+print("friday's US position =" , list_business_days_us.index("friday"))
+
+
+#~~~spacing
+print("")
+
+
+#2 using the index method on a numerical list
+
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
+
