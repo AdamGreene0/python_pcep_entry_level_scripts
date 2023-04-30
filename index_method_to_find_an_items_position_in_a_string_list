@@ -14,7 +14,7 @@ position_of_thursday_us = list_business_days_us.index("thursday")
 #~~2b.  print testing
 print("thursday's US position =" ,position_of_thursday_us)
 
-#~~3.  Printing the item's position 
+#~~3.  Printing the item's position without variable assigning it to a variable first
 
 print("monday's US position =" , list_business_days_us.index("monday"))
 
