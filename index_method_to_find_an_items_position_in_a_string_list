@@ -8,13 +8,13 @@
 #~~1 . string list creation
 list_business_days_us = ['monday','tuesday','wednesday','thursday','friday']
 
-#~~2.  using the index method's result as a variable value
+#~~2a.  using the index method's result as a variable value
 position_of_thursday_us = list_business_days_us.index("thursday")
 
-#~~3.  print testing 
+#~~2b.  print testing
 print("thursday's US position =" ,position_of_thursday_us)
 
-#~~4.  Printing the item's position w
+#~~3.  Printing the item's position 
 
 print("monday's US position =" , list_business_days_us.index("monday"))
 
