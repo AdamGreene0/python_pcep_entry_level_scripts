@@ -1,0 +1,29 @@
+#========The absolute beginning of this script===========
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose: Using the index method on a numerical list to access an item's list position
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~
+	
+#~~List creation                
+list_nascar_car_numbers= [12, 33, 10, 8, 23]
+
+print(" The current top 5 that the announcer would orchestrate from ", list_nascar_car_numbers)
+print()#spacing
+
+#~~2a.  using the index method's result as a variable value
+cars_ahead_by_car_number = list_nascar_car_numbers.index(12)
+
+#~~2b.  print testing
+print("The #12 car currently has", cars_ahead_by_car_number , "cars ahead of it"  )
+
+#~~3.  Printing the item's position without variable assigning it to a variable first
+
+print("The #8 car is fighting for the:" , list_nascar_car_numbers.index(8))
+
+print("The #10 car is trying to be the new:", list_nascar_car_numbers.index(10))
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
