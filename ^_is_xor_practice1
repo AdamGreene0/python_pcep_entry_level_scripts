@@ -1,0 +1,31 @@
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Program purpose: XOR Sets each bit to 1 if only one of two bits is 1
+
+#they usually use it on circuits, as in only lighting up one side of a mechanism like whoever selects 1st in a game show.
+#Might've been able to use a less than.
+
+#xor board (bits)
+#a   b    output
+#0   0    0
+#1   0    1
+#0   1    1
+#1   1    0
+
+buzzed_in_player_1 = 0
+buzzed_in_player_2 = 1
+
+#2 xor the values - its been called the 'exclusive or' 
+mic_on = buzzed_in_player_1  ^ buzzed_in_player_2
+
+#3 doing something with the result
+
+if (mic_on == 1):
+    print("Mic is currently on")
+#elif:
+else:
+    print("No one buzzed in so the mic  is currently off")
+
+#_____________Absolute end of the script_____________
