@@ -18,14 +18,14 @@ buzzed_in_player_1 = 0
 buzzed_in_player_2 = 1
 
 #2 xor the values - its been called the 'exclusive or' 
-mic_on = buzzed_in_player_1  ^ buzzed_in_player_2
+mic_player_on = buzzed_in_player_1  ^ buzzed_in_player_2
 
 #3 doing something with the result
 
-if (mic_on == 1):
-    print("Mic is currently on")
+if (mic_player_on == 1):
+    print("Player mic is currently on")
 #elif:
 else:
-    print("No one buzzed in so the mic  is currently off")
+    print("No one buzzed in or tie, so the player mic is currently off")
 
 #_____________Absolute end of the script_____________
