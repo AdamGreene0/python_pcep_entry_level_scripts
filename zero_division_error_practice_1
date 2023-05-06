@@ -1,0 +1,12 @@
+#_____________Absolute beginning of the script____________
+
+#Dev name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program purpose: finding the error you get trying to print after dividing by zero
+
+
+print(25/0)
+
+#error message ZeroDivisionError: division by zero
+
+#_____________Absolute end of the script____________
