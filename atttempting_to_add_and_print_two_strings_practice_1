@@ -1,0 +1,9 @@
+#Developer Name: Akinwve "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: atttempting to add and print two strings
+#practice 1
+
+string_first = "Baskin"
+string_second = " Robbins" #left a space the beginning of Robbins because this technique adds them flush 
+
+print(string_first + string_second) #outputs Baskin Robbins
