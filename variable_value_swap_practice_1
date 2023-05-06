@@ -1,0 +1,59 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Program Purpose: Swap three and two variables values: practice #1 this one will be football themed.
+
+#~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~
+
+#______Beginning of the 2 variable value swap______
+
+#1a. create the two variables for the swap______ 
+jersey_number_qb1 = 12
+jersey_number_qb2 = 7
+
+#1b.Print test creation
+print ("~Before~")
+print ("qb1 was wearing  = ", jersey_number_qb1)
+print ("qb2 was wearing = ", jersey_number_qb2)
+
+
+#_1c. swapping two variables vlues_______
+jersey_number_qb1, jersey_number_qb2 = jersey_number_qb2,jersey_number_qb1
+
+#.1d two variable swap print test
+print ("")#simply spacing
+print ("~After~")
+print ("Qb1 is now # = ",jersey_number_qb1)
+print ("Qb2 is now # = ",jersey_number_qb2)
+
+#______End of the 2 variable value swap______
+
+print ("")#simply spacing
+print ("")#simply spacing
+
+#~~~~Beginning of the 3 variable value swap~~~~~~~~~~
+
+#3a Create variables for this 3 value swap
+hc = "Saban"
+dc = "Lynch"
+oc = "Carrol" 
+
+#3b Print test creation
+print ("~Before~")
+print ("hc = ", hc)
+print ("dc = ",dc)
+print ("oc = ",oc)
+
+#3c. the variable value swap
+hc,oc,dc = oc, hc, dc #dc - defensive coordinator did not change
+
+#~~~~3d three variable swap print test
+print ("")#simply spacing
+print ("~After~")
+print ("hc = ", hc)
+print ("dc = ",dc)
+print ("oc = ",oc)
+#~~~~End of the 3 variable value swap~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
