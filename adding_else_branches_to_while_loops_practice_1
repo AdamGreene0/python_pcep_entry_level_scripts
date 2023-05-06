@@ -1,0 +1,40 @@
+#Utmost beginning of this script
+
+#Developer: Akinwale Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: Adding else branches to while loops when we want them to run after the while condition is broken.
+#practice 1
+
+
+#~~When the while loop's condtions are met at least once/runs once example
+on_shelf_apples = 0
+while on_shelf_apples  < 20 :
+     
+    print("Inside of the while, there are currently:", on_shelf_apples, "apples on the shelf")
+    
+    #increment 
+    on_shelf_apples += 8
+    print() #Just a space to increase readability 
+    
+else:
+    print("Loop 1. Stocked! While 'on_shelf_apples ' broke:")
+    print("Prints when the loop reaches its end, break on_shelf_apples  value =", on_shelf_apples )
+    #Just a space to increase readability 
+
+#~~When the while loop's condtions are never met/ never runs example
+ 
+broccoli_on_shelf = 20
+while broccoli_on_shelf  < 20:
+    print("Inside of the while, broccoli_on_shelf value currently =", broccoli_on_shelf)
+
+    #increment 
+    broccoli_on_shelf += 5
+    print() #Just a space to increase readability 
+    
+else:
+    print()#Just a space to increase readability
+    print("Loop 2. Stocked! While 'broccoli_on_shelf ' has broke:")
+    print("Also prints because b still breaks the while , broccoli_on_shelf  is still=", broccoli_on_shelf)
+    
+
+#=========Utmost end of this script==================
