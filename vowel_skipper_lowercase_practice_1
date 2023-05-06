@@ -1,0 +1,57 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Program Purpose:A lowercase vowel eater practice #1 this time we'll check some premade strings
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~
+
+#Vowel list
+#a,e,i,o,u
+
+string_company_one = 'Baskin Robbins'
+string_company_two = 'Ben & Jerrys'
+string_company_three = 'Talenti'
+
+#tests
+
+#test 1
+#inherited script from vowel_skipper_lowercase_practice_0_takes_input, so to save time we'll make every company temporarily the string_entered
+string_entered = string_company_one
+
+ #for loop where the test happen
+for character_in_question in range(len(string_entered)):
+    
+    if 'a'in (string_entered[character_in_question]) or 'e' in (string_entered[character_in_question]) or 'i' in (string_entered[character_in_question]) or 'o' in (string_entered[character_in_question])  or 'u' in (string_entered[character_in_question]) :
+        continue
+    print("The non vowel character = ", (string_entered[character_in_question]))
+
+
+print() #spacing
+
+#test 2
+#inherited script from vowel_skipper_lowercase_practice_0_takes_input, so to save time we'll make every company temporarily the string_entered
+string_entered = string_company_two
+
+ #for loop where the test happen
+for character_in_question in range(len(string_entered)):
+    
+    if 'a'in (string_entered[character_in_question]) or 'e' in (string_entered[character_in_question]) or 'i' in (string_entered[character_in_question]) or 'o' in (string_entered[character_in_question])  or 'u' in (string_entered[character_in_question]) :
+        continue
+    print("The non vowel character = ", (string_entered[character_in_question]))
+
+
+print() #spacing
+
+#test 3
+#inherited script from vowel_skipper_lowercase_practice_0_takes_input, so to save time we'll make every company temporarily the string_entered
+string_entered = string_company_three
+
+ #for loop where the test happen
+for character_in_question in range(len(string_entered)):
+    
+    if 'a'in (string_entered[character_in_question]) or 'e' in (string_entered[character_in_question]) or 'i' in (string_entered[character_in_question]) or 'o' in (string_entered[character_in_question])  or 'u' in (string_entered[character_in_question]) :
+        continue
+    print("The non vowel character = ", (string_entered[character_in_question]))
+
+#=================The absolute end of this script============================== 
