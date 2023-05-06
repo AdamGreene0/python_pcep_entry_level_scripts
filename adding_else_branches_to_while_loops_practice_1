@@ -34,7 +34,7 @@ while broccoli_on_shelf  < 20:
 else:
     print()#Just a space to increase readability
     print("Loop 2. Stocked! While 'broccoli_on_shelf ' has broke:")
-    print("Also prints because b still breaks the while , broccoli_on_shelf  is still=", broccoli_on_shelf)
+    print("Also prints because broccoli_on_shelf still breaks the while , broccoli_on_shelf  is still=", broccoli_on_shelf)
     
 
 #=========Utmost end of this script==================
