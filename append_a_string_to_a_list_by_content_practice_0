@@ -1,18 +1,22 @@
+#_____________Absolute beginning of the script____________
+
 #Developer: Akinwale Owi
+#Company: Godbrand Games L.L.C.
 #Program Purpose: append a string to a list
 
 
 #1.List creation
-list_days = ['monday','tuesday','wednesday'];
+list_days = ['monday','tuesday','wednesday']
 
 #1a.Printing the list to test
-print(list_days);
+print(list_days)
 
 
 #2. Appending 'thursday' to list 
-list_days.append('thursday');
+list_days.append('thursday')
 
 #2a. Printing the list to test, it prints - ['monday', 'tuesday', 'wednesday', 'thursday']
 print(list_days);
 
 
+#_____________Absolute end of the script____________
