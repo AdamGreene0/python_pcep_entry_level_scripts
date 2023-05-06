@@ -1,0 +1,24 @@
+#_____________Absolute beginning of the script____________
+
+#Developer: Akinwale Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: append a string to a list
+#practice 1
+
+#1.List creation
+list_stadiums_to_visit = ['Fenway Park', 'Coors Field', 'Wrigley Field',]
+
+#1a.Printing the list to test
+print(list_stadiums_to_visit )
+
+
+#2. Appending 'Oriole Park at Camden Yards' to list 
+list_stadiums_to_visit .append('Oriole Park at Camden Yards')
+
+print("~After~") #just to increase readability
+
+#2a. Printing the list to test, it prints - ['Fenway Park', 'Coors Field', 'Wrigley Field', 'Oriole Park at Camden Yards']
+print(list_stadiums_to_visit)
+
+
+#_____________Absolute end of the script____________
