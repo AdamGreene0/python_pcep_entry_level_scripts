@@ -1,0 +1,26 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+##Company: Godbrand Games L.L.C.
+#Program Purpose: Use a while loop 
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+counter_strikeouts_while_breaker = 0 #Variable we'll be using to power the while loop
+
+
+while (counter_strikeouts_while_breaker < 11):
+#Beginning of while (counter_strikeouts_while_breaker < 11):
+    print("Currently earned: ",counter_strikeouts_while_breaker," strikeouts")
+    print("")#for spacing
+    counter_strikeouts_while_breaker = counter_strikeouts_while_breaker + 1
+
+#End of while (counter_strikeouts_while_breaker < 11):
+
+#Printing to prove that the while loop is done
+print("10 strikeouts! Everyone in the stadium gets free (insert awesome)")
+
+
+#=================The absolute end of this script============================== 
