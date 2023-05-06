@@ -1,6 +1,7 @@
 #Utmost beginning of this script
 
 #Developer: Akinwale Owi
+#Company: Godbrand Games L.L.C.
 #Program Purpose: Adding else branches to while loops when we want them to run after the while condition is broken.
 
 
@@ -9,11 +10,12 @@ a = 1
 while a < 6:
      
     print("Inside of the while, a value currently =", a)
-    a += 5
+    a += 2
     print() #Just a space to increase readability 
     
 else:
-    print("1.Prints when the loop reaches its end, a is now =  ", a)
+    print("While 'a' broken:")
+    print("1.Prints when the loop reaches its end, break a value =", a)
     #Just a space to increase readability 
 
 #~~When the while loop's condtions are never met/ never runs example
@@ -25,8 +27,9 @@ while b < 4:
     print() #Just a space to increase readability 
     
 else:
-    print()#Just a space to increase readability 
-    print("2.Also prints because b is still breaks the while , b is now =  ", b)
+    print()#Just a space to increase readability
+    print("While 'b' broken:")
+    print("2.Also prints because b still breaks the while , b is still=", b)
     
 
 #=========Utmost end of this script==================
