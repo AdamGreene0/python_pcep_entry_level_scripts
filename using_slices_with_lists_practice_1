@@ -1,0 +1,40 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: Slice practice #1
+                 #A. Use a slice to copy a whole list contents safely
+                 #B. Alter a value on the new list,
+                 #C. Then print to check that the original list is safe.
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1.Creating a list
+list_godbrand_games_projects = ['S4','Fighting: Super Stoned', 'Football: 11vs11' , 'Baseball: Homerun Derby']
+print("Original list = ",list_godbrand_games_projects) #outputs Original list =  ['S4', 'Fighting: Super Stoned', 'Football: 11vs11', 'Baseball: Homerun Derby']
+
+#2.'Slicing' the whole list
+list_from_whole_slice = list_godbrand_games_projects[:]
+print ("Sliced list  = ", list_from_whole_slice) #outputs Sliced list  =  ['S4', 'Fighting: Super Stoned', 'Football: 11vs11', 'Baseball: Homerun Derby']
+print() #readability
+
+#2A. Editing the sliced list
+list_from_whole_slice[0] = 'Space Shooter: Space Schooner'
+
+#2AB.Printing the lists to test 
+print("Original list = ",list_godbrand_games_projects) #outputs Original list =  ['S4', 'Fighting: Super Stoned', 'Football: 11vs11', 'Baseball: Homerun Derby']
+print ("Sliced list  = ", list_from_whole_slice) #outputs Sliced list  =  ['Space Shooter: Space Schooner', 'Fighting: Super Stoned', 'Football: 11vs11', 'Baseball: Homerun Derby']
+
+print() #readability
+
+
+#3. Slicing only part of the list
+#slicing is zero based and every number up to the second limit will get included.
+list_from_partial_slice = list_godbrand_games_projects[1:3]   
+print("List from partial slice = ", list_from_partial_slice) #outputs = List from partial slice =  ['Fighting: Super Stoned', 'Football: 11vs11']
+print("Still unchanged original list = ", list_godbrand_games_projects) #outputs = Still unchanged original list =  ['S4', 'Fighting: Super Stoned', 'Football: 11vs11', 'Baseball: Homerun Derby']
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
