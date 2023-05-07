@@ -1,7 +1,9 @@
 #=================The absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
-#Program Purpose: A. Use a slice to copy a whole list contents safely
+#Company: Godbrand Games L.L.C.
+#Program Purpose: Slice practice #0
+                 #A. Use a slice to copy a whole list contents safely
                  #B. Alter a value on the new list,
                  #C. Then print to check that the original list is safe.
 
