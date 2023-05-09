@@ -1,0 +1,64 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: Softcode practice 0
+#Display the differrence between the (1)break and (2)continue statements.
+#practice: 1
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#Break variables
+lower_limit_of_break_range = 11
+upper_limit_of_break_range = 18
+
+num_breaker_will_hit = 15
+num_breaker_wont_hit = 77
+
+#Continue variables 
+lower_limit_of_continue_range = 2
+upper_limit_of_continue_range = 8
+
+continue_will_hit = 4
+continue_wont_hit = 25
+
+# break statement = Will exit the loop immediately if conditions are met and then go on to the next instruction.
+print("The break statement:Variable in range: num_breaker_will_hit =", num_breaker_will_hit,)
+for num_breaker_in_range in range(lower_limit_of_break_range ,upper_limit_of_break_range):
+    if num_breaker_in_range == num_breaker_will_hit: #So stops printing after _
+        break
+    print("Still haven't hit the breaking point.num_breaker currently = ", num_breaker_in_range)
+print("Breaking point =",num_breaker_will_hit, " hit!")
+
+print("")#space for readability 
+
+print("\n The break statement: Variable out of range: num_breaker_wont_hit =",num_breaker_wont_hit )
+for num_breaker_out_of_range in range(lower_limit_of_break_range , upper_limit_of_break_range):
+    if num_breaker_out_of_range == num_breaker_wont_hit:  #Due to the range above, it stops printing after 6
+        break
+    print("Still haven't hit the breaking point.num_breaker currently = ", num_breaker_out_of_range)
+print("Breaking point ", num_breaker_wont_hit , "was never hit.")
+
+print("")#space for readability 
+
+#~~continue statements below, continue statements skip the number in question if it is in the range, if the number is not in the range it will just proceed like normal~~
+print("The continue instruction:If the variable is in the range it will skip whatever instruction~") 
+print("~it is currently doing on that number but still do it to the rest in the range")
+print("Number we'll be skipping = ", continue_will_hit) 
+for num_continue_in_range in range(lower_limit_of_continue_range, upper_limit_of_continue_range):
+    if num_continue_in_range == continue_will_hit :
+        continue
+    print("num_continue_in_range, currently = ", num_continue_in_range)
+print("End of in range,num_continue_in_range =", num_continue_in_range)
+
+print("")#space for readability 
+
+print("The continue instruction:Variable out of range, So loop will run to completion without skips")
+print("Number we would've skipped if it was in the range:", continue_wont_hit)
+for num_continue_out_of_range in range(lower_limit_of_continue_range , upper_limit_of_continue_range):
+    if num_continue_out_of_range == continue_wont_hit:
+        continue
+    print("num_continue_out_of_range is set to be out of range, currently = .", num_continue_out_of_range)
+print("Reached the end. num_continue_out_of_range currently = ", num_continue_out_of_range)
+
+#=================The absolute end of this script============================== 
