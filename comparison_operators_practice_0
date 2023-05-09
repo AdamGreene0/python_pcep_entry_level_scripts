@@ -1,0 +1,32 @@
+#_____________Absolute beginning of the script____________
+
+#Developer: Akinwale Owi
+##Company: Godbrand Games L.L.C.
+#Program Purpose: Print comparison operator computations - practice 0
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+small = 6
+medium = 49
+large = 777
+
+
+#A
+print(small < medium)#Less than
+print(small > large)#Greater than
+
+print()#space
+
+#B
+print(small <= small)#Less than or equal to
+print(small >= large)#Greater than or equal to
+
+
+print()#space
+
+#C
+print(medium == medium)#equal to
+print(medium != medium)#not equal to
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#_____________Absolute end of the script____________
