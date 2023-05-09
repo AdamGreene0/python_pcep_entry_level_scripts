@@ -1,31 +1,39 @@
 #_____________Absolute beginning of the script____________
 
 #Developer: Akinwale Owi
-##Company: Godbrand Games L.L.C.
+#Company: Godbrand Games L.L.C.
 #Program Purpose: Print comparison operator computations - practice 0
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#our variables to compare 
 small = 6
 medium = 49
 large = 777
-
+string_test = 'Will it run?' 
 
 #A
-print(small < medium)#Less than
-print(small > large)#Greater than
+print("small < medium = ", small < medium)#Less than
+print("small > large = ", small > large)#Greater than
 
-print()#space
+print()#space for readability 
 
 #B
-print(small <= small)#Less than or equal to
-print(small >= large)#Greater than or equal to
+print("small <= small = ", small <= small)#Less than or equal to
+print("small >= large = ", small >= large)#Greater than or equal to
 
 
-print()#space
+print()#space for readability 
 
 #C
-print(medium == medium)#equal to
-print(medium != medium)#not equal to
+print("medium == medium =", medium == medium )#equal to
+print("medium != medium =", medium != medium)#not equal to
+
+print()#space for readability 
+
+#D String test - strings can do a not equal and equal to test against integers without causing an error
+print("string == large  =", string_test  == large )#
+print("string != large  =", string_test  != large )#
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
