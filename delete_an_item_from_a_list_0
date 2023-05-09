@@ -1,6 +1,7 @@
 #=================The Absolute beginning of this script==============================
 
 #Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
 #Program Purpose: A. Delete an item from a list by their location
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,13 +14,13 @@ sample_list = [100, 3, 1, 8, 222, 7878]
 print("The whole list: ",sample_list);
 
 #2.Print the [3] item 
-print("[3] originlly = ", sample_list[3]);
+print("[3] originally = ", sample_list[3]);
 
 #3.Delete the [3] item 
 del sample_list[3];
 
 #4. Printing the freshly altered list
-print ("The list after deletion =", sample_list);
+print ("The list after the deletion =", sample_list);
 
 #5.after the deletion, print the new [3] item  
 print("new [3] = ", sample_list[3]);
@@ -29,4 +30,6 @@ print("new [3] = ", sample_list[3]);
 
 
 #=================The Absolute end of this script==============================
+
+
 
