@@ -1,0 +1,33 @@
+#=================The Absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: A. Delete an item from a list by their location: practice #1
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#1. How to create a list 
+list_contestants = ['Kira', 'Dakota', 'Judy', 'Mona', 'Amber', 'Ashely']
+
+#1a.Printing the whole list
+print("The whole list: ",list_contestants)
+
+#2.Printing our deletion goal the [2] item 
+print("[2] originally = ", list_contestants[2]);
+
+#3.Delete the [2] item 
+del list_contestants[2];
+
+#4. Printing the freshly altered list
+print ("The list after the deletion =", list_contestants);
+
+#5.after the deletion, print the new [3] item  
+print("new [2] = ", list_contestants[2]);
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#=================The Absolute end of this script==============================
+
