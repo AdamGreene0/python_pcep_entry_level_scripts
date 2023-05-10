@@ -1,0 +1,57 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: A. Find the average low temperature in a two dimensial array -  [lows for one week in Chicago,IL data from https://world-weather.info/forecast/usa/chicago/october-2022/
+#practice:1 - this time we'll get the highs
+
+                   
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1. The weather chart creation
+chart_october = []
+chart_october = [[0.0 for highs_and_lows in range(2)] for days in range(7)]
+
+#2. Adding the highs and lows
+chart_october[0][0] = 99
+chart_october[0][1] = 54 #M
+
+chart_october[1][0] = 90
+chart_october[1][1] = 59 #T
+
+chart_october[2][0] = 95
+chart_october[2][1] = 63 #W
+
+chart_october[3][0] = 80
+chart_october[3][1] = 54 #Thurs
+
+chart_october[4][0] = 85
+chart_october[4][1] = 45 #F
+
+chart_october[5][0] = 98
+chart_october[5][1] = 54 #S
+
+chart_october[6][0] = 92
+chart_october[6][1] = 54 #Sunday
+
+#3. Printing the resulting weather chart 
+print("Highs and lows of 10/3 to 10/9 =", chart_october)
+
+#4.Calculating the average low temperature:
+
+#4a the variable that will hold the sum of the highs
+sum_of_highs = 0.0
+
+#4b adding the highs to get their the sum of the highs
+for highs in chart_october:
+    sum_of_highs += highs[0] #0 because arrays are zero based and highs are the 1st input
+
+#4c averaging the highs
+average_of_highs = sum_of_highs/7
+
+#4d printing the highs sum and average
+print("Sum of the highs = ", sum_of_highs)
+print("The average of the high temps that week = ", average_of_highs )
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
