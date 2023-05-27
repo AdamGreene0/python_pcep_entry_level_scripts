@@ -1,0 +1,47 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: mixing integer Division/ floor division // and normal division / in some equations
+
+                   
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#1st //  Integer Division/ floor division = doesn't put the remainder in the quotient 
+print()#legible
+print("ex 1")
+c = 10 // 3
+print("10 // 3 = ",c)
+
+
+#normal division
+d = 1/5
+print("1/5 = ",d)
+
+#3rd put them together and see what we got 
+e = 10 // 3  + 1/5 
+print("10 // 3  + 1/5 = ", e)
+
+
+#~~ex 2~~
+print()#legible
+print("ex 2")
+
+cc = 10// 6
+print("10 // 6 = ",cc)
+
+dd = 8/4
+print("8/4 = ",dd )
+
+ee =  10// 6 + 8/4
+print ("10// 6 + 8/4 = ", ee)
+
+
+#~~ex 3~~
+print()#legible
+print("ex 3 - reversing ex 1 just to check  = same answer  ")
+fff = 1/5 + 10 // 3
+print ("1/5 + 10 // 3 = ", fff)
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
