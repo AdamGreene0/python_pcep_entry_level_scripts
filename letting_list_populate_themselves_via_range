@@ -1,0 +1,46 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: letting list populate themselves via range
+
+             
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#~list created in this manner go from smallest to largest, thus some empty lists 
+
+#~ex 1~
+print()#legibility
+print("~ex 1~")
+
+list_one = [dog for dog in range (-1, -2)] 
+print("list_one = ",list_one)
+
+
+list_reverse_one = [cat for cat in range (-2, -1)] 
+print("list_reverse_one = ", list_reverse_one)
+
+#~ex 2~
+print()#legibility
+print("~ex 2~")
+list_two = [element for element in range (-4, -2)] 
+print("list_two = ", list_two)
+
+
+list_reverse_two = [item for item in range (-2, -4)] 
+print("list_reverse_two = ", list_reverse_two)
+
+#~ex 3~
+print()#legibility
+print("~ex 3~")
+list_three = [ball for ball in range (-5, 12)] 
+print("list_three =", list_three)
+
+
+list_reverse_three = [glove for glove in range (12, -5)] 
+print("list_reverse_three = ", list_reverse_three)
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
