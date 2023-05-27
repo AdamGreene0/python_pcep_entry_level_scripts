@@ -1,0 +1,39 @@
+#=================The absolute beginning of this script==============================
+
+#Developer Name: Akinwale "Wally" Owi
+#Company: Godbrand Games L.L.C.
+#Program Purpose: copying lists and modifying them to check if they affect each other = they do, they stay identical throughout the program even after only one copy instance
+             
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#A
+print()#legibility
+#original lists
+list_colors = ['red','blue','green','orange'];
+print("list_colors  = ",list_colors )
+
+#copying the list 
+list_colors_claires_favorites = list_colors
+print("list_colors_claires_favorites = ",list_colors_claires_favorites)
+
+
+#B. editing the original list does affect both lists
+print()#legibility
+
+list_colors.remove("blue")
+
+print("1st change")
+print("list_colors is now = ",list_colors )
+print("list_colors_claires_favorites is now = ",list_colors_claires_favorites)
+
+#C. Editing the copied list to see if it affects the original
+print()#legibility
+list_colors_claires_favorites.append("burgundy")
+
+print("2nd change")
+print("The original list_colors is now = ",list_colors )
+print("list_colors_claires_favorites is now = ",list_colors_claires_favorites)
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
