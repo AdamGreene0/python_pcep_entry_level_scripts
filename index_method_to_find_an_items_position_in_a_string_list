@@ -1,12 +1,18 @@
 #========The absolute beginning of this script===========
 
 #Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
 #Program Purpose: Using the index method on a string list to access an item's list position
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~
 	
 #~~1 . string list creation
 list_business_days_us = ['monday','tuesday','wednesday','thursday','friday']
+
+#~~1a. print testing
+print()#spacing
+print("list_business_days_us =", list_business_days_us)
+print()#spacing
 
 #~~2a.  using the index method's result as a variable value
 position_of_thursday_us = list_business_days_us.index("thursday")
