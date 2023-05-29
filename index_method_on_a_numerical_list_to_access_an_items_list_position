@@ -2,31 +2,34 @@
 
 #Developer Name: Akinwale "Wally" Owi
 #Company:Godbrand Games L.L.C.
-#Program Purpose: Using the index method on a numerical list to access an item's list position
+#Program Purpose: Using the index method on a numerical list to find out how many cars are in front of a specific car 
 
 
 #~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~
 	
 #~~List creation                
-list_nascar_car_numbers= [12, 33, 10, 8, 23]
+list_nascar_car_numbers= [1492, 333, 1099, 808, 23]
 
+print()#spacing
+print("Index's are zero based , which makes finding out how many cars are in front of a specific car a easy plug and print ")#index info
 print()#spacing
 print(" The current top 5 that the announcer would orchestrate from ", list_nascar_car_numbers)
 print()#spacing
 
 #~~2a.  using the index method's result as a variable value
-cars_ahead_by_car_number = list_nascar_car_numbers.index(12)
+cars_ahead_by_car_number = list_nascar_car_numbers.index(1492,)
 
 #~~2b.  print testing
-print("The #12 car currently has", cars_ahead_by_car_number , "cars ahead of it"  )
+print("The #1492, car currently has", cars_ahead_by_car_number , "cars ahead of it"  )
 
 #~~3.  Printing the item's position without variable assigning it to a variable first
 
-print("The #8 car is fighting for the:" , list_nascar_car_numbers.index(8))
+print("The #808 car currently has" , list_nascar_car_numbers.index(808), "cars ahead of it"  )
 
-print("The #10 car is trying to be the new:", list_nascar_car_numbers.index(10))
+print("The #1099 car  currently has", list_nascar_car_numbers.index(1099), "cars ahead of it"  )
 
 
 #~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
 
 #=================The absolute end of this script==============================
+
