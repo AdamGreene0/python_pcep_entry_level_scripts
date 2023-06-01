@@ -1,0 +1,68 @@
+#========The absolute beginning of this script===========
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Program Purpose: Using the 'end' parameter wihile we use a for loop to print through a whole dictionary
+
+
+#~~~~~~~~~~~~~~~Beginning of computations~~~~~~~~~~
+	
+
+print()#spacing
+
+#1. Creating a number to string dictionary
+employee_ids = {
+     5555: 'Claire',
+    777: 'Wally',
+    222: 'Rissa'
+}
+
+#2. Printing all the keys in the dictionary with a for loop
+print("~Keys~")#just a title
+for keys in employee_ids:
+    print(keys)
+
+print()#spacing
+
+
+#2a. Printing all the keys in the dictionary with a for loop + a 'end' parameter
+print("~Keys + a 'end' parameter~")#just a title
+for keys in employee_ids:
+    print(keys, end= ",")
+
+print()#spacing
+print()#spacing
+
+#3. Printing all the values in a dictionary
+print("~Values~")#just a title
+for values in employee_ids:
+    print(employee_ids[values])
+
+print()#spacing
+
+#3a. Printing all the values in the dictionary with a for loop + a 'end' parameter
+print("~Values with a 'end' parameter~")#just a title
+for values in employee_ids:
+    print(employee_ids[values], end="=")
+
+#4.Printing all the keys and value pairs in the dictionary with a for loop + the items function
+print()#spacing
+print()#spacing
+
+print("~All the keys and value pairs~")#spacing
+for ks,vs in employee_ids.items():
+    print(ks,vs)
+
+
+#4a.Printing all the keys and value pairs in the dictionary with a for loop + the items function + the end parameter
+print()#spacing
+print()#spacing
+
+print("~All the keys and value pairs + the end parameter~")#spacing
+for ks,vs in employee_ids.items():
+    print(ks,vs, end="! ")
+
+
+#~~~~~~~~~~~~~~~End of computations~~~~~~~~~~~~~~~~~~~~~~~
+
+#=================The absolute end of this script==============================
