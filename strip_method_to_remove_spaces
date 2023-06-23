@@ -1,0 +1,32 @@
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Script Purpose: Use the different strips to remove the spaces in a string's:
+#beginning, ending and both
+
+#-----------Beginning of computations-----------
+
+print()#spacing
+
+krewe = "      Godbrand Games    "
+
+#remove the spaces at the beginning and end of the strinh
+print("no strip =", krewe )
+print ("with strip =", krewe .strip() )
+
+print()#spacing
+
+#rbeginning spaces
+print("no strip =", krewe )
+print ("with the lstrip =", krewe .lstrip() )
+
+print()#spacing
+
+#trailinig spaces
+print(krewe ,"without the r strip")
+print(krewe.rstrip(), "post r strip")
+
+#-----------End of computations-----------
+
+#_____________Absolute end of the script_____________
