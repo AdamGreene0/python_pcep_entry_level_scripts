@@ -1,0 +1,30 @@
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Script Purpose: With the Tkinter import make a canvas, pie charts from two arcs, 
+
+#~~1. necessary imports
+import tkinter
+
+#~~2.  initializing tk
+root = tkinter.Tk()
+
+#~~3 create our canvas
+myCanvas = tkinter.Canvas(root, background="green", height=900, width=900)
+
+#~~4 Create pie chart
+
+#~~~4a pie chart location and size
+location_and_size = 1, 18, 200, 200
+#(leftmost spot with bigger numbers pushing it to the right ,zenith with bigger being lower on the canvas,width,height)
+
+arc = myCanvas.create_arc(location_and_size , start=0, extent=240, fill="yellow")
+#start is starting spot/angle, c extent is what percent filled out of 359(99.9%) because 360 cause a flat line, d. filll is our color choice
+
+#secondary arc
+arc_secondary = myCanvas.create_arc(location_and_size , start=240, extent=120, fill="blue")
+
+#5 add everything to our window and show
+myCanvas.pack()
+root.mainloop()
