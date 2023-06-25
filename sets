@@ -1,0 +1,24 @@
+#_____________Absolute beginning of the script_____________
+
+#Developer Name: Akinwale "Wally" Owi
+#Company:Godbrand Games L.L.C.
+#Script Purpose: A. Learn how to make sets B. Learn the rules of sets
+
+#~~Rules of sets:~~
+#Elements can only be immutable 
+#will only keep one of the duplicates for printing and probably in more operations so be careful
+#items dont always prinrt out in order
+
+
+#-----------Beginning of computations-----------
+
+#~Creating the set 
+mixed_loot = {66, 'Hola', -23.7, 'Buenos dias', (22,11,999), 66 }
+
+#print
+print()
+print(mixed_loot)
+
+#-----------End of computations-----------
+
+#_____________Absolute end of the script_____________
