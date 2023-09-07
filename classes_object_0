@@ -1,0 +1,30 @@
+
+ 
+#_____________absolute beginning of the script________________
+
+#Company: Godbrand Games L.L.C.
+#Developer: Akinwale Owi
+#program purpose:Create and use a class object
+#______________________
+
+class ActiveInventory:
+    
+  def __init__(self, item_name, price):
+    self. item_name =  item_name
+    self.price = price
+    
+
+  def markup(self):
+      price_markup = self.price + 20
+      print("With a 20 dollar markup price is now = $", price_markup)
+
+#1st adddition to class    
+drink01 = ActiveInventory("Seltzer", 2)
+
+print(drink01.item_name) 
+print(drink01 .price)
+
+drink01.markup() 
+
+
+#_____________absolute end of the script________________
