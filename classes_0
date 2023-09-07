@@ -1,0 +1,22 @@
+
+ 
+#_____________absolute beginning of the script________________
+
+#Company: Godbrand Games L.L.C.
+#Developer: Akinwale Owi
+#program purpose:Create a class and then print from it
+#______________________
+
+class ActiveInventory:
+    
+  def __init__(self, item_name, price):
+    self. item_name =  item_name
+    self.price = price
+    
+
+drink01 = ActiveInventory("Iced Tea", 0.99)
+
+print(drink01.item_name) 
+print(drink01 .price)
+ 
+#_____________absolute end of the script________________
