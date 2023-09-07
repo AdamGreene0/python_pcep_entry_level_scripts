@@ -1,4 +1,3 @@
- 
 #_____________absolute beginning of the script________________
 
 #Company: Godbrand Games L.L.C.
@@ -30,7 +29,7 @@ class DigitalStorage(ActiveInventory):
 
 #~~Beginning of data entries~~         
 drink01 = ActiveInventory("Seltzer", 2)
-#drink02 = 
+drink02 = DigitalStorage("Coffee", 3)
 #~~End of data entries~~
 
 #~~~~~~~~print tests~~~~~~~~
@@ -39,4 +38,11 @@ print(drink01 .price)
 
 drink01.markup()
 
+#DigitalStorage(ActiveInventory) testing
+print()
+print("~DigitalStorage(ActiveInventory) Testing~")
+print(drink02.item_name) 
+print(drink02 .price)
+drink02.markup()
 #_____________absolute end of the script________________
+
