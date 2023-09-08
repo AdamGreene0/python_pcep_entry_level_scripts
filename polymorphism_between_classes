@@ -1,0 +1,52 @@
+#_____________absolute beginning of the script________________
+
+#Company: Godbrand Games L.L.C.
+#Developer: Akinwale Owi
+#program purpose: Use polymorphism to create a method with the same name and similar functions in different classes
+#______________________
+
+class ActiveInventory:
+    
+  def __init__(self, item_name, price):
+    self. item_name =  item_name
+    self.price = price
+    
+   #object with pass in it
+  def prices_chrstimas(self):
+      pass
+
+  #The method that we display polymorphism with    
+  def markup(self):
+      price_markup = self.price + 20
+      print("ActiveInventory markup $20: Price is now = $", price_markup)
+
+#End of class ActiveInventory:
+
+#Beginning of class: DigitalStorage(ActiveInventory)
+class DigitalStorage(ActiveInventory):
+
+    #The method that we display polymorphism with 
+    def markup(self):
+         price_markup = self.price + 40
+         print("DigitalStorage markup is $40 because of different suppliers: Price is now = $", price_markup)
+
+#End of class:DigitalStorage(ActiveInventory)
+
+#~~Beginning of data entries~~         
+drink01 = ActiveInventory("Seltzer", 2)
+drink02 = DigitalStorage("Coffee", 3)
+#~~End of data entries~~
+
+#~~~~~~~~print tests~~~~~~~~
+print(drink01.item_name) 
+print(drink01 .price)
+
+drink01.markup()
+
+#DigitalStorage(ActiveInventory) testing
+print()
+print("~DigitalStorage(ActiveInventory) Testing~")
+print(drink02.item_name) 
+print(drink02 .price)
+drink02.markup()
+#_____________absolute end of the script________________
