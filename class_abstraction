@@ -1,0 +1,73 @@
+#Ultimate beginning of script
+
+#Company: Godbrand Games L.L.C.
+#Programmer: Akinwale Owi
+#Program purpose: Create and use an abstract class, which for now is being used as a base class to pull from.
+
+#beginning of imports
+from abc import ABC, abstractmethod
+#end of imports
+
+
+#beginning of computations
+
+
+#~~~beginningof class building~~~
+class FootballPlayerAttritbutes(ABC):
+
+    
+    def __init__(self, speed_rating, strength):
+        self.speed_rating = speed_rating
+        self.strength = strength
+          
+
+    @abstractmethod
+    def throwing_ability(self):
+        throwing_ability = 40
+        print("So everyone can complete a wide open pass, throwing_ability: ", throwing_ability)
+   
+    @abstractmethod
+    def kicking_ability(self):
+                  pass
+    
+    def speed(self):
+        self.speed_rating = 50
+        print("bare minimum speed unless injured speed is : ", self.speed_rating)
+
+#end of computations
+
+class Kickers(FootballPlayerAttritbutes):
+
+    def __init__(self,  kicking_strength, kicking_accuracy):
+        self.kicking_strength = kicking_strength
+        self.kicking_accuracy = kicking_accuracy
+
+
+    def throwing_ability(self):
+            pass
+
+    def kicking_ability(self):
+
+          print("week 1 kicking_strength = ", self.kicking_strength)
+          print("week 1 kicking_accuracy = ", self.kicking_accuracy)
+          
+    
+    def speed(self):
+        self.speed_rating = 50
+        print("bare minimum speed unless injured speed is : ", self.speed_rating)
+
+#~~~End of class building~~~
+
+#~~~Data adds~~~~
+SantanaLefty = Kickers(98,87)
+
+#~~Print Testing~~
+SantanaLefty.speed()#pure abstract class testing
+SantanaLefty.throwing_ability()#abstract class in Kickers test
+SantanaLefty.kicking_ability()#making sure Kickers can take additions
+
+        
+#from the original abstraction class
+
+
+#Ultimate end of the script
