@@ -63,11 +63,14 @@ SantanaLefty = Kickers(98,87)
 
 #~~Print Testing~~
 SantanaLefty.speed()#pure abstract class testing
-SantanaLefty.throwing_ability()#abstract class in Kickers test
-SantanaLefty.kicking_ability()#making sure Kickers can take additions
+
+SantanaLefty.throwing_ability()#abstract class in Kickers test: it just gets ignored, not even a blank space
+
+SantanaLefty.kicking_ability()#making sure Kickers can take additions,it can
 
         
 #from the original abstraction class
 
 
 #Ultimate end of the script
+
