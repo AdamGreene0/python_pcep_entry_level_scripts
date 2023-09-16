@@ -1,0 +1,59 @@
+#++++Ultimate beginning of script++++++
+
+#Company: Godbrand Games L.L.C.
+#Programmer: Akinwale Owi
+#Program purpose: Use encapsulation to build: a private variable, which cannot be accessed outside of it's original class-
+#- not even by classe s that inherit the private's member class on creation
+
+#A private variable uses two underscores in front of its name instead of one like protected variables 
+
+#~~~~Beginning of class ActiveInventory~~~~
+class ActiveInventory:
+    
+  def __init__(self, item_name, price):
+
+    #beg of variable initilization 
+    self. item_name =  item_name
+    self.price = price
+
+    #private variable - use two underscores before the variable name to make it protected
+    self.__supplier_vegetables = "Godbrand Farms"
+    #end of variable initilization
+
+  def get_supplier_names(self):
+    print("Current vegetable supplier: ",self.__supplier_vegetables )
+      
+
+#~~~~End of class ActiveInventory~~~~
+
+#-------Beginning of class ChristmasStorarge-----
+class ChristmasStorage(ActiveInventory):
+
+    def __init__(self, item_name, price):
+
+        #beg of variable initilization 
+        self. item_name =  item_name
+        self.price = price
+
+
+#-------End of class ChristmasStorarge-----
+
+
+# portal into our ActiveInventory class 
+drink01 = ActiveInventory("Pineapple Juice", 2)
+
+#portal into our ChristmasStorarge class
+xmas_movie01 = ChristmasStorage("Blitzen's best christmas yet", 21.99 )
+
+
+#****Beg of print testing******
+drink01.get_supplier_names()
+#print("drink01.supplier_vegetables) - will cause an error, python wont let you grab private variables directly
+
+#Trying to print supplier_vegetables from another class
+#print( xmas_movies.supplier_vegetables) 
+
+
+#****End of print testing******
+
+#+++++Ultimate end of the script++++
