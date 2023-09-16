@@ -2,7 +2,7 @@
 
 #Company: Godbrand Games L.L.C.
 #Programmer: Akinwale Owi
-#Program purpose: Use encapsulation to build: protected variables, which cannot be accessed outside of their class
+#Program purpose: Use encapsulation to build: protected variables, which cannot be accessed outside of their class, *except by a class made from the protected's original
 
 #~~~~Beginning of class ActiveInventory~~~~
 class ActiveInventory:
