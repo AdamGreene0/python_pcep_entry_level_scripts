@@ -3,7 +3,7 @@
 #Company: Godbrand Games L.L.C.
 #Programmer: Akinwale Owi
 #Program purpose: Use encapsulation to build: a private variable, which cannot be accessed outside of it's original class-
-#- not even by classe s that inherit the private's member class on creation
+#- not even by classes that inherit the private's member class on creation
 
 #A private variable uses two underscores in front of its name instead of one like protected variables 
 
@@ -47,13 +47,15 @@ xmas_movie01 = ChristmasStorage("Blitzen's best christmas yet", 21.99 )
 
 
 #****Beg of print testing******
+#Into ActiveInventory via ActiveInventory 
 drink01.get_supplier_names()
-#print("drink01.supplier_vegetables) - will cause an error, python wont let you grab private variables directly
+#print(drink01.supplier_vegetables) #- will cause an error, python wont let you grab private variables directly so we can use getter functions
 
-#Trying to print supplier_vegetables from another class
-#print( xmas_movies.supplier_vegetables) 
+#Trying to get into ActiveInventory via ChristmasStorage
+#print( xmas_movies.supplier_vegetables) #will cause an error 1. because it is not from the same class and 2. because its a direct grab attempt 
 
 
 #****End of print testing******
 
 #+++++Ultimate end of the script++++
+
