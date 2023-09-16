@@ -1,0 +1,62 @@
+#++++Ultimate beginning of script++++++
+
+#Company: Godbrand Games L.L.C.
+#Programmer: Akinwale Owi
+#Program purpose: Use encapsulation to build: protected variables, which cannot be accessed outside of their class
+
+#~~~~Beginning of class ActiveInventory~~~~
+class ActiveInventory:
+    
+  def __init__(self, item_name, price):
+
+    #beg of variable initilization 
+    self. item_name =  item_name
+    self.price = price
+
+    #protetected variable - use an underscore before the variable name to make it protected
+    self._desired_shipments_per_month = 8
+    #end of variable initilization 
+
+
+  def shipment_frequency(self):
+      print("Number of shipments we add to active inventory each month = ", self._desired_shipments_per_month)
+      
+  
+  def markup(self):
+      price_markup = self.price + 20
+      print("With a 20 dollar markup price is now = $", price_markup)
+
+
+#~~~~End of class ActiveInventory~~~~
+
+#-------Beginning of class ChristmasStorarge-----
+class ChristmasStorarge():
+
+    def __init__(self, item_name, price):
+
+        #beg of variable initilization 
+        self. item_name =  item_name
+        self.price = price
+
+
+#-------End of class ChristmasStorarge-----
+
+
+# addition to class ActiveInventory class and thus will be able to access our/it's protected variable
+drink01 = ActiveInventory("Seltzer", 2)
+
+#addition to class ChristmasStorarge
+xmas_movie01 = ChristmasStorarge("Blitzen's best christmas yet", 21.99 )
+
+
+#****Beg of print testing******
+drink01.markup()
+drink01.shipment_frequency()
+
+print("Test if there is a desired frequency in ActiveInventory = ", drink01._desired_shipments_per_month )
+#print("Test if there is a desired frequency in ChristmasStorarge = ", xmas_movie01._desired_shipments_per_month )
+
+
+#****End of print testing******
+
+#+++++Ultimate end of the script++++
