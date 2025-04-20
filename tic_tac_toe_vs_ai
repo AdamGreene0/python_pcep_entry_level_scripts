@@ -1,0 +1,2 @@
+#Here's a simple implementation of a Tic Tac Toe game where you play against an AI in Python. The AI uses a random strategy to pick its moves:
+#plays through one time, so you might need restart game code
