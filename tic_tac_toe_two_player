@@ -1,3 +1,6 @@
+#purpose: 
+#two player tic tac toe game in python,  you'll need restart game code if you want to play endlessly without re-compiling
+
 # Function to initialize the board
 def initialize_board():
     return [[" " for _ in range(3)] for _ in range(3)]
