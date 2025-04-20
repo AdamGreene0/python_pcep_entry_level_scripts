@@ -1,2 +1,84 @@
 #Here's a simple implementation of a Tic Tac Toe game where you play against an AI in Python. The AI uses a random strategy to pick its moves:
 #plays through one time, so you might need restart game code
+
+import random
+
+# Function to initialize the board
+def initialize_board():
+    return [[" " for _ in range(3)] for _ in range(3)]
+
+# Function to print the game board
+def print_board(board):
+    print("\n")
+    for row in board:
+        print(" | ".join(row))
+        print("-" * 5)
+
+# Function to check if someone has won
+def check_win(board, player):
+    # Check rows, columns, and diagonals
+    for i in range(3):
+        if all([board[i][j] == player for j in range(3)]) or all([board[j][i] == player for j in range(3)]):
+            return True
+    if board[0][0] == player and board[1][1] == player and board[2][2] == player:
+        return True
+    if board[0][2] == player and board[1][1] == player and board[2][0] == player:
+        return True
+    return False
+
+# Function to check if the board is full
+def check_full(board):
+    return all([board[i][j] != " " for i in range(3) for j in range(3)])
+
+# Function for the player's turn
+def player_turn(board, player):
+    while True:
+        try:
+            row, col = map(int, input(f"Your turn (Player {player}). Enter row and column (0-2) separated by space: ").split())
+            if board[row][col] == " ":
+                board[row][col] = player
+                break
+            else:
+                print("Cell is already occupied. Try again.")
+        except (ValueError, IndexError):
+            print("Invalid input. Please enter row and column values between 0 and 2.")
+
+# Function for the AI's turn
+def ai_turn(board, player):
+    print(f"AI's turn (Player {player})...")
+    # Randomly select an empty spot
+    empty_cells = [(i, j) for i in range(3) for j in range(3) if board[i][j] == " "]
+    row, col = random.choice(empty_cells)
+    board[row][col] = player
+
+# Main game loop
+def play_game():
+    board = initialize_board()
+    current_player = "X"  # Human is "X", AI is "O"
+
+    while True:
+        print_board(board)
+
+        if current_player == "X":
+            player_turn(board, current_player)
+        else:
+            ai_turn(board, current_player)
+
+        if check_win(board, current_player):
+            print_board(board)
+            if current_player == "X":
+                print("You win!")
+            else:
+                print("AI wins!")
+            break
+        elif check_full(board):
+            print_board(board)
+            print("It's a draw!")
+            break
+
+        # Switch player
+        current_player = "O" if current_player == "X" else "X"
+
+# Start the game
+if __name__ == "__main__":
+    play_game()
